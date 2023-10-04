@@ -55,7 +55,7 @@
 
 ! ------------ 01 CoolRoof -----------
 ##if #[ CoolRoof[] EQ 0 ] !Baseline
-	##set1 roof_solar_absorptance[] 0.9
+	##set1 roof_solar_absorptance[] 0.75
 ##elseif #[ CoolRoof[] EQ 1 ]
 	##set1 roof_solar_absorptance[] 0.6
 ##elseif #[ CoolRoof[] EQ 2 ]
