@@ -1,0 +1,27 @@
+
+! ----parameters----
+##set1 #JobID[] "SF_Oldest_JAKARTA_BaseCase"
+##set1 WeatherFile[] "IDN_JAKARTA-SOEKARNO-HA_967490_IW2.EPW"
+##set1 ModelFile[] "main.imf"
+##set1 bldgtype[] "SF"
+##set1 vint[] "oldest"
+##set1 location[] "JAKARTA"
+##set1 cz[] "nan"
+##set1 ac[] "Cooled"
+##set1 CoolRoof[] 0
+##set1 CoolWall[] 0
+##set1 InsRoof[] 0
+##set1 InsWall[] 0
+##set1 LowEWin[] 0
+##set1 SolarWin[] 0
+##set1 CeilingFan[] 0
+##set1 NV_WindowOpen[] 0
+##set1 NV_OperationSchd[] 0
+##set1 SolarControlWindow[] 0
+##set1 FixedExteriorShading[] 0
+##set1 OperableWindowShading[] 0
+##set1 EnvelopePackage[] 0
+##set1 WindowPackage[] "Clear"
+##set1 sizing[] "autosize"
+##include parameter.imf
+

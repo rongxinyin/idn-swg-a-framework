@@ -1,0 +1,120 @@
+!- Specify the path for the include files here:
+##fileprefix main-imf/
+
+! ------------ 00 AC Capacity by locations-----------
+##if #[ sizing[] EQS "autosize" ] !Baseline
+	##set1 bedroom1_total_cooling_cap[] autosize
+	##set1 bedroom1_sensible_heat_ratio[] Autosize
+	##set1 bedroom1_airflow_rate[] Autosize
+	##set1 bedroom2_total_cooling_cap[] Autosize
+	##set1 bedroom2_sensible_heat_ratio[] Autosize
+	##set1 bedroom2_airflow_rate[] Autosize
+##elseif #[ sizing[] EQS "fixed" ] !Baseline
+	##if #[ location[] EQS "JAKARTA" ] !Baseline
+		##set1 bedroom1_total_cooling_cap[] 908.999
+		##set1 bedroom1_sensible_heat_ratio[] 0.7
+		##set1 bedroom1_airflow_rate[] 0.036605
+		##set1 bedroom2_total_cooling_cap[] 1504.428
+		##set1 bedroom2_sensible_heat_ratio[] 0.7
+		##set1 bedroom2_airflow_rate[] 0.060583
+	##elseif #[ location[] EQS "Balikpapan" ]
+		##set1 bedroom1_total_cooling_cap[] 1634.589
+		##set1 bedroom1_sensible_heat_ratio[] 0.7
+		##set1 bedroom1_airflow_rate[] 0.065825
+		##set1 bedroom2_total_cooling_cap[] 2322.49
+		##set1 bedroom2_sensible_heat_ratio[] 0.7
+		##set1 bedroom2_airflow_rate[] 0.093527
+	##elseif #[ location[] EQS "Padang" ]
+		##set1 bedroom1_total_cooling_cap[] 1634.589
+		##set1 bedroom1_sensible_heat_ratio[] 0.7
+		##set1 bedroom1_airflow_rate[] 0.065825
+		##set1 bedroom2_total_cooling_cap[] 2322.49
+		##set1 bedroom2_sensible_heat_ratio[] 0.7
+		##set1 bedroom2_airflow_rate[] 0.093527
+	##elseif #[ location[] EQS "Waingapu" ]
+		##set1 bedroom1_total_cooling_cap[] 1634.589
+		##set1 bedroom1_sensible_heat_ratio[] 0.7
+		##set1 bedroom1_airflow_rate[] 0.065825
+		##set1 bedroom2_total_cooling_cap[] 2322.49
+		##set1 bedroom2_sensible_heat_ratio[] 0.7
+		##set1 bedroom2_airflow_rate[] 0.093527
+	##endif
+##endif
+
+! ------------ 00 No Roof/Wall Insulation in the baseline-----------
+##if #[ EnvelopePackage[] EQ 0 ] !Baseline
+	##set1 Roof-Const[] Roof-Const-Base
+	##set1 Ext-Wall-Const[] Ext-Wall-Const-Base
+##elseif #[ EnvelopePackage[] EQ 1 ]
+	##set1 Roof-Const[] Roof-Const
+	##set1 Ext-Wall-Const[] Ext-Wall-Const-Base
+##elseif #[ EnvelopePackage[] EQ 2 ]
+	##set1 Roof-Const[] Roof-Const-Base
+	##set1 Ext-Wall-Const[] Ext-Wall-Const
+##endif
+
+! ------------ 01 CoolRoof -----------
+##if #[ CoolRoof[] EQ 0 ] !Baseline
+	##set1 roof_solar_absorptance[] 0.9
+##elseif #[ CoolRoof[] EQ 1 ]
+	##set1 roof_solar_absorptance[] 0.6
+##elseif #[ CoolRoof[] EQ 2 ]
+	##set1 roof_solar_absorptance[] 0.4
+##endif
+
+! ------------ 02 CoolWall -----------
+##if #[ CoolWall[] EQ 0 ] !Baseline
+	##set1 wall_solar_absorptance[] 0.75
+##elseif #[ CoolWall[] EQ 1 ]
+	##set1 wall_solar_absorptance[] 0.6
+##elseif #[ CoolWall[] EQ 2 ]
+	##set1 wall_solar_absorptance[] 0.4
+##endif
+
+! ------------ 03 InsRoof -----------
+##if #[ InsRoof[] EQ 0 ]
+	##set1 roof_insulation_thickness[] 0.05
+##elseif #[ InsRoof[] EQ 1 ]
+	##set1 roof_insulation_thickness[] 0.1
+##elseif #[ InsRoof[] EQ 2 ]
+	##set1 roof_insulation_thickness[] 0.15
+##endif
+
+! ------------ 04 InsWall -----------
+##if #[ InsRoof[] EQ 0 ]
+	##set1 wall_insulation_thickness[] 0.05
+##elseif #[ InsRoof[] EQ 1 ]
+	##set1 wall_insulation_thickness[] 0.1
+##elseif #[ InsRoof[] EQ 2 ]
+	##set1 wall_insulation_thickness[] 0.15
+##endif
+
+! ------------ 05 Low-e Window and 06 Solar control Window-----------
+##if #[ WindowPackage[] EQS "LowE" ] !Low-e window
+	##if #[ LowEWin[] EQ 1 ]
+		##set1 uvalue[] 3.423
+		##set1 shgc[] 0.384
+		##set1 vt[] 0.635
+	##elseif #[ LowEWin[] EQ 2 ]
+		##set1 uvalue[] 2.83
+		##set1 shgc[] 0.348
+		##set1 vt[] 0.605
+	##endif
+##elseif #[ WindowPackage[] EQS "Solar" ] !Solar control window
+	##if #[ SolarWin[] EQ 1 ]
+		##set1 uvalue[] 4.98
+		##set1 shgc[] 0.3
+		##set1 vt[] 0.45
+	##elseif #[ SolarWin[] EQ 2 ]
+		##set1 uvalue[] 4.98
+		##set1 shgc[] 0.15
+		##set1 vt[] 0.23
+	##endif
+##elseif #[ WindowPackage[] EQS "Clear" ] !Clear window
+	##set1 uvalue[] 4.98 !Baseline
+	##set1 shgc[] 0.684
+	##set1 vt[] 0.711
+##endif
+
+##include main.imf
+##include report.imf

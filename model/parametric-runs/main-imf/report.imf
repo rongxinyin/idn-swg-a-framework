@@ -1,0 +1,45 @@
+! --- Variable
+Output:Variable,*,Site Outdoor Air Drybulb Temperature,hourly;
+Output:Variable,*,Site Outdoor Air Relative Humidity,hourly; !- Zone Average [%]
+Output:Variable,*,Zone Mean Air Temperature,hourly; !- Zone Average [C]
+Output:Variable,*,Zone Air Relative Humidity,hourly; !- HVAC Average [%]
+OUTPUT:VARIABLE,*,Zone Thermal Comfort Pierce Model Standard Effective Temperature,Hourly; !- Zone Average [C]
+Output:Variable,*,Zone Thermal Comfort Mean Radiant Temperature,hourly; !- Zone Average [C]
+Output:Variable,*,Zone Thermal Comfort Operative Temperature,hourly; !- Zone Average [C]
+Output:Variable,*,Zone Thermal Comfort Fanger Model PMV,hourly; !- Zone Average []
+Output:Variable,*,Facility Cooling Setpoint Not Met Time,Hourly;
+Output:Variable,*,Facility Heating Setpoint Not Met Time,Hourly;
+Output:Variable,cooling_sch,Schedule Value,hourly; !- Zone Average []
+Output:Variable,Occ-Sch-Bedroom,Schedule Value,hourly; !- Zone Average []
+!Output:Variable,Air Velocity Bedroom,Schedule Value,hourly; !- Zone Average [] !Zone level output is used for pythermalcomfot, called from "BLDG_ceiling_fan.idf" in parameter.imf
+Output:Variable,Clothing Schedule Bedroom,Schedule Value,hourly; !- Zone Average []
+Output:Variable,Activity Schedule Bedroom,Schedule Value,hourly; !- Zone Average []
+Output:Variable,*,Zone Thermal Comfort ASHRAE 55 Adaptive Model Temperature,hourly; !- Zone Average [C]
+Output:Variable,*,Cooling Coil Electricity Rate,hourly; !- HVAC Average [W]
+Output:Variable,*,Heating Coil NaturalGas Rate,hourly; !- HVAC Average [W]
+Output:Variable,*,Heating Coil Electricity Rate,hourly; !- HVAC Average [W]
+Output:Variable,*,Boiler Heating Rate,hourly; !- HVAC Average [W]
+Output:Variable,*,Fan Electricity Rate,hourly; !- HVAC Average [W]
+Output:Variable,*,Zone Ventilation Air Change Rate,hourly; !- HVAC Average [ach] !NV output of ZoneVentilation:WindandStackOpenArea
+!Output:Variable,*,Surface Shading Device Is On Time Fraction,hourly; !- Zone Average [] !Electrochromic glazing change franction, needed for average shgc calculation 
+Output:Variable,*,Zone Predicted Sensible Load to Setpoint Heat Transfer Rate,hourly; !- HVAC Average [W]
+Output:Variable,*,Zone Thermal Comfort ASHRAE 55 Adaptive Model Running Average Outdoor Air Temperature,hourly; !- Zone Average [C]
+
+! --- Meter
+Output:Meter,Electricity:Facility,hourly;
+Output:Meter,Heating:Electricity,hourly;
+Output:Meter,Cooling:Electricity,hourly;
+Output:Meter,InteriorLights:Electricity,hourly;
+Output:Meter,ExteriorLights:Electricity,hourly;
+Output:Meter,InteriorEquipment:Electricity,hourly;
+Output:Meter,ExteriorEquipment:Electricity,hourly;
+Output:Meter,Fans:Electricity,hourly;
+Output:Meter,Pumps:Electricity,hourly;
+!Output:Meter,HeatRejection:Electricity,hourly;
+!Output:Meter,Humidifier:Electricity,hourly;
+!Output:Meter,Refrigeration:Electricity,hourly;
+Output:Meter,WaterSystems:Electricity,hourly;
+Output:Meter,NaturalGas:Facility,hourly;
+Output:Meter,Heating:NaturalGas,hourly;
+Output:Meter,InteriorEquipment:NaturalGas,hourly;
+Output:Meter,WaterSystems:NaturalGas,hourly;
