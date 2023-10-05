@@ -73,20 +73,20 @@
 
 ! ------------ 03 InsRoof -----------
 ##if #[ InsRoof[] EQ 0 ]
-	##set1 roof_insulation_thickness[] 0.05
+	##set1 roof_insulation_thickness[] 0.05    !placeholder for base case
 ##elseif #[ InsRoof[] EQ 1 ]
-	##set1 roof_insulation_thickness[] 0.1
+	##set1 roof_insulation_thickness[] 0.113   !Wall insulation and framing material: R15
 ##elseif #[ InsRoof[] EQ 2 ]
-	##set1 roof_insulation_thickness[] 0.15
+	##set1 roof_insulation_thickness[] 0.226   !Roof insulation and framing material: R30
 ##endif
 
 ! ------------ 04 InsWall -----------
 ##if #[ InsRoof[] EQ 0 ]
-	##set1 wall_insulation_thickness[] 0.05
+	##set1 wall_insulation_thickness[] 0.05   !placeholder for base case
 ##elseif #[ InsRoof[] EQ 1 ]
-	##set1 wall_insulation_thickness[] 0.1
+	##set1 wall_insulation_thickness[] 0.075    !Wall insulation and framing material: R13
 ##elseif #[ InsRoof[] EQ 2 ]
-	##set1 wall_insulation_thickness[] 0.15
+	##set1 wall_insulation_thickness[] 0.15   !Wall insulation and framing material: R25
 ##endif
 
 ! ------------ 05 Low-e Window and 06 Solar control Window-----------
@@ -115,6 +115,24 @@
 	##set1 shgc[] 0.684
 	##set1 vt[] 0.711
 ##endif
+
+! ------------ 07 FixedExteriorShading South-Facing Window Overhang-----------
+##if #[ FixedExteriorShading[] EQ 0 ] !Baseline
+	!Do nothing
+##elseif #[ FixedExteriorShading[] EQ 1 ]
+	##set1 depth[] 0.5
+	##set1 overhang_livingroom[] #[-5.99844469 - depth[]]
+	##set1 overhang_bedroom[] #[-5.99844469 - depth[]]
+	##include overhang.imf
+##endif
+
+! ------------ 08 OperableWindowShading Interior shade and light color--------
+##if #[ OperableWindowShading[] EQ 0 ] !Baseline
+	!Do nothing
+##elseif #[ OperableWindowShading[] EQ 1 ]
+	##include shade.imf
+##endif
+
 
 ##include main.imf
 ##include report.imf

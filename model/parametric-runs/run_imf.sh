@@ -11,7 +11,7 @@ output_folder="output_files"
 # Create the sublevel folder if it does not exist
 mkdir -p "$output_folder"
 
-for FILE in $input_folder/init_*.imf
+for FILE in $input_folder/init_16.imf
 do
 	echo "Processing $FILE"
 	if [ -f "${FILE%%.*}.epmdet" ];

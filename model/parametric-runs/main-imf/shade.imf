@@ -1,0 +1,86 @@
+!-   ===========  ALL OBJECTS IN CLASS: WINDOWSHADINGCONTROL ===========
+
+  WindowShadingControl,
+    Bedroom1_Win_IntShade,  !- Name
+    Bedroom 1,        !- Zone Name
+    1,                       !- Shading Control Sequence Number
+    InteriorBlind,           !- Shading Type
+    Win_IntShade,       !- Construction with Shading Name
+    OnIfScheduleAllows,      !- Shading Control Type
+    ScreenSchedule,          !- Schedule Name
+    20.0,                    !- Setpoint {W/m2, W or deg C}
+    YES,                     !- Shading Control Is Scheduled
+    NO,                      !- Glare Control Is Active
+    ,                        !- Shading Device Material Name
+    ,                        !- Type of Slat Angle Control for Blinds
+    ,                        !- Slat Angle Schedule Name
+    ,                        !- Setpoint 2 {W/m2, deg C or cd/m2}
+    ,                        !- Daylighting Control Object Name
+    Group,                   !- Multiple Surface Control Type
+    Bedroom1_Win;    !- Fenestration Surface 1 Name
+
+  WindowShadingControl,
+    LivingRoom_Win_Win_IntShade,  !- Name
+    Living Room,        !- Zone Name
+    1,                       !- Shading Control Sequence Number
+    InteriorBlind,           !- Shading Type
+    Win_IntShade,       !- Construction with Shading Name
+    OnIfScheduleAllows,      !- Shading Control Type
+    ScreenSchedule,          !- Schedule Name
+    20.0,                    !- Setpoint {W/m2, W or deg C}
+    YES,                     !- Shading Control Is Scheduled
+    NO,                      !- Glare Control Is Active
+    ,                        !- Shading Device Material Name
+    ,                        !- Type of Slat Angle Control for Blinds
+    ,                        !- Slat Angle Schedule Name
+    ,                        !- Setpoint 2 {W/m2, deg C or cd/m2}
+    ,                        !- Daylighting Control Object Name
+    Group,                   !- Multiple Surface Control Type
+    LivingRoom_Win;    !- Fenestration Surface 1 Name
+
+  Construction,
+    Win_IntShade,       !- Name
+    Res Operable Assembly Window,         !- Outside Layer
+    BLIND WITH HIGH REFLECTIVITY SLATS;  !- Layer 2
+
+  Schedule:Compact,
+    ScreenSchedule,          !- Name
+    Integer,                 !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,1;          !- Field 3
+    
+!-   ===========  ALL OBJECTS IN CLASS: WINDOWMATERIAL:BLIND ===========
+!- Slat Angle {deg}, 0->fully closed, 90->fully open
+!- Change Blind to Glass Distance {m} 0.05
+
+  WindowMaterial:Blind,
+    BLIND WITH HIGH REFLECTIVITY SLATS,  !- Name
+    Horizontal,              !- Slat Orientation
+    0.025,                   !- Slat Width {m}
+    0.01875,                 !- Slat Separation {m}
+    0.001,                   !- Slat Thickness {m}
+    3.0,                     !- Slat Angle {deg}
+    0.9,                     !- Slat Conductivity {W/m-K}
+    0.0,                     !- Slat Beam Solar Transmittance
+    0.8,                     !- Front Side Slat Beam Solar Reflectance
+    0.8,                     !- Back Side Slat Beam Solar Reflectance
+    0.0,                     !- Slat Diffuse Solar Transmittance
+    0.8,                     !- Front Side Slat Diffuse Solar Reflectance
+    0.8,                     !- Back Side Slat Diffuse Solar Reflectance
+    0.0,                     !- Slat Beam Visible Transmittance
+    0.8,                     !- Front Side Slat Beam Visible Reflectance
+    0.8,                     !- Back Side Slat Beam Visible Reflectance
+    0.0,                     !- Slat Diffuse Visible Transmittance
+    0.8,                     !- Front Side Slat Diffuse Visible Reflectance
+    0.8,                     !- Back Side Slat Diffuse Visible Reflectance
+    0.0,                     !- Slat Infrared Hemispherical Transmittance
+    0.9,                     !- Front Side Slat Infrared Hemispherical Emissivity
+    0.9,                     !- Back Side Slat Infrared Hemispherical Emissivity
+    0.05,                    !- Blind to Glass Distance {m}
+    0.5,                     !- Blind Top Opening Multiplier
+    0.5,                     !- Blind Bottom Opening Multiplier
+    0.5,                     !- Blind Left Side Opening Multiplier
+    0.5,                     !- Blind Right Side Opening Multiplier
+    ,                        !- Minimum Slat Angle {deg}
+    ;                        !- Maximum Slat Angle {deg}

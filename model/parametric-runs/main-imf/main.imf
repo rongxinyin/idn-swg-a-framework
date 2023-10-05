@@ -1728,12 +1728,24 @@ Construction,
 
 Construction,
     Int-Wall-Const,          !- Name
+    Plaster board,           !- Outside Layer
+    M01 100mm brick,                !- Layer 2
+    Plaster board;           !- Layer 3
+
+Construction,
+    Int-Wall-Const Reversed, !- Name
+    Plaster board,           !- Outside Layer
+    M01 100mm brick,                !- Layer 2
+    Plaster board;           !- Layer 3
+
+Construction,
+    Int-Wall-Const-Old,          !- Name
     G01a 19mm gypsum board 2,!- Outside Layer
     F04 Wall air space resistance,  !- Layer 2
     G01a 19mm gypsum board 3;!- Layer 3
 
 Construction,
-    Int-Wall-Const Reversed, !- Name
+    Int-Wall-Const Reversed Old, !- Name
     G01a 19mm gypsum board 3,!- Outside Layer
     F04 Wall air space resistance,  !- Layer 2
     G01a 19mm gypsum board 2;!- Layer 3
@@ -3211,7 +3223,7 @@ FenestrationSurface:Detailed,
     438_Wall_3_0_0,          !- Building Surface Name
     ,                        !- Outside Boundary Condition Object
     ,                        !- View Factor to Ground
-    1,                       !- Frame and Divider Name
+    ,                       !- Frame and Divider Name
     1,                       !- Multiplier
     ,                        !- Number of Vertices
     5.67749966,              !- Vertex 1 X-coordinate {m}
@@ -3257,7 +3269,7 @@ FenestrationSurface:Detailed,
     122_Wall_5_0_0,          !- Building Surface Name
     ,                        !- Outside Boundary Condition Object
     ,                        !- View Factor to Ground
-    1,                       !- Frame and Divider Name
+    ,                       !- Frame and Divider Name
     1,                       !- Multiplier
     ,                        !- Number of Vertices
     4.33599966,              !- Vertex 1 X-coordinate {m}
@@ -3303,7 +3315,7 @@ FenestrationSurface:Detailed,
     534_Wall_3_0_0,          !- Building Surface Name
     ,                        !- Outside Boundary Condition Object
     ,                        !- View Factor to Ground
-    1,                       !- Frame and Divider Name
+    ,                       !- Frame and Divider Name
     1,                       !- Multiplier
     ,                        !- Number of Vertices
     2.67349966,              !- Vertex 1 X-coordinate {m}
@@ -3418,7 +3430,7 @@ FenestrationSurface:Detailed,
     429_Wall_3_0_0,          !- Building Surface Name
     ,                        !- Outside Boundary Condition Object
     ,                        !- View Factor to Ground
-    1,                       !- Frame and Divider Name
+    ,                       !- Frame and Divider Name
     1,                       !- Multiplier
     ,                        !- Number of Vertices
     3.76389966,              !- Vertex 1 X-coordinate {m}
@@ -3487,7 +3499,7 @@ FenestrationSurface:Detailed,
     470_Wall_5_0_0,          !- Building Surface Name
     ,                        !- Outside Boundary Condition Object
     ,                        !- View Factor to Ground
-    1,                       !- Frame and Divider Name
+    ,                       !- Frame and Divider Name
     1,                       !- Multiplier
     ,                        !- Number of Vertices
     0.94419966,              !- Vertex 1 X-coordinate {m}

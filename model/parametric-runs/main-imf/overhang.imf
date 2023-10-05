@@ -1,0 +1,23 @@
+!-   ===========  ALL OBJECTS IN CLASS: SHADING:ZONE:DETAILED ===========
+
+! overhang
+
+Shading:Zone:Detailed,
+  Bedroom1_Win - Overhang,                !- Name
+  122_Wall_5_0_0,                         !- Base Surface Name
+  ,                                       !- Transmittance Schedule Name
+  ,                                       !- Number of Vertices
+  5.25599966, -5.99844469, 2.53,          !- X,Y,Z Vertex 1 {m}
+  4.33599966, -5.99844469, 2.53,          !- X,Y,Z Vertex 2 {m}
+  4.33599966, overhang_bedroom[], 2.53,          !- X,Y,Z Vertex 3 {m}
+  5.25599966, overhang_bedroom[], 2.53;          !- X,Y,Z Vertex 4 {m}
+
+Shading:Zone:Detailed,
+  LivingRoom_Win - Overhang,              !- Name
+  470_Wall_5_0_0,                         !- Base Surface Name
+  ,                                       !- Transmittance Schedule Name
+  ,                                       !- Number of Vertices
+  1.86019966, -5.99844469, 2.258,         !- X,Y,Z Vertex 1 {m}
+  0.94419966, -5.99844469, 2.258,         !- X,Y,Z Vertex 2 {m}
+  0.94419966, overhang_livingroom[], 2.258,         !- X,Y,Z Vertex 3 {m}
+  1.86019966, overhang_livingroom[], 2.258;         !- X,Y,Z Vertex 4 {m}
