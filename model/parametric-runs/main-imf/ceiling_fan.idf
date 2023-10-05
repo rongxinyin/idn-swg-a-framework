@@ -1,0 +1,51 @@
+!-   ===========  EMS control ceiling fan operation ===========
+!Ceiling fan EPD is negligible with DC powered ceiling fan
+
+  EnergyManagementSystem:Sensor,
+	bedroom1_temp,Bedroom 1,Zone Mean Air Temperature;
+
+  EnergyManagementSystem:Actuator,
+	Set_Bedroom1_AIR_VELO_SCH,Air Velocity Bedroom 1,Schedule:Compact,Schedule Value;
+
+  EnergyManagementSystem:ProgramCallingManager,
+	Bedroom1_Ceiling_Fan_Program_Name,InsideHVACSystemIterationLoop,Bedroom1_Ceiling_Fan_Program;
+
+  EnergyManagementSystem:OutputVariable,
+	EMS_Bedroom1_AIR_VELO_SCH,Set_Bedroom1_AIR_VELO_SCH,Averaged,ZoneTimeStep,,;
+
+  Output:Variable,*,EMS_Bedroom1_AIR_VELO_SCH,hourly;
+
+
+  EnergyManagementSystem:Program,
+    Bedroom1_Ceiling_Fan_Program,
+	IF (bedroom1_temp > clg_sept0[]) && (bedroom1_temp_temp < clg_sept1[]),
+		SET Set_Bedroom1_AIR_VELO_SCH = 0.000000004 * (2.71828 ^ (0.6883 * bedroom1_temp)),
+	ELSEIF bedroom1_temp >= clg_sept1[],
+		SET Set_Bedroom1_AIR_VELO_SCH = air_speed[],
+	ELSE,
+		SET Set_Bedroom1_AIR_VELO_SCH = 0.1,
+	ENDIF;
+
+  EnergyManagementSystem:Sensor,
+	Bedroom2_temp,Bedroom 1,Zone Mean Air Temperature;
+  EnergyManagementSystem:Actuator,
+	Set_Bedroom2_AIR_VELO_SCH,Air Velocity Bedroom 2,Schedule:Compact,Schedule Value;
+
+  EnergyManagementSystem:ProgramCallingManager,
+	Bedroom2_Ceiling_Fan_Program_Name,InsideHVACSystemIterationLoop,Bedroom2_Ceiling_Fan_Program ;
+
+  EnergyManagementSystem:OutputVariable,
+	EMS_Bedroom2_AIR_VELO_SCH,Set_Bedroom2_AIR_VELO_SCH,Averaged,ZoneTimeStep,, ;
+
+  Output:Variable,*,EMS_Bedroom2_AIR_VELO_SCH,hourly;
+
+
+  EnergyManagementSystem:Program,
+    Bedroom2_Ceiling_Fan_Program,
+	IF (Bedroom2_temp > clg_sept0[]) && (Bedroom2_temp_temp < clg_sept1[]),
+		SET Set_Bedroom2_AIR_VELO_SCH = 0.000000004 * (2.71828 ^ (0.6883 * bedroom2_temp)),
+	ELSEIF Bedroom2_temp >= clg_sept1[],
+		SET Set_Bedroom2_AIR_VELO_SCH = air_speed[],
+	ELSE,
+		SET Set_Bedroom2_AIR_VELO_SCH = 0.1,
+	ENDIF;

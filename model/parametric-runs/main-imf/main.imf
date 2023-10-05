@@ -655,7 +655,15 @@ Schedule:Compact,
     .5;                      !- Field 12
 
 Schedule:Compact,
-    Air Velocity Bedroom,    !- Name
+    Air Velocity Bedroom 1,    !- Name
+    Any Number,                        !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0.1370;                  !- Field 4
+
+Schedule:Compact,
+    Air Velocity Bedroom 2,    !- Name
     Any Number,                        !- Schedule Type Limits Name
     Through: 12/31,          !- Field 1
     For: AllDays,            !- Field 2
@@ -3590,7 +3598,7 @@ People,
     ,                        !- Clothing Insulation Calculation Method
     ,                        !- Clothing Insulation Calculation Method Schedule Name
     Clothing Schedule Bedroom,  !- Clothing Insulation Schedule Name
-    Air Velocity Bedroom,    !- Air Velocity Schedule Name
+    Air Velocity Bedroom 1,    !- Air Velocity Schedule Name
     FANGER;                  !- Thermal Comfort Model 1 Type
 
 People,
@@ -3612,7 +3620,7 @@ People,
     ,                        !- Clothing Insulation Calculation Method
     ,                        !- Clothing Insulation Calculation Method Schedule Name
     Clothing Schedule Bedroom,  !- Clothing Insulation Schedule Name
-    Air Velocity Bedroom,    !- Air Velocity Schedule Name
+    Air Velocity Bedroom 2,    !- Air Velocity Schedule Name
     FANGER;                  !- Thermal Comfort Model 1 Type
 
 People,
