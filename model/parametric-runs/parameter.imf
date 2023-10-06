@@ -11,12 +11,12 @@
 	##set1 bedroom2_airflow_rate[] Autosize
 ##elseif #[ sizing[] EQS "fixed" ] !Baseline
 	##if #[ location[] EQS "JAKARTA" ] !Baseline
-		##set1 bedroom1_total_cooling_cap[] 908.999
+		##set1 bedroom1_total_cooling_cap[] 774.489
 		##set1 bedroom1_sensible_heat_ratio[] 0.7
-		##set1 bedroom1_airflow_rate[] 0.036605
-		##set1 bedroom2_total_cooling_cap[] 1504.428
+		##set1 bedroom1_airflow_rate[] 0.031189
+		##set1 bedroom2_total_cooling_cap[] 1326.471
 		##set1 bedroom2_sensible_heat_ratio[] 0.7
-		##set1 bedroom2_airflow_rate[] 0.060583
+		##set1 bedroom2_airflow_rate[] 0.053417
 	##elseif #[ location[] EQS "Balikpapan" ]
 		##set1 bedroom1_total_cooling_cap[] 1634.589
 		##set1 bedroom1_sensible_heat_ratio[] 0.7
@@ -122,7 +122,9 @@
 ##elseif #[ FixedExteriorShading[] EQ 1 ]
 	##set1 depth[] 0.5
 	##set1 overhang_livingroom[] #[-5.99844469 - depth[]]
-	##set1 overhang_bedroom[] #[-5.99844469 - depth[]]
+	##set1 overhang_bedroom1[] #[-5.99844469 - depth[]]
+	##set1 overhang_bedroom2[] #[0.00155531 + depth[]]
+	##set1 overhang_Kitchen[] #[0.00155531 + depth[]]
 	##include overhang.imf
 ##endif
 
@@ -130,9 +132,75 @@
 ##if #[ OperableWindowShading[] EQ 0 ] !Baseline
 	!Do nothing
 ##elseif #[ OperableWindowShading[] EQ 1 ]
+	##set1 slat_solar_reflectance[] 0.1
+	##include shade.imf
+##elseif #[ OperableWindowShading[] EQ 2 ]
+	##set1 slat_solar_reflectance[] 0.8
 	##include shade.imf
 ##endif
 
+! ------------ 09 Ceiling Fan --------
+##if #[ CeilingFan[] EQ 0 ]
+		##if #[ ac[] EQS "Cooled" ]
+			##set1 clg_sept[] 25
+			##set1 clg_sept0[] 25 !temperature threshold for ceiling fan operation operation 
+			##set1 clg_sept1[] 25 !temperature threshold for ceiling fan operation operation 
+			##set1 air_speed[] 0.1
+		##else
+			##set1 clg_sept[] 100 !Uncooled cases use clg_sept 100
+			##set1 clg_sept0[] 25 !temperature threshold for ceiling fan operation operation 
+			##set1 clg_sept1[] 25 !temperature threshold for ceiling fan operation operation 
+			##set1 air_speed[] 0.1
+		##endif
+	##elseif #[ CeilingFan[] EQ 1 ]	
+		##if #[ ac[] EQS "Cooled" ]
+			##set1 clg_sept[] 27
+			##set1 clg_sept0[] 25 !temperature threshold for ceiling fan operation operation
+			##set1 clg_sept1[] 27 !temperature threshold for ceiling fan operation operation 
+			##set1 air_speed[] 0.4
+		##else
+			##set1 clg_sept[] 100 !Uncooled cases use clg_sept 100
+			##set1 clg_sept0[] 25 !temperature threshold for ceiling fan operation operation
+			##set1 clg_sept1[] 27 !temperature threshold for ceiling fan operation operation 
+			##set1 air_speed[] 0.4
+		##endif
+		##include ceiling_fan.imf
+	##elseif #[ CeilingFan[] EQ 2 ]	
+		##if #[ ac[] EQS "Cooled" ]
+			##set1 clg_sept[] 28
+			##set1 clg_sept0[] 25 !temperature threshold for ceiling fan operation operation 
+			##set1 clg_sept1[] 28 !temperature threshold for ceiling fan operation operation
+			##set1 air_speed[] 0.8
+		##else
+			##set1 clg_sept[] 100 !Uncooled cases use clg_sept 100
+			##set1 clg_sept0[] 25 !temperature threshold for ceiling fan operation operation 
+			##set1 clg_sept1[] 28 !temperature threshold for ceiling fan operation operation
+			##set1 air_speed[] 0.8
+		##endif
+		##include ceiling_fan.imf
+##endif
+
+! ------------ 10 Natural ventilation: window open area --------
+##if #[ NV_WindowOpen[] EQ 0 ]
+		!Do nothing
+	##elseif #[ NV_WindowOpen[] EQ 1 ]	! 50%
+		##set1 window_open[] 0.5
+		##include nv_open_area.imf
+	##elseif #[ NV_WindowOpen[] EQ 2 ]	! 100%
+		##set1 window_open[] 1.0 
+		##include nv_open_area.imf
+##endif
+
+! ------------ 11 Natural ventilation: operational schedule --------
+##if #[ NV_OperationSchd[] EQ 0 ]
+		!Do nothing
+	##elseif #[ NV_OperationSchd[] EQ 1 ]	! 50%
+		##set1 window_open[] 0.5
+		##include nv_operation_schedule.imf
+	##elseif #[ NV_OperationSchd[] EQ 2 ]	! 100%
+		##set1 window_open[] 1.0 
+		##include nv_operation_schedule.imf
+##endif
 
 ##include main.imf
 ##include report.imf

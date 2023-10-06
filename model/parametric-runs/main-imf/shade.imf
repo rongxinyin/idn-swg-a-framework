@@ -20,7 +20,7 @@
     Bedroom1_Win;    !- Fenestration Surface 1 Name
 
   WindowShadingControl,
-    LivingRoom_Win_Win_IntShade,  !- Name
+    LivingRoom_Win_IntShade,  !- Name
     Living Room,        !- Zone Name
     1,                       !- Shading Control Sequence Number
     InteriorBlind,           !- Shading Type
@@ -37,6 +37,44 @@
     ,                        !- Daylighting Control Object Name
     Group,                   !- Multiple Surface Control Type
     LivingRoom_Win;    !- Fenestration Surface 1 Name
+
+  WindowShadingControl,
+    Bedroom2_Win_IntShade,  !- Name
+    Bedroom 2,        !- Zone Name
+    1,                       !- Shading Control Sequence Number
+    InteriorBlind,           !- Shading Type
+    Win_IntShade,       !- Construction with Shading Name
+    OnIfScheduleAllows,      !- Shading Control Type
+    ScreenSchedule,          !- Schedule Name
+    20.0,                    !- Setpoint {W/m2, W or deg C}
+    YES,                     !- Shading Control Is Scheduled
+    NO,                      !- Glare Control Is Active
+    ,                        !- Shading Device Material Name
+    ,                        !- Type of Slat Angle Control for Blinds
+    ,                        !- Slat Angle Schedule Name
+    ,                        !- Setpoint 2 {W/m2, deg C or cd/m2}
+    ,                        !- Daylighting Control Object Name
+    Group,                   !- Multiple Surface Control Type
+    Bedroom2_Win;    !- Fenestration Surface 1 Name
+
+  WindowShadingControl,
+    Kitchen_Win_IntShade,  !- Name
+    kitchen,        !- Zone Name
+    1,                       !- Shading Control Sequence Number
+    InteriorBlind,           !- Shading Type
+    Win_IntShade,       !- Construction with Shading Name
+    OnIfScheduleAllows,      !- Shading Control Type
+    ScreenSchedule,          !- Schedule Name
+    20.0,                    !- Setpoint {W/m2, W or deg C}
+    YES,                     !- Shading Control Is Scheduled
+    NO,                      !- Glare Control Is Active
+    ,                        !- Shading Device Material Name
+    ,                        !- Type of Slat Angle Control for Blinds
+    ,                        !- Slat Angle Schedule Name
+    ,                        !- Setpoint 2 {W/m2, deg C or cd/m2}
+    ,                        !- Daylighting Control Object Name
+    Group,                   !- Multiple Surface Control Type
+    Kitchen_Win;    !- Fenestration Surface 1 Name
 
   Construction,
     Win_IntShade,       !- Name
@@ -63,11 +101,11 @@
     3.0,                     !- Slat Angle {deg}
     0.9,                     !- Slat Conductivity {W/m-K}
     0.0,                     !- Slat Beam Solar Transmittance
-    0.8,                     !- Front Side Slat Beam Solar Reflectance
-    0.8,                     !- Back Side Slat Beam Solar Reflectance
+    slat_solar_reflectance[],                     !- Front Side Slat Beam Solar Reflectance
+    slat_solar_reflectance[],                     !- Back Side Slat Beam Solar Reflectance
     0.0,                     !- Slat Diffuse Solar Transmittance
-    0.8,                     !- Front Side Slat Diffuse Solar Reflectance
-    0.8,                     !- Back Side Slat Diffuse Solar Reflectance
+    slat_solar_reflectance[],                     !- Front Side Slat Diffuse Solar Reflectance
+    slat_solar_reflectance[],                     !- Back Side Slat Diffuse Solar Reflectance
     0.0,                     !- Slat Beam Visible Transmittance
     0.8,                     !- Front Side Slat Beam Visible Reflectance
     0.8,                     !- Back Side Slat Beam Visible Reflectance

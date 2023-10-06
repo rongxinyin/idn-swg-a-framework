@@ -1,0 +1,147 @@
+!-   ===========  wind and stack for Natural Ventilation operation ===========
+
+Schedule:Compact,
+  window_open_schd,   !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  0.5;                                    !- Field 4
+
+ZoneVentilation:WindandStackOpenArea,
+  Bath_Win_WindandStackOpenArea,          !- Name
+  Bath,                                   !- Zone or Space Name
+  0.2184,                                 !- Opening Area {m2}
+  window_open_schd,   !- Opening Area Fraction Schedule Name
+  Autocalculate,                          !- Opening Effectiveness {dimensionless}
+  0,                                      !- Effective Angle {deg}
+  0.105,                                  !- Height Difference {m}
+  Autocalculate,                          !- Discharge Coefficient for Opening
+  21.67,                                  !- Minimum Indoor Temperature {C}
+  ,                                       !- Minimum Indoor Temperature Schedule Name
+  40,                                     !- Maximum Indoor Temperature {C}
+  ,                                       !- Maximum Indoor Temperature Schedule Name
+  3,                                      !- Delta Temperature {deltaC}
+  ,                                       !- Delta Temperature Schedule Name
+  18.3333,                                !- Minimum Outdoor Temperature {C}
+  ,                                       !- Minimum Outdoor Temperature Schedule Name
+  25.5556,                                !- Maximum Outdoor Temperature {C}
+  ,                                       !- Maximum Outdoor Temperature Schedule Name
+  5.4;                                    !- Maximum Wind Speed {m/s}
+
+
+ZoneVentilation:WindandStackOpenArea,
+  Bedroom1_Win_WindandStackOpenArea,      !- Name
+  Bedroom 1,                              !- Zone or Space Name
+  1.5548,                                 !- Opening Area {m2}
+  window_open_schd,   !- Opening Area Fraction Schedule Name
+  Autocalculate,                          !- Opening Effectiveness {dimensionless}
+  180,                                    !- Effective Angle {deg}
+  0.4225,                                 !- Height Difference {m}
+  Autocalculate,                          !- Discharge Coefficient for Opening
+  21.67,                                  !- Minimum Indoor Temperature {C}
+  ,                                       !- Minimum Indoor Temperature Schedule Name
+  40,                                     !- Maximum Indoor Temperature {C}
+  ,                                       !- Maximum Indoor Temperature Schedule Name
+  3,                                      !- Delta Temperature {deltaC}
+  ,                                       !- Delta Temperature Schedule Name
+  18.3333,                                !- Minimum Outdoor Temperature {C}
+  ,                                       !- Minimum Outdoor Temperature Schedule Name
+  25.5556,                                !- Maximum Outdoor Temperature {C}
+  ,                                       !- Maximum Outdoor Temperature Schedule Name
+  5.4;                                    !- Maximum Wind Speed {m/s}
+
+
+ZoneVentilation:WindandStackOpenArea,
+  Bedroom2_Win_WindandStackOpenArea,      !- Name
+  Bedroom 2,                              !- Zone or Space Name
+  1.5548,                                 !- Opening Area {m2}
+  window_open_schd,   !- Opening Area Fraction Schedule Name
+  Autocalculate,                          !- Opening Effectiveness {dimensionless}
+  0,                                      !- Effective Angle {deg}
+  0.4225,                                 !- Height Difference {m}
+  Autocalculate,                          !- Discharge Coefficient for Opening
+  21.67,                                  !- Minimum Indoor Temperature {C}
+  ,                                       !- Minimum Indoor Temperature Schedule Name
+  40,                                     !- Maximum Indoor Temperature {C}
+  ,                                       !- Maximum Indoor Temperature Schedule Name
+  3,                                      !- Delta Temperature {deltaC}
+  ,                                       !- Delta Temperature Schedule Name
+  18.3333,                                !- Minimum Outdoor Temperature {C}
+  ,                                       !- Minimum Outdoor Temperature Schedule Name
+  25.5556,                                !- Maximum Outdoor Temperature {C}
+  ,                                       !- Maximum Outdoor Temperature Schedule Name
+  5.4;                                    !- Maximum Wind Speed {m/s}
+
+
+ZoneVentilation:WindandStackOpenArea,
+  Kitchen_Win_WindandStackOpenArea,       !- Name
+  kitchen,                                !- Zone or Space Name
+  0.869976,                               !- Opening Area {m2}
+  window_open_schd,   !- Opening Area Fraction Schedule Name
+  Autocalculate,                          !- Opening Effectiveness {dimensionless}
+  0,                                      !- Effective Angle {deg}
+  0.4215,                                 !- Height Difference {m}
+  Autocalculate,                          !- Discharge Coefficient for Opening
+  21.67,                                  !- Minimum Indoor Temperature {C}
+  ,                                       !- Minimum Indoor Temperature Schedule Name
+  40,                                     !- Maximum Indoor Temperature {C}
+  ,                                       !- Maximum Indoor Temperature Schedule Name
+  3,                                      !- Delta Temperature {deltaC}
+  ,                                       !- Delta Temperature Schedule Name
+  18.3333,                                !- Minimum Outdoor Temperature {C}
+  ,                                       !- Minimum Outdoor Temperature Schedule Name
+  25.5556,                                !- Maximum Outdoor Temperature {C}
+  ,                                       !- Maximum Outdoor Temperature Schedule Name
+  5.4;                                    !- Maximum Wind Speed {m/s}
+
+
+ZoneVentilation:WindandStackOpenArea,
+  LivingRoom_Win_WindandStackOpenArea,    !- Name
+  Living Room,                            !- Zone or Space Name
+  2.029856,                               !- Opening Area {m2}
+  window_open_schd,   !- Opening Area Fraction Schedule Name
+  Autocalculate,                          !- Opening Effectiveness {dimensionless}
+  180,                                    !- Effective Angle {deg}
+  0.554,                                  !- Height Difference {m}
+  Autocalculate,                          !- Discharge Coefficient for Opening
+  21.67,                                  !- Minimum Indoor Temperature {C}
+  ,                                       !- Minimum Indoor Temperature Schedule Name
+  40,                                     !- Maximum Indoor Temperature {C}
+  ,                                       !- Maximum Indoor Temperature Schedule Name
+  3,                                      !- Delta Temperature {deltaC}
+  ,                                       !- Delta Temperature Schedule Name
+  18.3333,                                !- Minimum Outdoor Temperature {C}
+  ,                                       !- Minimum Outdoor Temperature Schedule Name
+  25.5556,                                !- Maximum Outdoor Temperature {C}
+  ,                                       !- Maximum Outdoor Temperature Schedule Name
+  5.4;                                    !- Maximum Wind Speed {m/s}
+
+EnergyManagementSystem:Sensor,
+  oa_temp,Environment,
+  Site Outdoor Air Drybulb Temperature;
+
+EnergyManagementSystem:Actuator,
+	set_window_open_schd,
+	window_open_schd,
+	Schedule:Compact,Schedule Value;
+
+EnergyManagementSystem:ProgramCallingManager,
+	window_open_schedule_program_name,
+	InsideHVACSystemIterationLoop,
+	window_open_schedule_program;
+
+EnergyManagementSystem:OutputVariable,
+	EMS_window_open_schd,
+	set_window_open_schd,
+	Averaged,ZoneTimeStep,,;
+
+Output:Variable,*,EMS_window_open_schd,hourly;
+
+EnergyManagementSystem:Program,
+   window_open_schedule_program,
+	If oa_temp <= 18.3333 || oa_temp >= clg_sept1[],
+		SET set_window_open_schd = 0,
+	ELSE,
+		SET set_window_open_schd = window_open[],
+	ENDIF;

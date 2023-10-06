@@ -9,8 +9,8 @@ Shading:Zone:Detailed,
   ,                                       !- Number of Vertices
   5.25599966, -5.99844469, 2.53,          !- X,Y,Z Vertex 1 {m}
   4.33599966, -5.99844469, 2.53,          !- X,Y,Z Vertex 2 {m}
-  4.33599966, overhang_bedroom[], 2.53,          !- X,Y,Z Vertex 3 {m}
-  5.25599966, overhang_bedroom[], 2.53;          !- X,Y,Z Vertex 4 {m}
+  4.33599966, overhang_bedroom1[], 2.53,          !- X,Y,Z Vertex 3 {m}
+  5.25599966, overhang_bedroom1[], 2.53;          !- X,Y,Z Vertex 4 {m}
 
 Shading:Zone:Detailed,
   LivingRoom_Win - Overhang,              !- Name
@@ -21,3 +21,23 @@ Shading:Zone:Detailed,
   0.94419966, -5.99844469, 2.258,         !- X,Y,Z Vertex 2 {m}
   0.94419966, overhang_livingroom[], 2.258,         !- X,Y,Z Vertex 3 {m}
   1.86019966, overhang_livingroom[], 2.258;         !- X,Y,Z Vertex 4 {m}
+
+Shading:Zone:Detailed,
+  Bedroom2_Win - Overhang,                !- Name
+  534_Wall_3_0_0,                         !- Base Surface Name
+  ,                                       !- Transmittance Schedule Name
+  ,                                       !- Number of Vertices
+  1.75349966, 0.00155531, 2.53,           !- X,Y,Z Vertex 1 {m}
+  2.67349966, 0.00155531, 2.53,           !- X,Y,Z Vertex 2 {m}
+  2.67349966, overhang_Bedroom2[], 2.53,           !- X,Y,Z Vertex 3 {m}
+  1.75349966, overhang_Bedroom2[], 2.53;           !- X,Y,Z Vertex 4 {m}
+
+Shading:Zone:Detailed,
+  Kitchen_Win - Overhang,                 !- Name
+  429_Wall_3_0_0,                         !- Base Surface Name
+  ,                                       !- Transmittance Schedule Name
+  ,                                       !- Number of Vertices
+  3.24789966, 0.00155531, 2.528,          !- X,Y,Z Vertex 1 {m}
+  3.76389966, 0.00155531, 2.528,          !- X,Y,Z Vertex 2 {m}
+  3.76389966, overhang_Kitchen[], 2.528,          !- X,Y,Z Vertex 3 {m}
+  3.24789966, overhang_Kitchen[], 2.528;          !- X,Y,Z Vertex 4 {m}

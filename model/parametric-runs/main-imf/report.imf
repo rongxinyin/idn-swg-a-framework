@@ -11,6 +11,8 @@ Output:Variable,*,Facility Cooling Setpoint Not Met Time,Hourly;
 Output:Variable,*,Facility Heating Setpoint Not Met Time,Hourly;
 Output:Variable,cooling_sch,Schedule Value,hourly; !- Zone Average []
 Output:Variable,Occ-Sch-Bedroom,Schedule Value,hourly; !- Zone Average []
+Output:Variable,Occ-Sch-LivingRoom,Schedule Value,hourly; !- Zone Average []
+Output:Variable,Occ-Sch-Occ-Sch-Kitchen,Schedule Value,hourly; !- Zone Average []
 !Output:Variable,Air Velocity Bedroom,Schedule Value,hourly; !- Zone Average [] !Zone level output is used for pythermalcomfot, called from "BLDG_ceiling_fan.idf" in parameter.imf
 Output:Variable,Clothing Schedule Bedroom,Schedule Value,hourly; !- Zone Average []
 Output:Variable,Activity Schedule Bedroom,Schedule Value,hourly; !- Zone Average []
