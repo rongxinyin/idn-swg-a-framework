@@ -27,7 +27,7 @@ SimulationControl,
 
 Building,
     Building,                !- Name
-    0,                       !- North Axis {deg}
+    north_axis[],                       !- North Axis {deg}
     Suburbs,                 !- Terrain
     0.04,                    !- Loads Convergence Tolerance Value {W}
     0.4,                     !- Temperature Convergence Tolerance Value {deltaC}
@@ -108,79 +108,6 @@ Timestep,
 ConvergenceLimits,
     1,                       !- Minimum System Timestep {minutes}
     25;                      !- Maximum HVAC Iterations
-
-
-!-   ===========  ALL OBJECTS IN CLASS: SITE:LOCATION ===========
-
-Site:Location,
-    JAKARTA-SOEKARNO-HA,     !- Name
-    -6.12,                   !- Latitude {deg}
-    106.65,                  !- Longitude {deg}
-    7,                       !- Time Zone {hr}
-    8;                       !- Elevation {m}
-
-
-!-   ===========  ALL OBJECTS IN CLASS: SIZINGPERIOD:DESIGNDAY ===========
-
-SizingPeriod:DesignDay,
-    Jakarta Soekarno Ha Ann Clg .4% Condns DB=>MWB,  !- Name
-    5,                       !- Month
-    21,                      !- Day of Month
-    SummerDesignDay,         !- Day Type
-    33.8,                    !- Maximum Dry-Bulb Temperature {C}
-    7.6,                     !- Daily Dry-Bulb Temperature Range {deltaC}
-    DefaultMultipliers,      !- Dry-Bulb Temperature Range Modifier Type
-    ,                        !- Dry-Bulb Temperature Range Modifier Day Schedule Name
-    Wetbulb,                 !- Humidity Condition Type
-    25.7,                    !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
-    ,                        !- Humidity Condition Day Schedule Name
-    ,                        !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
-    ,                        !- Enthalpy at Maximum Dry-Bulb {J/kg}
-    ,                        !- Daily Wet-Bulb Temperature Range {deltaC}
-    101229,                  !- Barometric Pressure {Pa}
-    5.1,                     !- Wind Speed {m/s}
-    50,                      !- Wind Direction {deg}
-    No,                      !- Rain Indicator
-    No,                      !- Snow Indicator
-    No,                      !- Daylight Saving Time Indicator
-    ASHRAETau,               !- Solar Model Indicator
-    ,                        !- Beam Solar Day Schedule Name
-    ,                        !- Diffuse Solar Day Schedule Name
-    0.531,                   !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
-    1.947,                   !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
-    ,                        !- Sky Clearness
-    ,                        !- Maximum Number Warmup Days
-    FullResetAtBeginEnvironment;  !- Begin Environment Reset Mode
-
-SizingPeriod:DesignDay,
-    Jakarta Soekarno Ha Ann Htg 99.6% Condns DB,  !- Name
-    2,                       !- Month
-    21,                      !- Day of Month
-    WinterDesignDay,         !- Day Type
-    22,                      !- Maximum Dry-Bulb Temperature {C}
-    0,                       !- Daily Dry-Bulb Temperature Range {deltaC}
-    DefaultMultipliers,      !- Dry-Bulb Temperature Range Modifier Type
-    ,                        !- Dry-Bulb Temperature Range Modifier Day Schedule Name
-    Wetbulb,                 !- Humidity Condition Type
-    22,                      !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
-    ,                        !- Humidity Condition Day Schedule Name
-    ,                        !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
-    ,                        !- Enthalpy at Maximum Dry-Bulb {J/kg}
-    ,                        !- Daily Wet-Bulb Temperature Range {deltaC}
-    101229,                  !- Barometric Pressure {Pa}
-    1.1,                     !- Wind Speed {m/s}
-    190,                     !- Wind Direction {deg}
-    No,                      !- Rain Indicator
-    No,                      !- Snow Indicator
-    No,                      !- Daylight Saving Time Indicator
-    ASHRAEClearSky,          !- Solar Model Indicator
-    ,                        !- Beam Solar Day Schedule Name
-    ,                        !- Diffuse Solar Day Schedule Name
-    ,                        !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
-    ,                        !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
-    0,                       !- Sky Clearness
-    ,                        !- Maximum Number Warmup Days
-    FullResetAtBeginEnvironment;  !- Begin Environment Reset Mode
 
 
 !-   ===========  ALL OBJECTS IN CLASS: RUNPERIOD ===========
@@ -1172,7 +1099,7 @@ Schedule:Compact,
 Schedule:Constant,
     Always On Discrete hvac_library,  !- Name
     OnOff hvac_library,      !- Schedule Type Limits Name
-    1;                       !- Hourly Value
+    always_on_hvac[];                       !- Hourly Value
 
 Schedule:Constant,
     Always On Discrete,      !- Name
@@ -4614,7 +4541,7 @@ AirLoopHVAC:UnitarySystem,
     Load,                    !- Control Type
     Bedroom 1,               !- Controlling Zone or Thermostat Location
     None,                    !- Dehumidification Control Type
-    ,                        !- Availability Schedule Name
+    Always On Discrete hvac_library,                        !- Availability Schedule Name
     Node 13,                 !- Air Inlet Node Name
     Node 6,                  !- Air Outlet Node Name
     Fan:OnOff,               !- Supply Fan Object Type
@@ -4663,7 +4590,7 @@ AirLoopHVAC:UnitarySystem,
     Load,                    !- Control Type
     Bedroom 2,               !- Controlling Zone or Thermostat Location
     None,                    !- Dehumidification Control Type
-    cooling_avail_sch,       !- Availability Schedule Name
+    Always On Discrete hvac_library,       !- Availability Schedule Name
     Node 23,                 !- Air Inlet Node Name
     Node 17,                 !- Air Outlet Node Name
     Fan:OnOff,               !- Supply Fan Object Type

@@ -1,0 +1,50 @@
+IWEC2 weather data are copyright 2011 American Society of Heating, Refrigerating and
+Air-Conditioning Engineers (ASHRAE), Inc., Atlanta, GA, USA.  www.ashrae.org
+
+ASHRAE License Agreement
+
+Using this product indicates your acceptance of the terms and conditions of this agreement.
+The title and all copyrights and ownership rights of the contents are retained by ASHRAE
+or the developer of this product. You assume responsibility for the selection of the content
+to achieve your intended results and for the installation, use, and results obtained from the
+content. This product allows you to copy its content and paste it into other documents for
+your personal use only. "Personal use" includes showing the information at a meeting or group
+setting and allowing other individuals to view the information. "Personal use" does not include
+making copies, in whole or in part, of the information for the purposes of distribution,
+reusing the information in your own presentation, or posting any of the files on a server
+for access by others. You shall not merge, adapt, translate, modify, rent, lease, sell, sublicense, 
+assign, or otherwise transfer any of the content. To obtain permission to copy and paste 
+this product's content for other than personal use, go to http://www.ashrae.org/permissions.
+
+Disclaimer of Warranties
+
+The program developer and ASHRAE do not warrant that the information in this product is free
+of errors. This information is provided "as is" without warranty of any kind, either expressed
+or implied. The entire risk as to the quality and performance of the program and data is with you.
+In no event will ASHRAE or the program developer be liable to you for any damages, including without
+limitation any lost profits, lost savings, or other incidental or consequential damages arising
+out of the use of or inability to use this information.
+
+Additional License Conditions
+
+This product is principally intended for use in software or other programmed information.
+You may embed some or all of the components contained within in another work for personal use
+without written permission from ASHRAE. For software developers who want to incorporate components
+in a commercial or noncommercial product, ASHRAE offers a license for a fee. The license agreement
+is subject to the conditions listed below. To purchase a license to embed some or all of the
+components in a derivative work, visit www.ashrae.org/licensing.
+
+Conditions of Use
+
+1.The ASHRAE copyright will be clearly shown on the product along with the following attribution:
+  "2012 ASHRAE (www.ashrae.org). Used by permission."
+2.The software must specifically reference
+  International Weather for Energy Calculations (IWEC Weather Files), Version 2.0.
+3.Use of any portion of ASHRAE publications or products on the World Wide Web is not permitted
+   without express written permission from ASHRAE. Additional license fees may apply.
+4.Payment of a license fee to ASHRAE for a nonexclusive license to incorporate components of the
+   in a commercial or noncommercial product.
+5.ASHRAE ownership of the data must be noted in the software along with appropriate
+   s affording protection to ASHRAE from use of the company' s software.
+6.Upon receipt by ASHRAE of an executed copy of this agreement and payment of the license fee,
+   this license will become effective.

@@ -6916,3 +6916,24 @@ OS:Rendering:Color,
   147,                                    !- Rendering Green Value
   112;                                    !- Rendering Blue Value
 
+OS:Rendering:Color,
+  {b5a68491-2386-42d9-a8b4-2609de0858a8}, !- Handle
+  Rendering Color 127,                    !- Name
+  154,                                    !- Rendering Red Value
+  50,                                     !- Rendering Green Value
+  205;                                    !- Rendering Blue Value
+
+OS:Rendering:Color,
+  {6fdd9177-6df4-4fb9-9cb7-beead71f0b69}, !- Handle
+  Rendering Color 128,                    !- Name
+  0,                                      !- Rendering Red Value
+  128,                                    !- Rendering Green Value
+  0;                                      !- Rendering Blue Value
+
+OS:Rendering:Color,
+  {cacee23a-374e-4f6a-af1c-ff0240ea8dc4}, !- Handle
+  Rendering Color 129,                    !- Name
+  255,                                    !- Rendering Red Value
+  147,                                    !- Rendering Green Value
+  20;                                     !- Rendering Blue Value
+

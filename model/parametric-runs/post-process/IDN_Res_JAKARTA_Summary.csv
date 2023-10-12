@@ -1,0 +1,145 @@
+location,case_name,case_id,floor_area,end_use,Electricity [kWh]
+JAKARTA,Baseline,1,28.76,Heating,0.0
+JAKARTA,Baseline,1,28.76,Cooling,0.0
+JAKARTA,Baseline,1,28.76,Interior Lighting,501.28
+JAKARTA,Baseline,1,28.76,Interior Equipment,2176.06
+JAKARTA,Baseline,1,28.76,Fans,0.0
+JAKARTA,Baseline,1,28.76,Total End Uses,2677.34
+JAKARTA,CoolRoof_1,2,28.76,Heating,0.0
+JAKARTA,CoolRoof_1,2,28.76,Cooling,0.0
+JAKARTA,CoolRoof_1,2,28.76,Interior Lighting,501.28
+JAKARTA,CoolRoof_1,2,28.76,Interior Equipment,2176.06
+JAKARTA,CoolRoof_1,2,28.76,Fans,0.0
+JAKARTA,CoolRoof_1,2,28.76,Total End Uses,2677.34
+JAKARTA,CoolRoof_2,3,28.76,Heating,0.0
+JAKARTA,CoolRoof_2,3,28.76,Cooling,0.0
+JAKARTA,CoolRoof_2,3,28.76,Interior Lighting,501.28
+JAKARTA,CoolRoof_2,3,28.76,Interior Equipment,2176.06
+JAKARTA,CoolRoof_2,3,28.76,Fans,0.0
+JAKARTA,CoolRoof_2,3,28.76,Total End Uses,2677.34
+JAKARTA,CoolWall_1,4,28.76,Heating,0.0
+JAKARTA,CoolWall_1,4,28.76,Cooling,0.0
+JAKARTA,CoolWall_1,4,28.76,Interior Lighting,501.28
+JAKARTA,CoolWall_1,4,28.76,Interior Equipment,2176.06
+JAKARTA,CoolWall_1,4,28.76,Fans,0.0
+JAKARTA,CoolWall_1,4,28.76,Total End Uses,2677.34
+JAKARTA,CoolWall_2,5,28.76,Heating,0.0
+JAKARTA,CoolWall_2,5,28.76,Cooling,0.0
+JAKARTA,CoolWall_2,5,28.76,Interior Lighting,501.28
+JAKARTA,CoolWall_2,5,28.76,Interior Equipment,2176.06
+JAKARTA,CoolWall_2,5,28.76,Fans,0.0
+JAKARTA,CoolWall_2,5,28.76,Total End Uses,2677.34
+JAKARTA,InsRoof_1,6,28.76,Heating,0.0
+JAKARTA,InsRoof_1,6,28.76,Cooling,0.0
+JAKARTA,InsRoof_1,6,28.76,Interior Lighting,501.28
+JAKARTA,InsRoof_1,6,28.76,Interior Equipment,2176.06
+JAKARTA,InsRoof_1,6,28.76,Fans,0.0
+JAKARTA,InsRoof_1,6,28.76,Total End Uses,2677.34
+JAKARTA,InsRoof_2,7,28.76,Heating,0.0
+JAKARTA,InsRoof_2,7,28.76,Cooling,0.0
+JAKARTA,InsRoof_2,7,28.76,Interior Lighting,501.28
+JAKARTA,InsRoof_2,7,28.76,Interior Equipment,2176.06
+JAKARTA,InsRoof_2,7,28.76,Fans,0.0
+JAKARTA,InsRoof_2,7,28.76,Total End Uses,2677.34
+JAKARTA,InsWall_1,8,28.76,Heating,0.0
+JAKARTA,InsWall_1,8,28.76,Cooling,0.0
+JAKARTA,InsWall_1,8,28.76,Interior Lighting,501.28
+JAKARTA,InsWall_1,8,28.76,Interior Equipment,2176.06
+JAKARTA,InsWall_1,8,28.76,Fans,0.0
+JAKARTA,InsWall_1,8,28.76,Total End Uses,2677.34
+JAKARTA,InsWall_2,9,28.76,Heating,0.0
+JAKARTA,InsWall_2,9,28.76,Cooling,0.0
+JAKARTA,InsWall_2,9,28.76,Interior Lighting,501.28
+JAKARTA,InsWall_2,9,28.76,Interior Equipment,2176.06
+JAKARTA,InsWall_2,9,28.76,Fans,0.0
+JAKARTA,InsWall_2,9,28.76,Total End Uses,2677.34
+JAKARTA,LowEWin_1,10,28.76,Heating,0.0
+JAKARTA,LowEWin_1,10,28.76,Cooling,0.0
+JAKARTA,LowEWin_1,10,28.76,Interior Lighting,501.28
+JAKARTA,LowEWin_1,10,28.76,Interior Equipment,2176.06
+JAKARTA,LowEWin_1,10,28.76,Fans,0.0
+JAKARTA,LowEWin_1,10,28.76,Total End Uses,2677.34
+JAKARTA,LowEWin_2,11,28.76,Heating,0.0
+JAKARTA,LowEWin_2,11,28.76,Cooling,0.0
+JAKARTA,LowEWin_2,11,28.76,Interior Lighting,501.28
+JAKARTA,LowEWin_2,11,28.76,Interior Equipment,2176.06
+JAKARTA,LowEWin_2,11,28.76,Fans,0.0
+JAKARTA,LowEWin_2,11,28.76,Total End Uses,2677.34
+JAKARTA,SolarWin_1,12,28.76,Heating,0.0
+JAKARTA,SolarWin_1,12,28.76,Cooling,0.0
+JAKARTA,SolarWin_1,12,28.76,Interior Lighting,501.28
+JAKARTA,SolarWin_1,12,28.76,Interior Equipment,2176.06
+JAKARTA,SolarWin_1,12,28.76,Fans,0.0
+JAKARTA,SolarWin_1,12,28.76,Total End Uses,2677.34
+JAKARTA,SolarWin_2,13,28.76,Heating,0.0
+JAKARTA,SolarWin_2,13,28.76,Cooling,0.0
+JAKARTA,SolarWin_2,13,28.76,Interior Lighting,501.28
+JAKARTA,SolarWin_2,13,28.76,Interior Equipment,2176.06
+JAKARTA,SolarWin_2,13,28.76,Fans,0.0
+JAKARTA,SolarWin_2,13,28.76,Total End Uses,2677.34
+JAKARTA,CeilingFan_1,14,28.76,Heating,0.0
+JAKARTA,CeilingFan_1,14,28.76,Cooling,0.0
+JAKARTA,CeilingFan_1,14,28.76,Interior Lighting,501.28
+JAKARTA,CeilingFan_1,14,28.76,Interior Equipment,2176.06
+JAKARTA,CeilingFan_1,14,28.76,Fans,0.0
+JAKARTA,CeilingFan_1,14,28.76,Total End Uses,2677.34
+JAKARTA,CeilingFan_2,15,28.76,Heating,0.0
+JAKARTA,CeilingFan_2,15,28.76,Cooling,0.0
+JAKARTA,CeilingFan_2,15,28.76,Interior Lighting,501.28
+JAKARTA,CeilingFan_2,15,28.76,Interior Equipment,2176.06
+JAKARTA,CeilingFan_2,15,28.76,Fans,0.0
+JAKARTA,CeilingFan_2,15,28.76,Total End Uses,2677.34
+JAKARTA,CeilingFan_NoSetback_1,16,28.76,Heating,0.0
+JAKARTA,CeilingFan_NoSetback_1,16,28.76,Cooling,0.0
+JAKARTA,CeilingFan_NoSetback_1,16,28.76,Interior Lighting,501.28
+JAKARTA,CeilingFan_NoSetback_1,16,28.76,Interior Equipment,2176.06
+JAKARTA,CeilingFan_NoSetback_1,16,28.76,Fans,0.0
+JAKARTA,CeilingFan_NoSetback_1,16,28.76,Total End Uses,2677.34
+JAKARTA,CeilingFan_NoSetback_2,17,28.76,Heating,0.0
+JAKARTA,CeilingFan_NoSetback_2,17,28.76,Cooling,0.0
+JAKARTA,CeilingFan_NoSetback_2,17,28.76,Interior Lighting,501.28
+JAKARTA,CeilingFan_NoSetback_2,17,28.76,Interior Equipment,2176.06
+JAKARTA,CeilingFan_NoSetback_2,17,28.76,Fans,0.0
+JAKARTA,CeilingFan_NoSetback_2,17,28.76,Total End Uses,2677.34
+JAKARTA,Overhang_1,18,28.76,Heating,0.0
+JAKARTA,Overhang_1,18,28.76,Cooling,0.0
+JAKARTA,Overhang_1,18,28.76,Interior Lighting,501.28
+JAKARTA,Overhang_1,18,28.76,Interior Equipment,2176.06
+JAKARTA,Overhang_1,18,28.76,Fans,0.0
+JAKARTA,Overhang_1,18,28.76,Total End Uses,2677.34
+JAKARTA,Shade_1,19,28.76,Heating,0.0
+JAKARTA,Shade_1,19,28.76,Cooling,0.0
+JAKARTA,Shade_1,19,28.76,Interior Lighting,501.28
+JAKARTA,Shade_1,19,28.76,Interior Equipment,2176.06
+JAKARTA,Shade_1,19,28.76,Fans,0.0
+JAKARTA,Shade_1,19,28.76,Total End Uses,2677.34
+JAKARTA,Shade_2,20,28.76,Heating,0.0
+JAKARTA,Shade_2,20,28.76,Cooling,0.0
+JAKARTA,Shade_2,20,28.76,Interior Lighting,501.28
+JAKARTA,Shade_2,20,28.76,Interior Equipment,2176.06
+JAKARTA,Shade_2,20,28.76,Fans,0.0
+JAKARTA,Shade_2,20,28.76,Total End Uses,2677.34
+JAKARTA,HybridNV_WindowOpen_1,21,28.76,Heating,0.0
+JAKARTA,HybridNV_WindowOpen_1,21,28.76,Cooling,0.0
+JAKARTA,HybridNV_WindowOpen_1,21,28.76,Interior Lighting,501.28
+JAKARTA,HybridNV_WindowOpen_1,21,28.76,Interior Equipment,2176.06
+JAKARTA,HybridNV_WindowOpen_1,21,28.76,Fans,0.0
+JAKARTA,HybridNV_WindowOpen_1,21,28.76,Total End Uses,2677.34
+JAKARTA,HybridNV_WindowOpen_2,22,28.76,Heating,0.0
+JAKARTA,HybridNV_WindowOpen_2,22,28.76,Cooling,0.0
+JAKARTA,HybridNV_WindowOpen_2,22,28.76,Interior Lighting,501.28
+JAKARTA,HybridNV_WindowOpen_2,22,28.76,Interior Equipment,2176.06
+JAKARTA,HybridNV_WindowOpen_2,22,28.76,Fans,0.0
+JAKARTA,HybridNV_WindowOpen_2,22,28.76,Total End Uses,2677.34
+JAKARTA,HybridNV_OperationSchd_1,23,28.76,Heating,0.0
+JAKARTA,HybridNV_OperationSchd_1,23,28.76,Cooling,0.0
+JAKARTA,HybridNV_OperationSchd_1,23,28.76,Interior Lighting,501.28
+JAKARTA,HybridNV_OperationSchd_1,23,28.76,Interior Equipment,2176.06
+JAKARTA,HybridNV_OperationSchd_1,23,28.76,Fans,0.0
+JAKARTA,HybridNV_OperationSchd_1,23,28.76,Total End Uses,2677.34
+JAKARTA,HybridNV_OperationSchd_2,24,28.76,Heating,0.0
+JAKARTA,HybridNV_OperationSchd_2,24,28.76,Cooling,0.0
+JAKARTA,HybridNV_OperationSchd_2,24,28.76,Interior Lighting,501.28
+JAKARTA,HybridNV_OperationSchd_2,24,28.76,Interior Equipment,2176.06
+JAKARTA,HybridNV_OperationSchd_2,24,28.76,Fans,0.0
+JAKARTA,HybridNV_OperationSchd_2,24,28.76,Total End Uses,2677.34

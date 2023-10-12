@@ -13,10 +13,11 @@ end_use_list = ['Heating', 'Cooling', 'Interior Lighting',
 case_list = ['Baseline', 'CoolRoof_1', 'CoolRoof_2', 'CoolWall_1', 'CoolWall_2', 
              'InsRoof_1', 'InsRoof_2', 'InsWall_1', 'InsWall_2', 
              'LowEWin_1', 'LowEWin_2', 'SolarWin_1', 'SolarWin_2',
-             'CeilingFan_1', 'CeilingFan_2', 'Overhang_1', 'Shade_1','Shade_2',
-             'NV_WindowOpen_1', 'NV_WindowOpen_2', 'NV_OperationSchd_1', 'NV_OperationSchd_2']
+             'CeilingFan_1', 'CeilingFan_2', 'CeilingFan_NoSetback_1', 'CeilingFan_NoSetback_2',
+             'Overhang_1', 'Shade_1','Shade_2',
+             'HybridNV_WindowOpen_1', 'HybridNV_WindowOpen_2', 'HybridNV_OperationSchd_1', 'HybridNV_OperationSchd_2']
 results_sum = []
-for case_name, case_id in zip(case_list, range(1,23)):
+for case_name, case_id in zip(case_list, range(1,25)):
     print('Start the processing of case id: '.format(case_id))
     with open("../output_files/init_{}.htm".format(case_id), encoding="utf-8") as f:
         data = f.read()

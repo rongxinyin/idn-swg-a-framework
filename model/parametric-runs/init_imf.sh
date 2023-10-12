@@ -1,11 +1,13 @@
 #!/bin/bash
 
 # Define the input CSV file and the output text file
-input_file="parametric-runs-input.csv"
+location="Jakarta"
+input_file="parametric-runs-input-$location.csv"
+
 # output_file="init.imf"
 
 # Define the sublevel folder to save the output files
-output_folder="init_files"
+output_folder="init_files/$location"
 
 # Create the sublevel folder if it does not exist
 mkdir -p "$output_folder"

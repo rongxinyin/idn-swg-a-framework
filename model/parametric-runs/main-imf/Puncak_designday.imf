@@ -1,0 +1,73 @@
+
+!-   ===========  ALL OBJECTS IN CLASS: SITE:LOCATION ===========
+
+Site:Location,
+    Puncak-Bogor,     !- Location Name
+    -6.70,     !- Latitude {N+ S-}
+    106.93,     !- Longitude {W- E+}
+    7.00,     !- Time Zone Relative to GMT {GMT+/-}
+    300.00;     !- Elevation {m}
+
+
+!-   ===========  ALL OBJECTS IN CLASS: SIZINGPERIOD:DESIGNDAY ===========
+
+SizingPeriod:DesignDay,
+    Puncak-Bogor Ann Clg .4% Condns DB=>MWB,  !- Name
+    11,                       !- Month
+    11,                      !- Day of Month
+    SummerDesignDay,         !- Day Type
+    33.3,                    !- Maximum Dry-Bulb Temperature {C}
+    7.35,                     !- Daily Dry-Bulb Temperature Range {deltaC}
+    DefaultMultipliers,      !- Dry-Bulb Temperature Range Modifier Type
+    ,                        !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+    Wetbulb,                 !- Humidity Condition Type
+    25.7,                    !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+    ,                        !- Humidity Condition Day Schedule Name
+    ,                        !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+    ,                        !- Enthalpy at Maximum Dry-Bulb {J/kg}
+    ,                        !- Daily Wet-Bulb Temperature Range {deltaC}
+    101229,                  !- Barometric Pressure {Pa}
+    13.2,                     !- Wind Speed {m/s}
+    270,                      !- Wind Direction {deg}
+    No,                      !- Rain Indicator
+    No,                      !- Snow Indicator
+    No,                      !- Daylight Saving Time Indicator
+    ASHRAETau,               !- Solar Model Indicator
+    ,                        !- Beam Solar Day Schedule Name
+    ,                        !- Diffuse Solar Day Schedule Name
+    0.531,                   !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+    1.947,                   !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+    ,                        !- Sky Clearness
+    ,                        !- Maximum Number Warmup Days
+    FullResetAtBeginEnvironment;  !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+    Puncak-Bogor Ann Htg 99.6% Condns DB,  !- Name
+    7,                       !- Month
+    15,                      !- Day of Month
+    WinterDesignDay,         !- Day Type
+    20,                      !- Maximum Dry-Bulb Temperature {C}
+    0,                       !- Daily Dry-Bulb Temperature Range {deltaC}
+    DefaultMultipliers,      !- Dry-Bulb Temperature Range Modifier Type
+    ,                        !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+    Wetbulb,                 !- Humidity Condition Type
+    22,                      !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+    ,                        !- Humidity Condition Day Schedule Name
+    ,                        !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+    ,                        !- Enthalpy at Maximum Dry-Bulb {J/kg}
+    ,                        !- Daily Wet-Bulb Temperature Range {deltaC}
+    101229,                  !- Barometric Pressure {Pa}
+    1.1,                     !- Wind Speed {m/s}
+    190,                     !- Wind Direction {deg}
+    No,                      !- Rain Indicator
+    No,                      !- Snow Indicator
+    No,                      !- Daylight Saving Time Indicator
+    ASHRAEClearSky,          !- Solar Model Indicator
+    ,                        !- Beam Solar Day Schedule Name
+    ,                        !- Diffuse Solar Day Schedule Name
+    ,                        !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+    ,                        !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+    0,                       !- Sky Clearness
+    ,                        !- Maximum Number Warmup Days
+    FullResetAtBeginEnvironment;  !- Begin Environment Reset Mode
+

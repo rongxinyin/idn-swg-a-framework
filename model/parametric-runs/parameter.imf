@@ -1,6 +1,12 @@
 !- Specify the path for the include files here:
 ##fileprefix main-imf/
 
+! ------------ 00 Set orientation -----------
+##if #[ orientation[] EQS "South" ]
+	##set1 north_axis[] 180
+##elseif #[ orientation[] EQS "West" ]
+	##set1 north_axis[] 270
+##endif
 ! ------------ 00 AC Capacity by locations-----------
 ##if #[ sizing[] EQS "autosize" ] !Baseline
 	##set1 bedroom1_total_cooling_cap[] autosize
@@ -9,36 +15,167 @@
 	##set1 bedroom2_total_cooling_cap[] Autosize
 	##set1 bedroom2_sensible_heat_ratio[] Autosize
 	##set1 bedroom2_airflow_rate[] Autosize
+	##set1 livingroom_total_cooling_cap[] Autosize
+	##set1 livingroom_sensible_heat_ratio[] Autosize
+	##set1 livingroom_airflow_rate[] Autosize
+	##set1 kitchen_total_cooling_cap[] Autosize
+	##set1 kitchen_sensible_heat_ratio[] Autosize
+	##set1 kitchen_airflow_rate[] Autosize
 ##elseif #[ sizing[] EQS "fixed" ] !Baseline
-	##if #[ location[] EQS "JAKARTA" ] !Baseline
-		##set1 bedroom1_total_cooling_cap[] 774.489
-		##set1 bedroom1_sensible_heat_ratio[] 0.7
-		##set1 bedroom1_airflow_rate[] 0.031189
-		##set1 bedroom2_total_cooling_cap[] 1326.471
-		##set1 bedroom2_sensible_heat_ratio[] 0.7
-		##set1 bedroom2_airflow_rate[] 0.053417
+	##if #[ location[] EQS "Jakarta" ] !Baseline
+		##if #[ orientation[] EQS "South" ]
+			##set1 bedroom1_total_cooling_cap[] 1376.922
+			##set1 bedroom1_sensible_heat_ratio[] 0.7
+			##set1 bedroom1_airflow_rate[] 0.055449
+			##set1 bedroom2_total_cooling_cap[] 588.565
+			##set1 bedroom2_sensible_heat_ratio[] 0.7
+			##set1 bedroom2_airflow_rate[] 0.023701
+			##set1 livingroom_total_cooling_cap[] 1534.793
+			##set1 livingroom_sensible_heat_ratio[] 0.7
+			##set1 livingroom_airflow_rate[] 0.061806
+			##set1 kitchen_total_cooling_cap[] 570.843
+			##set1 kitchen_sensible_heat_ratio[] 0.7
+			##set1 kitchen_airflow_rate[] 0.022988
+		##elseif #[ orientation[] EQS "West" ]
+			##set1 bedroom1_total_cooling_cap[] 939.521
+			##set1 bedroom1_sensible_heat_ratio[] 0.7
+			##set1 bedroom1_airflow_rate[] 0.037834
+			##set1 bedroom2_total_cooling_cap[] 1310.858
+			##set1 bedroom2_sensible_heat_ratio[] 0.7
+			##set1 bedroom2_airflow_rate[] 0.052788
+			##set1 livingroom_total_cooling_cap[] 1042.233
+			##set1 livingroom_sensible_heat_ratio[] 0.7
+			##set1 livingroom_airflow_rate[] 0.041971
+			##set1 kitchen_total_cooling_cap[] 1215.809
+			##set1 kitchen_sensible_heat_ratio[] 0.7
+			##set1 kitchen_airflow_rate[] 0.048961
+		##endif
 	##elseif #[ location[] EQS "Balikpapan" ]
-		##set1 bedroom1_total_cooling_cap[] 1634.589
-		##set1 bedroom1_sensible_heat_ratio[] 0.7
-		##set1 bedroom1_airflow_rate[] 0.065825
-		##set1 bedroom2_total_cooling_cap[] 2322.49
-		##set1 bedroom2_sensible_heat_ratio[] 0.7
-		##set1 bedroom2_airflow_rate[] 0.093527
+		##if #[ orientation[] EQS "South" ]
+			##set1 bedroom1_total_cooling_cap[] 1251.919
+			##set1 bedroom1_sensible_heat_ratio[] 0.7
+			##set1 bedroom1_airflow_rate[] 0.050415
+			##set1 bedroom2_total_cooling_cap[] 544.086
+			##set1 bedroom2_sensible_heat_ratio[] 0.7
+			##set1 bedroom2_airflow_rate[] 0.021910
+			##set1 livingroom_total_cooling_cap[] 1401.784
+			##set1 livingroom_sensible_heat_ratio[] 0.7
+			##set1 livingroom_airflow_rate[] 0.056450
+			##set1 kitchen_total_cooling_cap[] 562.018
+			##set1 kitchen_sensible_heat_ratio[] 0.7
+			##set1 kitchen_airflow_rate[] 0.022632
+		##elseif #[ orientation[] EQS "West" ]
+			##set1 bedroom1_total_cooling_cap[] 1053.395
+			##set1 bedroom1_sensible_heat_ratio[] 0.7
+			##set1 bedroom1_airflow_rate[] 0.042420
+			##set1 bedroom2_total_cooling_cap[] 1412.431
+			##set1 bedroom2_sensible_heat_ratio[] 0.7
+			##set1 bedroom2_airflow_rate[] 0.056879
+			##set1 livingroom_total_cooling_cap[] 1180.672
+			##set1 livingroom_sensible_heat_ratio[] 0.7
+			##set1 livingroom_airflow_rate[] 0.047546
+			##set1 kitchen_total_cooling_cap[] 1335.880
+			##set1 kitchen_sensible_heat_ratio[] 0.7
+			##set1 kitchen_airflow_rate[] 0.053796
+		##endif
 	##elseif #[ location[] EQS "Padang" ]
-		##set1 bedroom1_total_cooling_cap[] 1634.589
-		##set1 bedroom1_sensible_heat_ratio[] 0.7
-		##set1 bedroom1_airflow_rate[] 0.065825
-		##set1 bedroom2_total_cooling_cap[] 2322.49
-		##set1 bedroom2_sensible_heat_ratio[] 0.7
-		##set1 bedroom2_airflow_rate[] 0.093527
+		##if #[ orientation[] EQS "South" ]
+			##set1 bedroom1_total_cooling_cap[] 1298.422
+			##set1 bedroom1_sensible_heat_ratio[] 0.7
+			##set1 bedroom1_airflow_rate[] 0.052287
+			##set1 bedroom2_total_cooling_cap[] 518.265
+			##set1 bedroom2_sensible_heat_ratio[] 0.7
+			##set1 bedroom2_airflow_rate[] 0.020871
+			##set1 livingroom_total_cooling_cap[] 1434.092
+			##set1 livingroom_sensible_heat_ratio[] 0.7
+			##set1 livingroom_airflow_rate[] 0.057751
+			##set1 kitchen_total_cooling_cap[] 531.925
+			##set1 kitchen_sensible_heat_ratio[] 0.7
+			##set1 kitchen_airflow_rate[] 0.021421
+		##elseif #[ orientation[] EQS "West" ]
+			##set1 bedroom1_total_cooling_cap[] 1029.263
+			##set1 bedroom1_sensible_heat_ratio[] 0.7
+			##set1 bedroom1_airflow_rate[] 0.041448
+			##set1 bedroom2_total_cooling_cap[] 1389.833
+			##set1 bedroom2_sensible_heat_ratio[] 0.7
+			##set1 bedroom2_airflow_rate[] 0.055969
+			##set1 livingroom_total_cooling_cap[] 1131.865
+			##set1 livingroom_sensible_heat_ratio[] 0.7
+			##set1 livingroom_airflow_rate[] 0.045580
+			##set1 kitchen_total_cooling_cap[] 1292.831
+			##set1 kitchen_sensible_heat_ratio[] 0.7
+			##set1 kitchen_airflow_rate[] 0.052062
+		##endif
 	##elseif #[ location[] EQS "Waingapu" ]
-		##set1 bedroom1_total_cooling_cap[] 1634.589
-		##set1 bedroom1_sensible_heat_ratio[] 0.7
-		##set1 bedroom1_airflow_rate[] 0.065825
-		##set1 bedroom2_total_cooling_cap[] 2322.49
-		##set1 bedroom2_sensible_heat_ratio[] 0.7
-		##set1 bedroom2_airflow_rate[] 0.093527
+		##if #[ orientation[] EQS "South" ]
+			##set1 bedroom1_total_cooling_cap[] 782.081
+			##set1 bedroom1_sensible_heat_ratio[] 0.7
+			##set1 bedroom1_airflow_rate[] 0.031494
+			##set1 bedroom2_total_cooling_cap[] 1070.579
+			##set1 bedroom2_sensible_heat_ratio[] 0.7
+			##set1 bedroom2_airflow_rate[] 0.043112
+			##set1 livingroom_total_cooling_cap[] 1001.062
+			##set1 livingroom_sensible_heat_ratio[] 0.7
+			##set1 livingroom_airflow_rate[] 0.040313
+			##set1 kitchen_total_cooling_cap[] 987.412
+			##set1 kitchen_sensible_heat_ratio[] 0.7
+			##set1 kitchen_airflow_rate[] 0.039763
+		##elseif #[ orientation[] EQS "West" ]
+			##set1 bedroom1_total_cooling_cap[] 1248.374
+			##set1 bedroom1_sensible_heat_ratio[] 0.7
+			##set1 bedroom1_airflow_rate[] 0.050272
+			##set1 bedroom2_total_cooling_cap[] 1693.453
+			##set1 bedroom2_sensible_heat_ratio[] 0.7
+			##set1 bedroom2_airflow_rate[] 0.068195
+			##set1 livingroom_total_cooling_cap[] 1387.250
+			##set1 livingroom_sensible_heat_ratio[] 0.7
+			##set1 livingroom_airflow_rate[] 0.055865
+			##set1 kitchen_total_cooling_cap[] 1576.407
+			##set1 kitchen_sensible_heat_ratio[] 0.7
+			##set1 kitchen_airflow_rate[] 0.063482
+		##endif
+	##elseif #[ location[] EQS "Puncak" ] ! error with epw weather file
+		##if #[ orientation[] EQS "South" ]
+			##set1 bedroom1_total_cooling_cap[] 782.081
+			##set1 bedroom1_sensible_heat_ratio[] 0.7
+			##set1 bedroom1_airflow_rate[] 0.031494
+			##set1 bedroom2_total_cooling_cap[] 1070.579
+			##set1 bedroom2_sensible_heat_ratio[] 0.7
+			##set1 bedroom2_airflow_rate[] 0.043112
+			##set1 livingroom_total_cooling_cap[] 1001.062
+			##set1 livingroom_sensible_heat_ratio[] 0.7
+			##set1 livingroom_airflow_rate[] 0.040313
+			##set1 kitchen_total_cooling_cap[] 987.412
+			##set1 kitchen_sensible_heat_ratio[] 0.7
+			##set1 kitchen_airflow_rate[] 0.039763
+		##elseif #[ orientation[] EQS "West" ]
+			##set1 bedroom1_total_cooling_cap[] 1248.374
+			##set1 bedroom1_sensible_heat_ratio[] 0.7
+			##set1 bedroom1_airflow_rate[] 0.050272
+			##set1 bedroom2_total_cooling_cap[] 1693.453
+			##set1 bedroom2_sensible_heat_ratio[] 0.7
+			##set1 bedroom2_airflow_rate[] 0.068195
+			##set1 livingroom_total_cooling_cap[] 1387.250
+			##set1 livingroom_sensible_heat_ratio[] 0.7
+			##set1 livingroom_airflow_rate[] 0.055865
+			##set1 kitchen_total_cooling_cap[] 1576.407
+			##set1 kitchen_sensible_heat_ratio[] 0.7
+			##set1 kitchen_airflow_rate[] 0.063482
+		##endif
 	##endif
+##endif
+
+! ------------ 00 Add designday locations-----------
+##if #[ location[] EQS "Jakarta" ] !Baseline
+	##include Jakarta_designday.imf
+##elseif #[ location[] EQS "Balikpapan" ]
+	##include Balikpapan_designday.imf
+##elseif #[ location[] EQS "Padang" ]
+	##include Padang_designday.imf
+##elseif #[ location[] EQS "Waingapu" ]
+	##include Waingapu_designday.imf
+##elseif #[ location[] EQS "Puncak" ]
+	##include Puncak_designday.imf
 ##endif
 
 ! ------------ 00 No Roof/Wall Insulation in the baseline-----------
@@ -142,45 +279,65 @@
 ! ------------ 09 Ceiling Fan --------
 ##if #[ CeilingFan[] EQ 0 ]
 		##if #[ ac[] EQS "Cooled" ]
+			##set1 always_on_hvac[] 1
 			##set1 clg_sept[] 25
 			##set1 clg_sept0[] 25 !temperature threshold for ceiling fan operation operation 
 			##set1 clg_sept1[] 25 !temperature threshold for ceiling fan operation operation 
 			##set1 air_speed[] 0.1
 		##else
-			##set1 clg_sept[] 100 !Uncooled cases use clg_sept 100
+			##set1 always_on_hvac[] 0
+			##set1 clg_sept[] 25 !Uncooled cases use clg_sept 100
 			##set1 clg_sept0[] 25 !temperature threshold for ceiling fan operation operation 
 			##set1 clg_sept1[] 25 !temperature threshold for ceiling fan operation operation 
 			##set1 air_speed[] 0.1
 		##endif
 	##elseif #[ CeilingFan[] EQ 1 ]	
 		##if #[ ac[] EQS "Cooled" ]
-			##set1 clg_sept[] 27
+			##set1 always_on_hvac[] 1
+			!##set1 clg_sept[] 27
 			##set1 clg_sept0[] 25 !temperature threshold for ceiling fan operation operation
 			##set1 clg_sept1[] 27 !temperature threshold for ceiling fan operation operation 
 			##set1 air_speed[] 0.4
 		##else
-			##set1 clg_sept[] 100 !Uncooled cases use clg_sept 100
+			##set1 always_on_hvac[] 0
+			!##set1 clg_sept[] 27 !Uncooled cases use clg_sept 100
 			##set1 clg_sept0[] 25 !temperature threshold for ceiling fan operation operation
 			##set1 clg_sept1[] 27 !temperature threshold for ceiling fan operation operation 
 			##set1 air_speed[] 0.4
 		##endif
-		##include ceiling_fan.imf
+		##if #[ CeilingFan_NoSetback[] EQ 1 ]
+			##set1 clg_sept[] 25
+			##include ceiling_fan_no_setback.imf
+		##else
+			##set1 clg_sept[] 27
+			##include ceiling_fan.imf
+		##endif
+		!##include ceiling_fan.imf
 	##elseif #[ CeilingFan[] EQ 2 ]	
 		##if #[ ac[] EQS "Cooled" ]
-			##set1 clg_sept[] 28
+			##set1 always_on_hvac[] 1
+			!##set1 clg_sept[] 28.1
 			##set1 clg_sept0[] 25 !temperature threshold for ceiling fan operation operation 
-			##set1 clg_sept1[] 28 !temperature threshold for ceiling fan operation operation
+			##set1 clg_sept1[] 28.1 !temperature threshold for ceiling fan operation operation
 			##set1 air_speed[] 0.8
 		##else
-			##set1 clg_sept[] 100 !Uncooled cases use clg_sept 100
+			##set1 always_on_hvac[] 0
+			!##set1 clg_sept[] 28.1 !Uncooled cases use clg_sept 100
 			##set1 clg_sept0[] 25 !temperature threshold for ceiling fan operation operation 
-			##set1 clg_sept1[] 28 !temperature threshold for ceiling fan operation operation
+			##set1 clg_sept1[] 28.1 !temperature threshold for ceiling fan operation operation
 			##set1 air_speed[] 0.8
 		##endif
-		##include ceiling_fan.imf
+		##if #[ CeilingFan_NoSetback[] EQ 1 ]
+			##set1 clg_sept[] 25
+			##include ceiling_fan_no_setback.imf
+		##else
+			##set1 clg_sept[] 28.1
+			##include ceiling_fan.imf
+		##endif
+		!##include ceiling_fan.imf
 ##endif
 
-! ------------ 10 Natural ventilation: window open area --------
+! ------------ 10 Natural ventilation with and without ac: window open area --------
 ##if #[ NV_WindowOpen[] EQ 0 ]
 		!Do nothing
 	##elseif #[ NV_WindowOpen[] EQ 1 ]	! 50%
@@ -202,5 +359,14 @@
 		##include nv_operation_schedule.imf
 ##endif
 
-##include main.imf
+! ------------ 12 AC scenarios --------
+##if #[ ac_scenario[] EQ 1 ]
+		##include main_scenario1.imf
+	##elseif #[ ac_scenario[] EQ 2 ]
+		##include main_scenario2.imf
+	##elseif #[ ac_scenario[] EQ 3 ]
+		##include main_scenario3.imf
+##endif
+
+!##include main_adaptive_thermal.imf
 ##include report.imf

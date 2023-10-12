@@ -126,6 +126,11 @@ EnergyManagementSystem:Actuator,
 	window_open_schd,
 	Schedule:Compact,Schedule Value;
 
+EnergyManagementSystem:Actuator,
+  set_hvac_onoff_schd,
+  Always On Discrete hvac_library,
+  Schedule:Constant,Schedule Value;
+
 EnergyManagementSystem:ProgramCallingManager,
 	window_open_schedule_program_name,
 	InsideHVACSystemIterationLoop,
@@ -136,16 +141,25 @@ EnergyManagementSystem:OutputVariable,
 	set_window_open_schd,
 	Averaged,ZoneTimeStep,,;
 
+EnergyManagementSystem:OutputVariable,
+  EMS_hvac_off_schd,
+  set_hvac_onoff_schd,
+  Averaged,ZoneTimeStep,,;
+
 Output:Variable,*,EMS_window_open_schd,hourly;
+Output:Variable,*,EMS_hvac_off_schd,hourly;
 
 EnergyManagementSystem:Program,
   window_open_schedule_program,
   If Hour >= 1 && Hour < 6,
     If oa_temp <= 18.3333 || oa_temp >= clg_sept1[],
       SET set_window_open_schd = 0,
+      SET set_hvac_onoff_schd = 1,
     ELSE,
       SET set_window_open_schd = window_open[],
+      SET set_hvac_onoff_schd = 0,
     ENDIF,
   Else,
     SET set_window_open_schd = 0,
+    SET set_hvac_onoff_schd = 1,
   Endif;
