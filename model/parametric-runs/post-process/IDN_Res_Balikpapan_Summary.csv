@@ -1,0 +1,865 @@
+location,orientation,ac_scenario,case_name,case_id,floor_area,end_use,Electricity [kWh]
+Balikpapan,South,Bedroom_AC_Only,Baseline,1,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,Baseline,1,28.76,Cooling,464.83
+Balikpapan,South,Bedroom_AC_Only,Baseline,1,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,Baseline,1,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,Baseline,1,28.76,Fans,30.82
+Balikpapan,South,Bedroom_AC_Only,Baseline,1,28.76,Total End Uses,3173.0
+Balikpapan,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Cooling,436.07
+Balikpapan,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Fans,28.89
+Balikpapan,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Total End Uses,3142.31
+Balikpapan,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Cooling,398.12
+Balikpapan,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Fans,26.35
+Balikpapan,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Total End Uses,3101.81
+Balikpapan,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Cooling,421.78
+Balikpapan,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Fans,27.94
+Balikpapan,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Total End Uses,3127.06
+Balikpapan,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Cooling,366.2
+Balikpapan,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Fans,24.22
+Balikpapan,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Total End Uses,3067.76
+Balikpapan,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Cooling,388.05
+Balikpapan,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Fans,25.68
+Balikpapan,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Total End Uses,3091.07
+Balikpapan,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Cooling,366.02
+Balikpapan,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Fans,24.2
+Balikpapan,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Total End Uses,3067.56
+Balikpapan,South,Bedroom_AC_Only,InsWall_1,8,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,InsWall_1,8,28.76,Cooling,412.45
+Balikpapan,South,Bedroom_AC_Only,InsWall_1,8,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,InsWall_1,8,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,InsWall_1,8,28.76,Fans,27.31
+Balikpapan,South,Bedroom_AC_Only,InsWall_1,8,28.76,Total End Uses,3117.1
+Balikpapan,South,Bedroom_AC_Only,InsWall_2,9,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,InsWall_2,9,28.76,Cooling,412.45
+Balikpapan,South,Bedroom_AC_Only,InsWall_2,9,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,InsWall_2,9,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,InsWall_2,9,28.76,Fans,27.31
+Balikpapan,South,Bedroom_AC_Only,InsWall_2,9,28.76,Total End Uses,3117.1
+Balikpapan,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Cooling,411.2
+Balikpapan,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Fans,27.23
+Balikpapan,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Total End Uses,3115.78
+Balikpapan,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Cooling,404.37
+Balikpapan,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Fans,26.78
+Balikpapan,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Total End Uses,3108.48
+Balikpapan,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Cooling,407.08
+Balikpapan,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Fans,26.95
+Balikpapan,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Total End Uses,3111.37
+Balikpapan,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Cooling,381.14
+Balikpapan,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Fans,25.22
+Balikpapan,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Total End Uses,3083.7
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Cooling,70.96
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Fans,4.62
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Total End Uses,2752.92
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Cooling,12.46
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Fans,0.8
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Total End Uses,2690.6
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Cooling,464.83
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Fans,30.82
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Total End Uses,3173.0
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Cooling,464.83
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Fans,30.82
+Balikpapan,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Total End Uses,3173.0
+Balikpapan,South,Bedroom_AC_Only,Overhang_1,18,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,Overhang_1,18,28.76,Cooling,444.62
+Balikpapan,South,Bedroom_AC_Only,Overhang_1,18,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,Overhang_1,18,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,Overhang_1,18,28.76,Fans,29.47
+Balikpapan,South,Bedroom_AC_Only,Overhang_1,18,28.76,Total End Uses,3151.44
+Balikpapan,South,Bedroom_AC_Only,Shade_1,19,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,Shade_1,19,28.76,Cooling,444.49
+Balikpapan,South,Bedroom_AC_Only,Shade_1,19,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,Shade_1,19,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,Shade_1,19,28.76,Fans,29.43
+Balikpapan,South,Bedroom_AC_Only,Shade_1,19,28.76,Total End Uses,3151.26
+Balikpapan,South,Bedroom_AC_Only,Shade_2,20,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,Shade_2,20,28.76,Cooling,400.14
+Balikpapan,South,Bedroom_AC_Only,Shade_2,20,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,Shade_2,20,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,Shade_2,20,28.76,Fans,26.48
+Balikpapan,South,Bedroom_AC_Only,Shade_2,20,28.76,Total End Uses,3103.97
+Balikpapan,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Cooling,434.08
+Balikpapan,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Fans,28.73
+Balikpapan,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Total End Uses,3140.15
+Balikpapan,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Cooling,434.03
+Balikpapan,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Fans,28.73
+Balikpapan,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Total End Uses,3140.1
+Balikpapan,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Cooling,448.39
+Balikpapan,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Fans,29.71
+Balikpapan,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Total End Uses,3155.44
+Balikpapan,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Heating,0.0
+Balikpapan,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Cooling,448.39
+Balikpapan,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Interior Lighting,501.28
+Balikpapan,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Interior Equipment,2176.06
+Balikpapan,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Fans,29.71
+Balikpapan,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Total End Uses,3155.44
+Balikpapan,South,No_AC,Baseline,25,28.76,Heating,0.0
+Balikpapan,South,No_AC,Baseline,25,28.76,Cooling,0.0
+Balikpapan,South,No_AC,Baseline,25,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,Baseline,25,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,Baseline,25,28.76,Fans,0.0
+Balikpapan,South,No_AC,Baseline,25,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,CoolRoof_1,26,28.76,Heating,0.0
+Balikpapan,South,No_AC,CoolRoof_1,26,28.76,Cooling,0.0
+Balikpapan,South,No_AC,CoolRoof_1,26,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,CoolRoof_1,26,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,CoolRoof_1,26,28.76,Fans,0.0
+Balikpapan,South,No_AC,CoolRoof_1,26,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,CoolRoof_2,27,28.76,Heating,0.0
+Balikpapan,South,No_AC,CoolRoof_2,27,28.76,Cooling,0.0
+Balikpapan,South,No_AC,CoolRoof_2,27,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,CoolRoof_2,27,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,CoolRoof_2,27,28.76,Fans,0.0
+Balikpapan,South,No_AC,CoolRoof_2,27,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,CoolWall_1,28,28.76,Heating,0.0
+Balikpapan,South,No_AC,CoolWall_1,28,28.76,Cooling,0.0
+Balikpapan,South,No_AC,CoolWall_1,28,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,CoolWall_1,28,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,CoolWall_1,28,28.76,Fans,0.0
+Balikpapan,South,No_AC,CoolWall_1,28,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,CoolWall_2,29,28.76,Heating,0.0
+Balikpapan,South,No_AC,CoolWall_2,29,28.76,Cooling,0.0
+Balikpapan,South,No_AC,CoolWall_2,29,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,CoolWall_2,29,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,CoolWall_2,29,28.76,Fans,0.0
+Balikpapan,South,No_AC,CoolWall_2,29,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,InsRoof_1,30,28.76,Heating,0.0
+Balikpapan,South,No_AC,InsRoof_1,30,28.76,Cooling,0.0
+Balikpapan,South,No_AC,InsRoof_1,30,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,InsRoof_1,30,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,InsRoof_1,30,28.76,Fans,0.0
+Balikpapan,South,No_AC,InsRoof_1,30,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,InsRoof_2,31,28.76,Heating,0.0
+Balikpapan,South,No_AC,InsRoof_2,31,28.76,Cooling,0.0
+Balikpapan,South,No_AC,InsRoof_2,31,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,InsRoof_2,31,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,InsRoof_2,31,28.76,Fans,0.0
+Balikpapan,South,No_AC,InsRoof_2,31,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,InsWall_1,32,28.76,Heating,0.0
+Balikpapan,South,No_AC,InsWall_1,32,28.76,Cooling,0.0
+Balikpapan,South,No_AC,InsWall_1,32,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,InsWall_1,32,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,InsWall_1,32,28.76,Fans,0.0
+Balikpapan,South,No_AC,InsWall_1,32,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,InsWall_2,33,28.76,Heating,0.0
+Balikpapan,South,No_AC,InsWall_2,33,28.76,Cooling,0.0
+Balikpapan,South,No_AC,InsWall_2,33,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,InsWall_2,33,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,InsWall_2,33,28.76,Fans,0.0
+Balikpapan,South,No_AC,InsWall_2,33,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,LowEWin_1,34,28.76,Heating,0.0
+Balikpapan,South,No_AC,LowEWin_1,34,28.76,Cooling,0.0
+Balikpapan,South,No_AC,LowEWin_1,34,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,LowEWin_1,34,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,LowEWin_1,34,28.76,Fans,0.0
+Balikpapan,South,No_AC,LowEWin_1,34,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,LowEWin_2,35,28.76,Heating,0.0
+Balikpapan,South,No_AC,LowEWin_2,35,28.76,Cooling,0.0
+Balikpapan,South,No_AC,LowEWin_2,35,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,LowEWin_2,35,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,LowEWin_2,35,28.76,Fans,0.0
+Balikpapan,South,No_AC,LowEWin_2,35,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,SolarWin_1,36,28.76,Heating,0.0
+Balikpapan,South,No_AC,SolarWin_1,36,28.76,Cooling,0.0
+Balikpapan,South,No_AC,SolarWin_1,36,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,SolarWin_1,36,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,SolarWin_1,36,28.76,Fans,0.0
+Balikpapan,South,No_AC,SolarWin_1,36,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,SolarWin_2,37,28.76,Heating,0.0
+Balikpapan,South,No_AC,SolarWin_2,37,28.76,Cooling,0.0
+Balikpapan,South,No_AC,SolarWin_2,37,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,SolarWin_2,37,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,SolarWin_2,37,28.76,Fans,0.0
+Balikpapan,South,No_AC,SolarWin_2,37,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,CeilingFan_1,38,28.76,Heating,0.0
+Balikpapan,South,No_AC,CeilingFan_1,38,28.76,Cooling,0.0
+Balikpapan,South,No_AC,CeilingFan_1,38,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,CeilingFan_1,38,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,CeilingFan_1,38,28.76,Fans,0.0
+Balikpapan,South,No_AC,CeilingFan_1,38,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,CeilingFan_2,39,28.76,Heating,0.0
+Balikpapan,South,No_AC,CeilingFan_2,39,28.76,Cooling,0.0
+Balikpapan,South,No_AC,CeilingFan_2,39,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,CeilingFan_2,39,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,CeilingFan_2,39,28.76,Fans,0.0
+Balikpapan,South,No_AC,CeilingFan_2,39,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Heating,0.0
+Balikpapan,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Cooling,0.0
+Balikpapan,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Fans,0.0
+Balikpapan,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Heating,0.0
+Balikpapan,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Cooling,0.0
+Balikpapan,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Fans,0.0
+Balikpapan,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,Overhang_1,42,28.76,Heating,0.0
+Balikpapan,South,No_AC,Overhang_1,42,28.76,Cooling,0.0
+Balikpapan,South,No_AC,Overhang_1,42,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,Overhang_1,42,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,Overhang_1,42,28.76,Fans,0.0
+Balikpapan,South,No_AC,Overhang_1,42,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,Shade_1,43,28.76,Heating,0.0
+Balikpapan,South,No_AC,Shade_1,43,28.76,Cooling,0.0
+Balikpapan,South,No_AC,Shade_1,43,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,Shade_1,43,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,Shade_1,43,28.76,Fans,0.0
+Balikpapan,South,No_AC,Shade_1,43,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,Shade_2,44,28.76,Heating,0.0
+Balikpapan,South,No_AC,Shade_2,44,28.76,Cooling,0.0
+Balikpapan,South,No_AC,Shade_2,44,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,Shade_2,44,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,Shade_2,44,28.76,Fans,0.0
+Balikpapan,South,No_AC,Shade_2,44,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Heating,0.0
+Balikpapan,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Cooling,0.0
+Balikpapan,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Fans,0.0
+Balikpapan,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Heating,0.0
+Balikpapan,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Cooling,0.0
+Balikpapan,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Fans,0.0
+Balikpapan,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Heating,0.0
+Balikpapan,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Cooling,0.0
+Balikpapan,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Fans,0.0
+Balikpapan,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Total End Uses,2677.34
+Balikpapan,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Heating,0.0
+Balikpapan,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Cooling,0.0
+Balikpapan,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Interior Lighting,501.28
+Balikpapan,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Interior Equipment,2176.06
+Balikpapan,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Fans,0.0
+Balikpapan,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Total End Uses,2677.34
+Balikpapan,South,FullHouse_AC,Baseline,49,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,Baseline,49,36.0,Cooling,623.6
+Balikpapan,South,FullHouse_AC,Baseline,49,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,Baseline,49,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,Baseline,49,36.0,Fans,41.31
+Balikpapan,South,FullHouse_AC,Baseline,49,36.0,Total End Uses,3342.26
+Balikpapan,South,FullHouse_AC,CoolRoof_1,50,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,CoolRoof_1,50,36.0,Cooling,582.88
+Balikpapan,South,FullHouse_AC,CoolRoof_1,50,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,CoolRoof_1,50,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,CoolRoof_1,50,36.0,Fans,38.59
+Balikpapan,South,FullHouse_AC,CoolRoof_1,50,36.0,Total End Uses,3298.81
+Balikpapan,South,FullHouse_AC,CoolRoof_2,51,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,CoolRoof_2,51,36.0,Cooling,529.34
+Balikpapan,South,FullHouse_AC,CoolRoof_2,51,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,CoolRoof_2,51,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,CoolRoof_2,51,36.0,Fans,35.0
+Balikpapan,South,FullHouse_AC,CoolRoof_2,51,36.0,Total End Uses,3241.68
+Balikpapan,South,FullHouse_AC,CoolWall_1,52,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,CoolWall_1,52,36.0,Cooling,564.69
+Balikpapan,South,FullHouse_AC,CoolWall_1,52,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,CoolWall_1,52,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,CoolWall_1,52,36.0,Fans,37.38
+Balikpapan,South,FullHouse_AC,CoolWall_1,52,36.0,Total End Uses,3279.41
+Balikpapan,South,FullHouse_AC,CoolWall_2,53,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,CoolWall_2,53,36.0,Cooling,489.13
+Balikpapan,South,FullHouse_AC,CoolWall_2,53,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,CoolWall_2,53,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,CoolWall_2,53,36.0,Fans,32.32
+Balikpapan,South,FullHouse_AC,CoolWall_2,53,36.0,Total End Uses,3198.8
+Balikpapan,South,FullHouse_AC,InsRoof_1,54,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,InsRoof_1,54,36.0,Cooling,514.27
+Balikpapan,South,FullHouse_AC,InsRoof_1,54,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,InsRoof_1,54,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,InsRoof_1,54,36.0,Fans,34.0
+Balikpapan,South,FullHouse_AC,InsRoof_1,54,36.0,Total End Uses,3225.61
+Balikpapan,South,FullHouse_AC,InsRoof_2,55,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,InsRoof_2,55,36.0,Cooling,483.4
+Balikpapan,South,FullHouse_AC,InsRoof_2,55,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,InsRoof_2,55,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,InsRoof_2,55,36.0,Fans,31.94
+Balikpapan,South,FullHouse_AC,InsRoof_2,55,36.0,Total End Uses,3192.68
+Balikpapan,South,FullHouse_AC,InsWall_1,56,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,InsWall_1,56,36.0,Cooling,548.55
+Balikpapan,South,FullHouse_AC,InsWall_1,56,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,InsWall_1,56,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,InsWall_1,56,36.0,Fans,36.29
+Balikpapan,South,FullHouse_AC,InsWall_1,56,36.0,Total End Uses,3262.18
+Balikpapan,South,FullHouse_AC,InsWall_2,57,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,InsWall_2,57,36.0,Cooling,548.55
+Balikpapan,South,FullHouse_AC,InsWall_2,57,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,InsWall_2,57,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,InsWall_2,57,36.0,Fans,36.29
+Balikpapan,South,FullHouse_AC,InsWall_2,57,36.0,Total End Uses,3262.18
+Balikpapan,South,FullHouse_AC,LowEWin_1,58,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,LowEWin_1,58,36.0,Cooling,550.16
+Balikpapan,South,FullHouse_AC,LowEWin_1,58,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,LowEWin_1,58,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,LowEWin_1,58,36.0,Fans,36.4
+Balikpapan,South,FullHouse_AC,LowEWin_1,58,36.0,Total End Uses,3263.9
+Balikpapan,South,FullHouse_AC,LowEWin_2,59,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,LowEWin_2,59,36.0,Cooling,540.93
+Balikpapan,South,FullHouse_AC,LowEWin_2,59,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,LowEWin_2,59,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,LowEWin_2,59,36.0,Fans,35.79
+Balikpapan,South,FullHouse_AC,LowEWin_2,59,36.0,Total End Uses,3254.06
+Balikpapan,South,FullHouse_AC,SolarWin_1,60,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,SolarWin_1,60,36.0,Cooling,544.54
+Balikpapan,South,FullHouse_AC,SolarWin_1,60,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,SolarWin_1,60,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,SolarWin_1,60,36.0,Fans,36.02
+Balikpapan,South,FullHouse_AC,SolarWin_1,60,36.0,Total End Uses,3257.9
+Balikpapan,South,FullHouse_AC,SolarWin_2,61,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,SolarWin_2,61,36.0,Cooling,509.42
+Balikpapan,South,FullHouse_AC,SolarWin_2,61,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,SolarWin_2,61,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,SolarWin_2,61,36.0,Fans,33.68
+Balikpapan,South,FullHouse_AC,SolarWin_2,61,36.0,Total End Uses,3220.44
+Balikpapan,South,FullHouse_AC,CeilingFan_1,62,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,CeilingFan_1,62,36.0,Cooling,97.37
+Balikpapan,South,FullHouse_AC,CeilingFan_1,62,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,CeilingFan_1,62,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,CeilingFan_1,62,36.0,Fans,6.34
+Balikpapan,South,FullHouse_AC,CeilingFan_1,62,36.0,Total End Uses,2781.05
+Balikpapan,South,FullHouse_AC,CeilingFan_2,63,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,CeilingFan_2,63,36.0,Cooling,17.44
+Balikpapan,South,FullHouse_AC,CeilingFan_2,63,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,CeilingFan_2,63,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,CeilingFan_2,63,36.0,Fans,1.11
+Balikpapan,South,FullHouse_AC,CeilingFan_2,63,36.0,Total End Uses,2695.9
+Balikpapan,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Cooling,623.6
+Balikpapan,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Fans,41.31
+Balikpapan,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Total End Uses,3342.26
+Balikpapan,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Cooling,623.6
+Balikpapan,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Fans,41.31
+Balikpapan,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Total End Uses,3342.26
+Balikpapan,South,FullHouse_AC,Overhang_1,66,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,Overhang_1,66,36.0,Cooling,596.25
+Balikpapan,South,FullHouse_AC,Overhang_1,66,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,Overhang_1,66,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,Overhang_1,66,36.0,Fans,39.49
+Balikpapan,South,FullHouse_AC,Overhang_1,66,36.0,Total End Uses,3313.08
+Balikpapan,South,FullHouse_AC,Shade_1,67,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,Shade_1,67,36.0,Cooling,596.94
+Balikpapan,South,FullHouse_AC,Shade_1,67,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,Shade_1,67,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,Shade_1,67,36.0,Fans,39.49
+Balikpapan,South,FullHouse_AC,Shade_1,67,36.0,Total End Uses,3313.77
+Balikpapan,South,FullHouse_AC,Shade_2,68,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,Shade_2,68,36.0,Cooling,538.06
+Balikpapan,South,FullHouse_AC,Shade_2,68,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,Shade_2,68,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,Shade_2,68,36.0,Fans,35.58
+Balikpapan,South,FullHouse_AC,Shade_2,68,36.0,Total End Uses,3250.99
+Balikpapan,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Cooling,586.94
+Balikpapan,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Fans,38.82
+Balikpapan,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Total End Uses,3303.1
+Balikpapan,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Cooling,586.87
+Balikpapan,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Fans,38.82
+Balikpapan,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Total End Uses,3303.03
+Balikpapan,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Cooling,606.76
+Balikpapan,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Fans,40.17
+Balikpapan,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Total End Uses,3324.27
+Balikpapan,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Heating,0.0
+Balikpapan,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Cooling,606.75
+Balikpapan,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Interior Lighting,501.28
+Balikpapan,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Interior Equipment,2176.06
+Balikpapan,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Fans,40.17
+Balikpapan,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Total End Uses,3324.27
+Balikpapan,West,Bedroom_AC_Only,Baseline,73,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,Baseline,73,28.76,Cooling,582.26
+Balikpapan,West,Bedroom_AC_Only,Baseline,73,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,Baseline,73,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,Baseline,73,28.76,Fans,38.66
+Balikpapan,West,Bedroom_AC_Only,Baseline,73,28.76,Total End Uses,3298.26
+Balikpapan,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Cooling,548.32
+Balikpapan,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Fans,36.39
+Balikpapan,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Total End Uses,3262.04
+Balikpapan,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Cooling,504.73
+Balikpapan,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Fans,33.46
+Balikpapan,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Total End Uses,3215.53
+Balikpapan,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Cooling,517.14
+Balikpapan,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Fans,34.32
+Balikpapan,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Total End Uses,3228.81
+Balikpapan,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Cooling,440.48
+Balikpapan,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Fans,29.19
+Balikpapan,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Total End Uses,3147.01
+Balikpapan,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Cooling,496.34
+Balikpapan,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Fans,32.91
+Balikpapan,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Total End Uses,3206.59
+Balikpapan,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Cooling,473.67
+Balikpapan,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Fans,31.39
+Balikpapan,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Total End Uses,3182.4
+Balikpapan,West,Bedroom_AC_Only,InsWall_1,80,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,InsWall_1,80,28.76,Cooling,522.61
+Balikpapan,West,Bedroom_AC_Only,InsWall_1,80,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,InsWall_1,80,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,InsWall_1,80,28.76,Fans,34.67
+Balikpapan,West,Bedroom_AC_Only,InsWall_1,80,28.76,Total End Uses,3234.63
+Balikpapan,West,Bedroom_AC_Only,InsWall_2,81,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,InsWall_2,81,28.76,Cooling,522.61
+Balikpapan,West,Bedroom_AC_Only,InsWall_2,81,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,InsWall_2,81,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,InsWall_2,81,28.76,Fans,34.67
+Balikpapan,West,Bedroom_AC_Only,InsWall_2,81,28.76,Total End Uses,3234.63
+Balikpapan,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Cooling,506.24
+Balikpapan,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Fans,33.59
+Balikpapan,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Total End Uses,3217.18
+Balikpapan,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Cooling,497.68
+Balikpapan,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Fans,33.02
+Balikpapan,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Total End Uses,3208.04
+Balikpapan,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Cooling,500.84
+Balikpapan,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Fans,33.22
+Balikpapan,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Total End Uses,3211.41
+Balikpapan,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Cooling,464.85
+Balikpapan,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Fans,30.82
+Balikpapan,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Total End Uses,3173.01
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Cooling,147.29
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Fans,9.58
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Total End Uses,2834.22
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Cooling,51.74
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Fans,3.31
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Total End Uses,2732.39
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Cooling,582.26
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Fans,38.66
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Total End Uses,3298.26
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Cooling,582.26
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Fans,38.66
+Balikpapan,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Total End Uses,3298.26
+Balikpapan,West,Bedroom_AC_Only,Overhang_1,90,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,Overhang_1,90,28.76,Cooling,553.97
+Balikpapan,West,Bedroom_AC_Only,Overhang_1,90,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,Overhang_1,90,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,Overhang_1,90,28.76,Fans,36.78
+Balikpapan,West,Bedroom_AC_Only,Overhang_1,90,28.76,Total End Uses,3268.09
+Balikpapan,West,Bedroom_AC_Only,Shade_1,91,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,Shade_1,91,28.76,Cooling,582.96
+Balikpapan,West,Bedroom_AC_Only,Shade_1,91,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,Shade_1,91,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,Shade_1,91,28.76,Fans,38.58
+Balikpapan,West,Bedroom_AC_Only,Shade_1,91,28.76,Total End Uses,3298.89
+Balikpapan,West,Bedroom_AC_Only,Shade_2,92,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,Shade_2,92,28.76,Cooling,499.3
+Balikpapan,West,Bedroom_AC_Only,Shade_2,92,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,Shade_2,92,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,Shade_2,92,28.76,Fans,33.09
+Balikpapan,West,Bedroom_AC_Only,Shade_2,92,28.76,Total End Uses,3209.73
+Balikpapan,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Cooling,539.98
+Balikpapan,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Fans,35.78
+Balikpapan,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Total End Uses,3253.1
+Balikpapan,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Cooling,539.87
+Balikpapan,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Fans,35.77
+Balikpapan,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Total End Uses,3252.98
+Balikpapan,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Cooling,559.05
+Balikpapan,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Fans,37.08
+Balikpapan,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Total End Uses,3273.48
+Balikpapan,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Heating,0.0
+Balikpapan,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Cooling,559.05
+Balikpapan,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Interior Lighting,501.28
+Balikpapan,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Interior Equipment,2176.06
+Balikpapan,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Fans,37.08
+Balikpapan,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Total End Uses,3273.47
+Balikpapan,West,No_AC,Baseline,97,28.76,Heating,0.0
+Balikpapan,West,No_AC,Baseline,97,28.76,Cooling,0.0
+Balikpapan,West,No_AC,Baseline,97,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,Baseline,97,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,Baseline,97,28.76,Fans,0.0
+Balikpapan,West,No_AC,Baseline,97,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,CoolRoof_1,98,28.76,Heating,0.0
+Balikpapan,West,No_AC,CoolRoof_1,98,28.76,Cooling,0.0
+Balikpapan,West,No_AC,CoolRoof_1,98,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,CoolRoof_1,98,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,CoolRoof_1,98,28.76,Fans,0.0
+Balikpapan,West,No_AC,CoolRoof_1,98,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,CoolRoof_2,99,28.76,Heating,0.0
+Balikpapan,West,No_AC,CoolRoof_2,99,28.76,Cooling,0.0
+Balikpapan,West,No_AC,CoolRoof_2,99,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,CoolRoof_2,99,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,CoolRoof_2,99,28.76,Fans,0.0
+Balikpapan,West,No_AC,CoolRoof_2,99,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,CoolWall_1,100,28.76,Heating,0.0
+Balikpapan,West,No_AC,CoolWall_1,100,28.76,Cooling,0.0
+Balikpapan,West,No_AC,CoolWall_1,100,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,CoolWall_1,100,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,CoolWall_1,100,28.76,Fans,0.0
+Balikpapan,West,No_AC,CoolWall_1,100,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,CoolWall_2,101,28.76,Heating,0.0
+Balikpapan,West,No_AC,CoolWall_2,101,28.76,Cooling,0.0
+Balikpapan,West,No_AC,CoolWall_2,101,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,CoolWall_2,101,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,CoolWall_2,101,28.76,Fans,0.0
+Balikpapan,West,No_AC,CoolWall_2,101,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,InsRoof_1,102,28.76,Heating,0.0
+Balikpapan,West,No_AC,InsRoof_1,102,28.76,Cooling,0.0
+Balikpapan,West,No_AC,InsRoof_1,102,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,InsRoof_1,102,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,InsRoof_1,102,28.76,Fans,0.0
+Balikpapan,West,No_AC,InsRoof_1,102,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,InsRoof_2,103,28.76,Heating,0.0
+Balikpapan,West,No_AC,InsRoof_2,103,28.76,Cooling,0.0
+Balikpapan,West,No_AC,InsRoof_2,103,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,InsRoof_2,103,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,InsRoof_2,103,28.76,Fans,0.0
+Balikpapan,West,No_AC,InsRoof_2,103,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,InsWall_1,104,28.76,Heating,0.0
+Balikpapan,West,No_AC,InsWall_1,104,28.76,Cooling,0.0
+Balikpapan,West,No_AC,InsWall_1,104,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,InsWall_1,104,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,InsWall_1,104,28.76,Fans,0.0
+Balikpapan,West,No_AC,InsWall_1,104,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,InsWall_2,105,28.76,Heating,0.0
+Balikpapan,West,No_AC,InsWall_2,105,28.76,Cooling,0.0
+Balikpapan,West,No_AC,InsWall_2,105,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,InsWall_2,105,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,InsWall_2,105,28.76,Fans,0.0
+Balikpapan,West,No_AC,InsWall_2,105,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,LowEWin_1,106,28.76,Heating,0.0
+Balikpapan,West,No_AC,LowEWin_1,106,28.76,Cooling,0.0
+Balikpapan,West,No_AC,LowEWin_1,106,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,LowEWin_1,106,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,LowEWin_1,106,28.76,Fans,0.0
+Balikpapan,West,No_AC,LowEWin_1,106,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,LowEWin_2,107,28.76,Heating,0.0
+Balikpapan,West,No_AC,LowEWin_2,107,28.76,Cooling,0.0
+Balikpapan,West,No_AC,LowEWin_2,107,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,LowEWin_2,107,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,LowEWin_2,107,28.76,Fans,0.0
+Balikpapan,West,No_AC,LowEWin_2,107,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,SolarWin_1,108,28.76,Heating,0.0
+Balikpapan,West,No_AC,SolarWin_1,108,28.76,Cooling,0.0
+Balikpapan,West,No_AC,SolarWin_1,108,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,SolarWin_1,108,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,SolarWin_1,108,28.76,Fans,0.0
+Balikpapan,West,No_AC,SolarWin_1,108,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,SolarWin_2,109,28.76,Heating,0.0
+Balikpapan,West,No_AC,SolarWin_2,109,28.76,Cooling,0.0
+Balikpapan,West,No_AC,SolarWin_2,109,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,SolarWin_2,109,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,SolarWin_2,109,28.76,Fans,0.0
+Balikpapan,West,No_AC,SolarWin_2,109,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,CeilingFan_1,110,28.76,Heating,0.0
+Balikpapan,West,No_AC,CeilingFan_1,110,28.76,Cooling,0.0
+Balikpapan,West,No_AC,CeilingFan_1,110,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,CeilingFan_1,110,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,CeilingFan_1,110,28.76,Fans,0.0
+Balikpapan,West,No_AC,CeilingFan_1,110,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,CeilingFan_2,111,28.76,Heating,0.0
+Balikpapan,West,No_AC,CeilingFan_2,111,28.76,Cooling,0.0
+Balikpapan,West,No_AC,CeilingFan_2,111,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,CeilingFan_2,111,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,CeilingFan_2,111,28.76,Fans,0.0
+Balikpapan,West,No_AC,CeilingFan_2,111,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Heating,0.0
+Balikpapan,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Cooling,0.0
+Balikpapan,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Fans,0.0
+Balikpapan,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Heating,0.0
+Balikpapan,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Cooling,0.0
+Balikpapan,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Fans,0.0
+Balikpapan,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,Overhang_1,114,28.76,Heating,0.0
+Balikpapan,West,No_AC,Overhang_1,114,28.76,Cooling,0.0
+Balikpapan,West,No_AC,Overhang_1,114,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,Overhang_1,114,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,Overhang_1,114,28.76,Fans,0.0
+Balikpapan,West,No_AC,Overhang_1,114,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,Shade_1,115,28.76,Heating,0.0
+Balikpapan,West,No_AC,Shade_1,115,28.76,Cooling,0.0
+Balikpapan,West,No_AC,Shade_1,115,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,Shade_1,115,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,Shade_1,115,28.76,Fans,0.0
+Balikpapan,West,No_AC,Shade_1,115,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,Shade_2,116,28.76,Heating,0.0
+Balikpapan,West,No_AC,Shade_2,116,28.76,Cooling,0.0
+Balikpapan,West,No_AC,Shade_2,116,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,Shade_2,116,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,Shade_2,116,28.76,Fans,0.0
+Balikpapan,West,No_AC,Shade_2,116,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Heating,0.0
+Balikpapan,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Cooling,0.0
+Balikpapan,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Fans,0.0
+Balikpapan,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Heating,0.0
+Balikpapan,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Cooling,0.0
+Balikpapan,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Fans,0.0
+Balikpapan,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Heating,0.0
+Balikpapan,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Cooling,0.0
+Balikpapan,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Fans,0.0
+Balikpapan,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Total End Uses,2677.34
+Balikpapan,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Heating,0.0
+Balikpapan,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Cooling,0.0
+Balikpapan,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Interior Lighting,501.28
+Balikpapan,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Interior Equipment,2176.06
+Balikpapan,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Fans,0.0
+Balikpapan,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Total End Uses,2677.34
+Balikpapan,West,FullHouse_AC,Baseline,121,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,Baseline,121,36.0,Cooling,822.39
+Balikpapan,West,FullHouse_AC,Baseline,121,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,Baseline,121,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,Baseline,121,36.0,Fans,54.54
+Balikpapan,West,FullHouse_AC,Baseline,121,36.0,Total End Uses,3554.27
+Balikpapan,West,FullHouse_AC,CoolRoof_1,122,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,CoolRoof_1,122,36.0,Cooling,772.27
+Balikpapan,West,FullHouse_AC,CoolRoof_1,122,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,CoolRoof_1,122,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,CoolRoof_1,122,36.0,Fans,51.19
+Balikpapan,West,FullHouse_AC,CoolRoof_1,122,36.0,Total End Uses,3500.8
+Balikpapan,West,FullHouse_AC,CoolRoof_2,123,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,CoolRoof_2,123,36.0,Cooling,708.0
+Balikpapan,West,FullHouse_AC,CoolRoof_2,123,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,CoolRoof_2,123,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,CoolRoof_2,123,36.0,Fans,46.89
+Balikpapan,West,FullHouse_AC,CoolRoof_2,123,36.0,Total End Uses,3432.23
+Balikpapan,West,FullHouse_AC,CoolWall_1,124,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,CoolWall_1,124,36.0,Cooling,730.04
+Balikpapan,West,FullHouse_AC,CoolWall_1,124,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,CoolWall_1,124,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,CoolWall_1,124,36.0,Fans,48.39
+Balikpapan,West,FullHouse_AC,CoolWall_1,124,36.0,Total End Uses,3455.77
+Balikpapan,West,FullHouse_AC,CoolWall_2,125,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,CoolWall_2,125,36.0,Cooling,618.03
+Balikpapan,West,FullHouse_AC,CoolWall_2,125,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,CoolWall_2,125,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,CoolWall_2,125,36.0,Fans,40.9
+Balikpapan,West,FullHouse_AC,CoolWall_2,125,36.0,Total End Uses,3336.27
+Balikpapan,West,FullHouse_AC,InsRoof_1,126,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,InsRoof_1,126,36.0,Cooling,693.83
+Balikpapan,West,FullHouse_AC,InsRoof_1,126,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,InsRoof_1,126,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,InsRoof_1,126,36.0,Fans,45.96
+Balikpapan,West,FullHouse_AC,InsRoof_1,126,36.0,Total End Uses,3417.13
+Balikpapan,West,FullHouse_AC,InsRoof_2,127,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,InsRoof_2,127,36.0,Cooling,660.02
+Balikpapan,West,FullHouse_AC,InsRoof_2,127,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,InsRoof_2,127,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,InsRoof_2,127,36.0,Fans,43.69
+Balikpapan,West,FullHouse_AC,InsRoof_2,127,36.0,Total End Uses,3381.05
+Balikpapan,West,FullHouse_AC,InsWall_1,128,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,InsWall_1,128,36.0,Cooling,733.06
+Balikpapan,West,FullHouse_AC,InsWall_1,128,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,InsWall_1,128,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,InsWall_1,128,36.0,Fans,48.58
+Balikpapan,West,FullHouse_AC,InsWall_1,128,36.0,Total End Uses,3458.98
+Balikpapan,West,FullHouse_AC,InsWall_2,129,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,InsWall_2,129,36.0,Cooling,733.06
+Balikpapan,West,FullHouse_AC,InsWall_2,129,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,InsWall_2,129,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,InsWall_2,129,36.0,Fans,48.58
+Balikpapan,West,FullHouse_AC,InsWall_2,129,36.0,Total End Uses,3458.98
+Balikpapan,West,FullHouse_AC,LowEWin_1,130,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,LowEWin_1,130,36.0,Cooling,714.13
+Balikpapan,West,FullHouse_AC,LowEWin_1,130,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,LowEWin_1,130,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,LowEWin_1,130,36.0,Fans,47.33
+Balikpapan,West,FullHouse_AC,LowEWin_1,130,36.0,Total End Uses,3438.8
+Balikpapan,West,FullHouse_AC,LowEWin_2,131,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,LowEWin_2,131,36.0,Cooling,701.54
+Balikpapan,West,FullHouse_AC,LowEWin_2,131,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,LowEWin_2,131,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,LowEWin_2,131,36.0,Fans,46.49
+Balikpapan,West,FullHouse_AC,LowEWin_2,131,36.0,Total End Uses,3425.37
+Balikpapan,West,FullHouse_AC,SolarWin_1,132,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,SolarWin_1,132,36.0,Cooling,706.17
+Balikpapan,West,FullHouse_AC,SolarWin_1,132,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,SolarWin_1,132,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,SolarWin_1,132,36.0,Fans,46.79
+Balikpapan,West,FullHouse_AC,SolarWin_1,132,36.0,Total End Uses,3430.3
+Balikpapan,West,FullHouse_AC,SolarWin_2,133,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,SolarWin_2,133,36.0,Cooling,653.9
+Balikpapan,West,FullHouse_AC,SolarWin_2,133,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,SolarWin_2,133,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,SolarWin_2,133,36.0,Fans,43.3
+Balikpapan,West,FullHouse_AC,SolarWin_2,133,36.0,Total End Uses,3374.54
+Balikpapan,West,FullHouse_AC,CeilingFan_1,134,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,CeilingFan_1,134,36.0,Cooling,216.59
+Balikpapan,West,FullHouse_AC,CeilingFan_1,134,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,CeilingFan_1,134,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,CeilingFan_1,134,36.0,Fans,14.08
+Balikpapan,West,FullHouse_AC,CeilingFan_1,134,36.0,Total End Uses,2908.02
+Balikpapan,West,FullHouse_AC,CeilingFan_2,135,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,CeilingFan_2,135,36.0,Cooling,78.88
+Balikpapan,West,FullHouse_AC,CeilingFan_2,135,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,CeilingFan_2,135,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,CeilingFan_2,135,36.0,Fans,5.05
+Balikpapan,West,FullHouse_AC,CeilingFan_2,135,36.0,Total End Uses,2761.28
+Balikpapan,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Cooling,822.39
+Balikpapan,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Fans,54.54
+Balikpapan,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Total End Uses,3554.27
+Balikpapan,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Cooling,822.39
+Balikpapan,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Fans,54.54
+Balikpapan,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Total End Uses,3554.27
+Balikpapan,West,FullHouse_AC,Overhang_1,138,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,Overhang_1,138,36.0,Cooling,782.85
+Balikpapan,West,FullHouse_AC,Overhang_1,138,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,Overhang_1,138,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,Overhang_1,138,36.0,Fans,51.91
+Balikpapan,West,FullHouse_AC,Overhang_1,138,36.0,Total End Uses,3512.11
+Balikpapan,West,FullHouse_AC,Shade_1,139,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,Shade_1,139,36.0,Cooling,824.51
+Balikpapan,West,FullHouse_AC,Shade_1,139,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,Shade_1,139,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,Shade_1,139,36.0,Fans,54.51
+Balikpapan,West,FullHouse_AC,Shade_1,139,36.0,Total End Uses,3556.36
+Balikpapan,West,FullHouse_AC,Shade_2,140,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,Shade_2,140,36.0,Cooling,708.84
+Balikpapan,West,FullHouse_AC,Shade_2,140,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,Shade_2,140,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,Shade_2,140,36.0,Fans,46.92
+Balikpapan,West,FullHouse_AC,Shade_2,140,36.0,Total End Uses,3433.11
+Balikpapan,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Cooling,770.25
+Balikpapan,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Fans,50.98
+Balikpapan,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Total End Uses,3498.57
+Balikpapan,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Cooling,770.11
+Balikpapan,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Fans,50.98
+Balikpapan,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Total End Uses,3498.42
+Balikpapan,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Cooling,797.33
+Balikpapan,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Fans,52.84
+Balikpapan,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Total End Uses,3527.5
+Balikpapan,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Heating,0.0
+Balikpapan,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Cooling,797.32
+Balikpapan,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Interior Lighting,501.28
+Balikpapan,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Interior Equipment,2176.06
+Balikpapan,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Fans,52.84
+Balikpapan,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Total End Uses,3527.49

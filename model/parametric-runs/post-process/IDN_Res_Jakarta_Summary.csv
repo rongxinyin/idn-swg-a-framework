@@ -1,0 +1,865 @@
+location,orientation,ac_scenario,case_name,case_id,floor_area,end_use,Electricity [kWh]
+Jakarta,South,Bedroom_AC_Only,Baseline,1,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,Baseline,1,28.76,Cooling,461.04
+Jakarta,South,Bedroom_AC_Only,Baseline,1,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,Baseline,1,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,Baseline,1,28.76,Fans,30.99
+Jakarta,South,Bedroom_AC_Only,Baseline,1,28.76,Total End Uses,3169.38
+Jakarta,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Cooling,422.17
+Jakarta,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Fans,28.36
+Jakarta,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Total End Uses,3127.87
+Jakarta,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Cooling,371.96
+Jakarta,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Fans,24.97
+Jakarta,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Total End Uses,3074.27
+Jakarta,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Cooling,400.14
+Jakarta,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Fans,26.93
+Jakarta,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Total End Uses,3104.41
+Jakarta,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Cooling,334.49
+Jakarta,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Fans,22.49
+Jakarta,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Total End Uses,3034.32
+Jakarta,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Cooling,359.99
+Jakarta,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Fans,24.18
+Jakarta,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Total End Uses,3061.51
+Jakarta,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Cooling,333.46
+Jakarta,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Fans,22.38
+Jakarta,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Total End Uses,3033.18
+Jakarta,South,Bedroom_AC_Only,InsWall_1,8,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,InsWall_1,8,28.76,Cooling,390.73
+Jakarta,South,Bedroom_AC_Only,InsWall_1,8,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,InsWall_1,8,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,InsWall_1,8,28.76,Fans,26.25
+Jakarta,South,Bedroom_AC_Only,InsWall_1,8,28.76,Total End Uses,3094.32
+Jakarta,South,Bedroom_AC_Only,InsWall_2,9,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,InsWall_2,9,28.76,Cooling,390.73
+Jakarta,South,Bedroom_AC_Only,InsWall_2,9,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,InsWall_2,9,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,InsWall_2,9,28.76,Fans,26.25
+Jakarta,South,Bedroom_AC_Only,InsWall_2,9,28.76,Total End Uses,3094.32
+Jakarta,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Cooling,393.37
+Jakarta,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Fans,26.46
+Jakarta,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Total End Uses,3097.17
+Jakarta,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Cooling,386.35
+Jakarta,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Fans,25.99
+Jakarta,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Total End Uses,3089.68
+Jakarta,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Cooling,387.91
+Jakarta,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Fans,26.08
+Jakarta,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Total End Uses,3091.33
+Jakarta,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Cooling,355.0
+Jakarta,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Fans,23.87
+Jakarta,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Total End Uses,3056.21
+Jakarta,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Cooling,99.64
+Jakarta,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Fans,6.51
+Jakarta,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Total End Uses,2783.5
+Jakarta,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Cooling,41.22
+Jakarta,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Fans,2.63
+Jakarta,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Total End Uses,2721.19
+Jakarta,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Cooling,461.04
+Jakarta,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Fans,30.99
+Jakarta,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Total End Uses,3169.38
+Jakarta,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Cooling,461.04
+Jakarta,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Fans,30.99
+Jakarta,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Total End Uses,3169.38
+Jakarta,South,Bedroom_AC_Only,Overhang_1,18,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,Overhang_1,18,28.76,Cooling,429.97
+Jakarta,South,Bedroom_AC_Only,Overhang_1,18,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,Overhang_1,18,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,Overhang_1,18,28.76,Fans,28.93
+Jakarta,South,Bedroom_AC_Only,Overhang_1,18,28.76,Total End Uses,3136.24
+Jakarta,South,Bedroom_AC_Only,Shade_1,19,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,Shade_1,19,28.76,Cooling,459.69
+Jakarta,South,Bedroom_AC_Only,Shade_1,19,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,Shade_1,19,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,Shade_1,19,28.76,Fans,30.76
+Jakarta,South,Bedroom_AC_Only,Shade_1,19,28.76,Total End Uses,3167.79
+Jakarta,South,Bedroom_AC_Only,Shade_2,20,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,Shade_2,20,28.76,Cooling,386.92
+Jakarta,South,Bedroom_AC_Only,Shade_2,20,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,Shade_2,20,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,Shade_2,20,28.76,Fans,25.97
+Jakarta,South,Bedroom_AC_Only,Shade_2,20,28.76,Total End Uses,3090.24
+Jakarta,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Cooling,367.29
+Jakarta,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Fans,24.57
+Jakarta,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Total End Uses,3069.2
+Jakarta,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Cooling,367.09
+Jakarta,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Fans,24.55
+Jakarta,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Total End Uses,3068.98
+Jakarta,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Cooling,404.79
+Jakarta,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Fans,27.14
+Jakarta,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Total End Uses,3109.27
+Jakarta,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Heating,0.0
+Jakarta,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Cooling,404.69
+Jakarta,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Interior Lighting,501.28
+Jakarta,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Interior Equipment,2176.06
+Jakarta,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Fans,27.13
+Jakarta,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Total End Uses,3109.17
+Jakarta,South,No_AC,Baseline,25,28.76,Heating,0.0
+Jakarta,South,No_AC,Baseline,25,28.76,Cooling,0.0
+Jakarta,South,No_AC,Baseline,25,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,Baseline,25,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,Baseline,25,28.76,Fans,0.0
+Jakarta,South,No_AC,Baseline,25,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,CoolRoof_1,26,28.76,Heating,0.0
+Jakarta,South,No_AC,CoolRoof_1,26,28.76,Cooling,0.0
+Jakarta,South,No_AC,CoolRoof_1,26,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,CoolRoof_1,26,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,CoolRoof_1,26,28.76,Fans,0.0
+Jakarta,South,No_AC,CoolRoof_1,26,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,CoolRoof_2,27,28.76,Heating,0.0
+Jakarta,South,No_AC,CoolRoof_2,27,28.76,Cooling,0.0
+Jakarta,South,No_AC,CoolRoof_2,27,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,CoolRoof_2,27,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,CoolRoof_2,27,28.76,Fans,0.0
+Jakarta,South,No_AC,CoolRoof_2,27,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,CoolWall_1,28,28.76,Heating,0.0
+Jakarta,South,No_AC,CoolWall_1,28,28.76,Cooling,0.0
+Jakarta,South,No_AC,CoolWall_1,28,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,CoolWall_1,28,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,CoolWall_1,28,28.76,Fans,0.0
+Jakarta,South,No_AC,CoolWall_1,28,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,CoolWall_2,29,28.76,Heating,0.0
+Jakarta,South,No_AC,CoolWall_2,29,28.76,Cooling,0.0
+Jakarta,South,No_AC,CoolWall_2,29,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,CoolWall_2,29,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,CoolWall_2,29,28.76,Fans,0.0
+Jakarta,South,No_AC,CoolWall_2,29,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,InsRoof_1,30,28.76,Heating,0.0
+Jakarta,South,No_AC,InsRoof_1,30,28.76,Cooling,0.0
+Jakarta,South,No_AC,InsRoof_1,30,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,InsRoof_1,30,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,InsRoof_1,30,28.76,Fans,0.0
+Jakarta,South,No_AC,InsRoof_1,30,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,InsRoof_2,31,28.76,Heating,0.0
+Jakarta,South,No_AC,InsRoof_2,31,28.76,Cooling,0.0
+Jakarta,South,No_AC,InsRoof_2,31,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,InsRoof_2,31,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,InsRoof_2,31,28.76,Fans,0.0
+Jakarta,South,No_AC,InsRoof_2,31,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,InsWall_1,32,28.76,Heating,0.0
+Jakarta,South,No_AC,InsWall_1,32,28.76,Cooling,0.0
+Jakarta,South,No_AC,InsWall_1,32,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,InsWall_1,32,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,InsWall_1,32,28.76,Fans,0.0
+Jakarta,South,No_AC,InsWall_1,32,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,InsWall_2,33,28.76,Heating,0.0
+Jakarta,South,No_AC,InsWall_2,33,28.76,Cooling,0.0
+Jakarta,South,No_AC,InsWall_2,33,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,InsWall_2,33,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,InsWall_2,33,28.76,Fans,0.0
+Jakarta,South,No_AC,InsWall_2,33,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,LowEWin_1,34,28.76,Heating,0.0
+Jakarta,South,No_AC,LowEWin_1,34,28.76,Cooling,0.0
+Jakarta,South,No_AC,LowEWin_1,34,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,LowEWin_1,34,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,LowEWin_1,34,28.76,Fans,0.0
+Jakarta,South,No_AC,LowEWin_1,34,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,LowEWin_2,35,28.76,Heating,0.0
+Jakarta,South,No_AC,LowEWin_2,35,28.76,Cooling,0.0
+Jakarta,South,No_AC,LowEWin_2,35,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,LowEWin_2,35,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,LowEWin_2,35,28.76,Fans,0.0
+Jakarta,South,No_AC,LowEWin_2,35,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,SolarWin_1,36,28.76,Heating,0.0
+Jakarta,South,No_AC,SolarWin_1,36,28.76,Cooling,0.0
+Jakarta,South,No_AC,SolarWin_1,36,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,SolarWin_1,36,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,SolarWin_1,36,28.76,Fans,0.0
+Jakarta,South,No_AC,SolarWin_1,36,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,SolarWin_2,37,28.76,Heating,0.0
+Jakarta,South,No_AC,SolarWin_2,37,28.76,Cooling,0.0
+Jakarta,South,No_AC,SolarWin_2,37,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,SolarWin_2,37,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,SolarWin_2,37,28.76,Fans,0.0
+Jakarta,South,No_AC,SolarWin_2,37,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,CeilingFan_1,38,28.76,Heating,0.0
+Jakarta,South,No_AC,CeilingFan_1,38,28.76,Cooling,0.0
+Jakarta,South,No_AC,CeilingFan_1,38,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,CeilingFan_1,38,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,CeilingFan_1,38,28.76,Fans,0.0
+Jakarta,South,No_AC,CeilingFan_1,38,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,CeilingFan_2,39,28.76,Heating,0.0
+Jakarta,South,No_AC,CeilingFan_2,39,28.76,Cooling,0.0
+Jakarta,South,No_AC,CeilingFan_2,39,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,CeilingFan_2,39,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,CeilingFan_2,39,28.76,Fans,0.0
+Jakarta,South,No_AC,CeilingFan_2,39,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Heating,0.0
+Jakarta,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Cooling,0.0
+Jakarta,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Fans,0.0
+Jakarta,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Heating,0.0
+Jakarta,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Cooling,0.0
+Jakarta,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Fans,0.0
+Jakarta,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,Overhang_1,42,28.76,Heating,0.0
+Jakarta,South,No_AC,Overhang_1,42,28.76,Cooling,0.0
+Jakarta,South,No_AC,Overhang_1,42,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,Overhang_1,42,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,Overhang_1,42,28.76,Fans,0.0
+Jakarta,South,No_AC,Overhang_1,42,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,Shade_1,43,28.76,Heating,0.0
+Jakarta,South,No_AC,Shade_1,43,28.76,Cooling,0.0
+Jakarta,South,No_AC,Shade_1,43,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,Shade_1,43,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,Shade_1,43,28.76,Fans,0.0
+Jakarta,South,No_AC,Shade_1,43,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,Shade_2,44,28.76,Heating,0.0
+Jakarta,South,No_AC,Shade_2,44,28.76,Cooling,0.0
+Jakarta,South,No_AC,Shade_2,44,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,Shade_2,44,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,Shade_2,44,28.76,Fans,0.0
+Jakarta,South,No_AC,Shade_2,44,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Heating,0.0
+Jakarta,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Cooling,0.0
+Jakarta,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Fans,0.0
+Jakarta,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Heating,0.0
+Jakarta,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Cooling,0.0
+Jakarta,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Fans,0.0
+Jakarta,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Heating,0.0
+Jakarta,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Cooling,0.0
+Jakarta,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Fans,0.0
+Jakarta,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Total End Uses,2677.34
+Jakarta,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Heating,0.0
+Jakarta,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Cooling,0.0
+Jakarta,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Interior Lighting,501.28
+Jakarta,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Interior Equipment,2176.06
+Jakarta,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Fans,0.0
+Jakarta,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Total End Uses,2677.34
+Jakarta,South,FullHouse_AC,Baseline,49,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,Baseline,49,36.0,Cooling,604.98
+Jakarta,South,FullHouse_AC,Baseline,49,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,Baseline,49,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,Baseline,49,36.0,Fans,40.65
+Jakarta,South,FullHouse_AC,Baseline,49,36.0,Total End Uses,3322.97
+Jakarta,South,FullHouse_AC,CoolRoof_1,50,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,CoolRoof_1,50,36.0,Cooling,553.57
+Jakarta,South,FullHouse_AC,CoolRoof_1,50,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,CoolRoof_1,50,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,CoolRoof_1,50,36.0,Fans,37.17
+Jakarta,South,FullHouse_AC,CoolRoof_1,50,36.0,Total End Uses,3268.09
+Jakarta,South,FullHouse_AC,CoolRoof_2,51,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,CoolRoof_2,51,36.0,Cooling,486.59
+Jakarta,South,FullHouse_AC,CoolRoof_2,51,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,CoolRoof_2,51,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,CoolRoof_2,51,36.0,Fans,32.64
+Jakarta,South,FullHouse_AC,CoolRoof_2,51,36.0,Total End Uses,3196.58
+Jakarta,South,FullHouse_AC,CoolWall_1,52,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,CoolWall_1,52,36.0,Cooling,529.69
+Jakarta,South,FullHouse_AC,CoolWall_1,52,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,CoolWall_1,52,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,CoolWall_1,52,36.0,Fans,35.61
+Jakarta,South,FullHouse_AC,CoolWall_1,52,36.0,Total End Uses,3242.64
+Jakarta,South,FullHouse_AC,CoolWall_2,53,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,CoolWall_2,53,36.0,Cooling,445.22
+Jakarta,South,FullHouse_AC,CoolWall_2,53,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,CoolWall_2,53,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,CoolWall_2,53,36.0,Fans,29.9
+Jakarta,South,FullHouse_AC,CoolWall_2,53,36.0,Total End Uses,3152.46
+Jakarta,South,FullHouse_AC,InsRoof_1,54,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,InsRoof_1,54,36.0,Cooling,469.7
+Jakarta,South,FullHouse_AC,InsRoof_1,54,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,InsRoof_1,54,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,InsRoof_1,54,36.0,Fans,31.52
+Jakarta,South,FullHouse_AC,InsRoof_1,54,36.0,Total End Uses,3178.56
+Jakarta,South,FullHouse_AC,InsRoof_2,55,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,InsRoof_2,55,36.0,Cooling,434.18
+Jakarta,South,FullHouse_AC,InsRoof_2,55,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,InsRoof_2,55,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,InsRoof_2,55,36.0,Fans,29.11
+Jakarta,South,FullHouse_AC,InsRoof_2,55,36.0,Total End Uses,3140.63
+Jakarta,South,FullHouse_AC,InsWall_1,56,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,InsWall_1,56,36.0,Cooling,510.82
+Jakarta,South,FullHouse_AC,InsWall_1,56,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,InsWall_1,56,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,InsWall_1,56,36.0,Fans,34.29
+Jakarta,South,FullHouse_AC,InsWall_1,56,36.0,Total End Uses,3222.45
+Jakarta,South,FullHouse_AC,InsWall_2,57,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,InsWall_2,57,36.0,Cooling,510.82
+Jakarta,South,FullHouse_AC,InsWall_2,57,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,InsWall_2,57,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,InsWall_2,57,36.0,Fans,34.29
+Jakarta,South,FullHouse_AC,InsWall_2,57,36.0,Total End Uses,3222.45
+Jakarta,South,FullHouse_AC,LowEWin_1,58,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,LowEWin_1,58,36.0,Cooling,519.92
+Jakarta,South,FullHouse_AC,LowEWin_1,58,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,LowEWin_1,58,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,LowEWin_1,58,36.0,Fans,34.94
+Jakarta,South,FullHouse_AC,LowEWin_1,58,36.0,Total End Uses,3232.2
+Jakarta,South,FullHouse_AC,LowEWin_2,59,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,LowEWin_2,59,36.0,Cooling,510.89
+Jakarta,South,FullHouse_AC,LowEWin_2,59,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,LowEWin_2,59,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,LowEWin_2,59,36.0,Fans,34.34
+Jakarta,South,FullHouse_AC,LowEWin_2,59,36.0,Total End Uses,3222.57
+Jakarta,South,FullHouse_AC,SolarWin_1,60,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,SolarWin_1,60,36.0,Cooling,512.64
+Jakarta,South,FullHouse_AC,SolarWin_1,60,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,SolarWin_1,60,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,SolarWin_1,60,36.0,Fans,34.44
+Jakarta,South,FullHouse_AC,SolarWin_1,60,36.0,Total End Uses,3224.42
+Jakarta,South,FullHouse_AC,SolarWin_2,61,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,SolarWin_2,61,36.0,Cooling,470.58
+Jakarta,South,FullHouse_AC,SolarWin_2,61,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,SolarWin_2,61,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,SolarWin_2,61,36.0,Fans,31.61
+Jakarta,South,FullHouse_AC,SolarWin_2,61,36.0,Total End Uses,3179.53
+Jakarta,South,FullHouse_AC,CeilingFan_1,62,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,CeilingFan_1,62,36.0,Cooling,123.56
+Jakarta,South,FullHouse_AC,CeilingFan_1,62,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,CeilingFan_1,62,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,CeilingFan_1,62,36.0,Fans,8.09
+Jakarta,South,FullHouse_AC,CeilingFan_1,62,36.0,Total End Uses,2808.99
+Jakarta,South,FullHouse_AC,CeilingFan_2,63,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,CeilingFan_2,63,36.0,Cooling,45.72
+Jakarta,South,FullHouse_AC,CeilingFan_2,63,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,CeilingFan_2,63,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,CeilingFan_2,63,36.0,Fans,2.91
+Jakarta,South,FullHouse_AC,CeilingFan_2,63,36.0,Total End Uses,2725.98
+Jakarta,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Cooling,604.98
+Jakarta,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Fans,40.65
+Jakarta,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Total End Uses,3322.97
+Jakarta,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Cooling,604.98
+Jakarta,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Fans,40.65
+Jakarta,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Total End Uses,3322.97
+Jakarta,South,FullHouse_AC,Overhang_1,66,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,Overhang_1,66,36.0,Cooling,567.7
+Jakarta,South,FullHouse_AC,Overhang_1,66,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,Overhang_1,66,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,Overhang_1,66,36.0,Fans,38.17
+Jakarta,South,FullHouse_AC,Overhang_1,66,36.0,Total End Uses,3283.21
+Jakarta,South,FullHouse_AC,Shade_1,67,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,Shade_1,67,36.0,Cooling,598.91
+Jakarta,South,FullHouse_AC,Shade_1,67,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,Shade_1,67,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,Shade_1,67,36.0,Fans,40.08
+Jakarta,South,FullHouse_AC,Shade_1,67,36.0,Total End Uses,3316.33
+Jakarta,South,FullHouse_AC,Shade_2,68,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,Shade_2,68,36.0,Cooling,512.07
+Jakarta,South,FullHouse_AC,Shade_2,68,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,Shade_2,68,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,Shade_2,68,36.0,Fans,34.36
+Jakarta,South,FullHouse_AC,Shade_2,68,36.0,Total End Uses,3223.77
+Jakarta,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Cooling,494.39
+Jakarta,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Fans,33.08
+Jakarta,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Total End Uses,3204.81
+Jakarta,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Cooling,494.13
+Jakarta,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Fans,33.06
+Jakarta,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Total End Uses,3204.54
+Jakarta,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Cooling,544.94
+Jakarta,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Fans,36.55
+Jakarta,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Total End Uses,3258.83
+Jakarta,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Heating,0.0
+Jakarta,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Cooling,544.82
+Jakarta,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Interior Lighting,501.28
+Jakarta,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Interior Equipment,2176.06
+Jakarta,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Fans,36.54
+Jakarta,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Total End Uses,3258.7
+Jakarta,West,Bedroom_AC_Only,Baseline,73,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,Baseline,73,28.76,Cooling,646.25
+Jakarta,West,Bedroom_AC_Only,Baseline,73,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,Baseline,73,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,Baseline,73,28.76,Fans,43.44
+Jakarta,West,Bedroom_AC_Only,Baseline,73,28.76,Total End Uses,3367.04
+Jakarta,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Cooling,600.22
+Jakarta,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Fans,40.34
+Jakarta,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Total End Uses,3317.91
+Jakarta,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Cooling,540.91
+Jakarta,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Fans,36.35
+Jakarta,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Total End Uses,3254.6
+Jakarta,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Cooling,549.23
+Jakarta,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Fans,36.99
+Jakarta,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Total End Uses,3263.57
+Jakarta,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Cooling,441.95
+Jakarta,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Fans,29.79
+Jakarta,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Total End Uses,3149.08
+Jakarta,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Cooling,532.19
+Jakarta,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Fans,35.79
+Jakarta,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Total End Uses,3245.32
+Jakarta,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Cooling,504.55
+Jakarta,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Fans,33.9
+Jakarta,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Total End Uses,3215.8
+Jakarta,West,Bedroom_AC_Only,InsWall_1,80,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,InsWall_1,80,28.76,Cooling,565.93
+Jakarta,West,Bedroom_AC_Only,InsWall_1,80,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,InsWall_1,80,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,InsWall_1,80,28.76,Fans,38.06
+Jakarta,West,Bedroom_AC_Only,InsWall_1,80,28.76,Total End Uses,3281.33
+Jakarta,West,Bedroom_AC_Only,InsWall_2,81,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,InsWall_2,81,28.76,Cooling,565.93
+Jakarta,West,Bedroom_AC_Only,InsWall_2,81,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,InsWall_2,81,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,InsWall_2,81,28.76,Fans,38.06
+Jakarta,West,Bedroom_AC_Only,InsWall_2,81,28.76,Total End Uses,3281.33
+Jakarta,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Cooling,544.52
+Jakarta,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Fans,36.67
+Jakarta,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Total End Uses,3258.54
+Jakarta,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Cooling,534.12
+Jakarta,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Fans,35.98
+Jakarta,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Total End Uses,3247.44
+Jakarta,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Cooling,538.65
+Jakarta,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Fans,36.25
+Jakarta,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Total End Uses,3252.25
+Jakarta,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Cooling,486.12
+Jakarta,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Fans,32.75
+Jakarta,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Total End Uses,3196.21
+Jakarta,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Cooling,242.69
+Jakarta,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Fans,15.86
+Jakarta,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Total End Uses,2935.88
+Jakarta,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Cooling,138.14
+Jakarta,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Fans,8.87
+Jakarta,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Total End Uses,2824.35
+Jakarta,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Cooling,646.25
+Jakarta,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Fans,43.44
+Jakarta,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Total End Uses,3367.04
+Jakarta,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Cooling,646.25
+Jakarta,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Fans,43.44
+Jakarta,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Total End Uses,3367.04
+Jakarta,West,Bedroom_AC_Only,Overhang_1,90,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,Overhang_1,90,28.76,Cooling,604.84
+Jakarta,West,Bedroom_AC_Only,Overhang_1,90,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,Overhang_1,90,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,Overhang_1,90,28.76,Fans,40.71
+Jakarta,West,Bedroom_AC_Only,Overhang_1,90,28.76,Total End Uses,3322.89
+Jakarta,West,Bedroom_AC_Only,Shade_1,91,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,Shade_1,91,28.76,Cooling,691.48
+Jakarta,West,Bedroom_AC_Only,Shade_1,91,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,Shade_1,91,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,Shade_1,91,28.76,Fans,46.13
+Jakarta,West,Bedroom_AC_Only,Shade_1,91,28.76,Total End Uses,3414.95
+Jakarta,West,Bedroom_AC_Only,Shade_2,92,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,Shade_2,92,28.76,Cooling,553.8
+Jakarta,West,Bedroom_AC_Only,Shade_2,92,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,Shade_2,92,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,Shade_2,92,28.76,Fans,37.16
+Jakarta,West,Bedroom_AC_Only,Shade_2,92,28.76,Total End Uses,3268.31
+Jakarta,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Cooling,515.56
+Jakarta,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Fans,34.44
+Jakarta,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Total End Uses,3227.34
+Jakarta,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Cooling,515.07
+Jakarta,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Fans,34.4
+Jakarta,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Total End Uses,3226.82
+Jakarta,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Cooling,564.75
+Jakarta,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Fans,37.83
+Jakarta,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Total End Uses,3279.92
+Jakarta,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Heating,0.0
+Jakarta,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Cooling,564.48
+Jakarta,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Interior Lighting,501.28
+Jakarta,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Interior Equipment,2176.06
+Jakarta,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Fans,37.81
+Jakarta,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Total End Uses,3279.63
+Jakarta,West,No_AC,Baseline,97,28.76,Heating,0.0
+Jakarta,West,No_AC,Baseline,97,28.76,Cooling,0.0
+Jakarta,West,No_AC,Baseline,97,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,Baseline,97,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,Baseline,97,28.76,Fans,0.0
+Jakarta,West,No_AC,Baseline,97,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,CoolRoof_1,98,28.76,Heating,0.0
+Jakarta,West,No_AC,CoolRoof_1,98,28.76,Cooling,0.0
+Jakarta,West,No_AC,CoolRoof_1,98,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,CoolRoof_1,98,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,CoolRoof_1,98,28.76,Fans,0.0
+Jakarta,West,No_AC,CoolRoof_1,98,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,CoolRoof_2,99,28.76,Heating,0.0
+Jakarta,West,No_AC,CoolRoof_2,99,28.76,Cooling,0.0
+Jakarta,West,No_AC,CoolRoof_2,99,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,CoolRoof_2,99,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,CoolRoof_2,99,28.76,Fans,0.0
+Jakarta,West,No_AC,CoolRoof_2,99,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,CoolWall_1,100,28.76,Heating,0.0
+Jakarta,West,No_AC,CoolWall_1,100,28.76,Cooling,0.0
+Jakarta,West,No_AC,CoolWall_1,100,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,CoolWall_1,100,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,CoolWall_1,100,28.76,Fans,0.0
+Jakarta,West,No_AC,CoolWall_1,100,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,CoolWall_2,101,28.76,Heating,0.0
+Jakarta,West,No_AC,CoolWall_2,101,28.76,Cooling,0.0
+Jakarta,West,No_AC,CoolWall_2,101,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,CoolWall_2,101,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,CoolWall_2,101,28.76,Fans,0.0
+Jakarta,West,No_AC,CoolWall_2,101,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,InsRoof_1,102,28.76,Heating,0.0
+Jakarta,West,No_AC,InsRoof_1,102,28.76,Cooling,0.0
+Jakarta,West,No_AC,InsRoof_1,102,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,InsRoof_1,102,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,InsRoof_1,102,28.76,Fans,0.0
+Jakarta,West,No_AC,InsRoof_1,102,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,InsRoof_2,103,28.76,Heating,0.0
+Jakarta,West,No_AC,InsRoof_2,103,28.76,Cooling,0.0
+Jakarta,West,No_AC,InsRoof_2,103,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,InsRoof_2,103,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,InsRoof_2,103,28.76,Fans,0.0
+Jakarta,West,No_AC,InsRoof_2,103,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,InsWall_1,104,28.76,Heating,0.0
+Jakarta,West,No_AC,InsWall_1,104,28.76,Cooling,0.0
+Jakarta,West,No_AC,InsWall_1,104,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,InsWall_1,104,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,InsWall_1,104,28.76,Fans,0.0
+Jakarta,West,No_AC,InsWall_1,104,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,InsWall_2,105,28.76,Heating,0.0
+Jakarta,West,No_AC,InsWall_2,105,28.76,Cooling,0.0
+Jakarta,West,No_AC,InsWall_2,105,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,InsWall_2,105,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,InsWall_2,105,28.76,Fans,0.0
+Jakarta,West,No_AC,InsWall_2,105,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,LowEWin_1,106,28.76,Heating,0.0
+Jakarta,West,No_AC,LowEWin_1,106,28.76,Cooling,0.0
+Jakarta,West,No_AC,LowEWin_1,106,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,LowEWin_1,106,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,LowEWin_1,106,28.76,Fans,0.0
+Jakarta,West,No_AC,LowEWin_1,106,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,LowEWin_2,107,28.76,Heating,0.0
+Jakarta,West,No_AC,LowEWin_2,107,28.76,Cooling,0.0
+Jakarta,West,No_AC,LowEWin_2,107,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,LowEWin_2,107,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,LowEWin_2,107,28.76,Fans,0.0
+Jakarta,West,No_AC,LowEWin_2,107,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,SolarWin_1,108,28.76,Heating,0.0
+Jakarta,West,No_AC,SolarWin_1,108,28.76,Cooling,0.0
+Jakarta,West,No_AC,SolarWin_1,108,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,SolarWin_1,108,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,SolarWin_1,108,28.76,Fans,0.0
+Jakarta,West,No_AC,SolarWin_1,108,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,SolarWin_2,109,28.76,Heating,0.0
+Jakarta,West,No_AC,SolarWin_2,109,28.76,Cooling,0.0
+Jakarta,West,No_AC,SolarWin_2,109,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,SolarWin_2,109,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,SolarWin_2,109,28.76,Fans,0.0
+Jakarta,West,No_AC,SolarWin_2,109,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,CeilingFan_1,110,28.76,Heating,0.0
+Jakarta,West,No_AC,CeilingFan_1,110,28.76,Cooling,0.0
+Jakarta,West,No_AC,CeilingFan_1,110,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,CeilingFan_1,110,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,CeilingFan_1,110,28.76,Fans,0.0
+Jakarta,West,No_AC,CeilingFan_1,110,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,CeilingFan_2,111,28.76,Heating,0.0
+Jakarta,West,No_AC,CeilingFan_2,111,28.76,Cooling,0.0
+Jakarta,West,No_AC,CeilingFan_2,111,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,CeilingFan_2,111,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,CeilingFan_2,111,28.76,Fans,0.0
+Jakarta,West,No_AC,CeilingFan_2,111,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Heating,0.0
+Jakarta,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Cooling,0.0
+Jakarta,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Fans,0.0
+Jakarta,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Heating,0.0
+Jakarta,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Cooling,0.0
+Jakarta,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Fans,0.0
+Jakarta,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,Overhang_1,114,28.76,Heating,0.0
+Jakarta,West,No_AC,Overhang_1,114,28.76,Cooling,0.0
+Jakarta,West,No_AC,Overhang_1,114,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,Overhang_1,114,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,Overhang_1,114,28.76,Fans,0.0
+Jakarta,West,No_AC,Overhang_1,114,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,Shade_1,115,28.76,Heating,0.0
+Jakarta,West,No_AC,Shade_1,115,28.76,Cooling,0.0
+Jakarta,West,No_AC,Shade_1,115,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,Shade_1,115,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,Shade_1,115,28.76,Fans,0.0
+Jakarta,West,No_AC,Shade_1,115,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,Shade_2,116,28.76,Heating,0.0
+Jakarta,West,No_AC,Shade_2,116,28.76,Cooling,0.0
+Jakarta,West,No_AC,Shade_2,116,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,Shade_2,116,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,Shade_2,116,28.76,Fans,0.0
+Jakarta,West,No_AC,Shade_2,116,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Heating,0.0
+Jakarta,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Cooling,0.0
+Jakarta,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Fans,0.0
+Jakarta,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Heating,0.0
+Jakarta,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Cooling,0.0
+Jakarta,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Fans,0.0
+Jakarta,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Heating,0.0
+Jakarta,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Cooling,0.0
+Jakarta,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Fans,0.0
+Jakarta,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Total End Uses,2677.34
+Jakarta,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Heating,0.0
+Jakarta,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Cooling,0.0
+Jakarta,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Interior Lighting,501.28
+Jakarta,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Interior Equipment,2176.06
+Jakarta,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Fans,0.0
+Jakarta,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Total End Uses,2677.34
+Jakarta,West,FullHouse_AC,Baseline,121,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,Baseline,121,36.0,Cooling,927.21
+Jakarta,West,FullHouse_AC,Baseline,121,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,Baseline,121,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,Baseline,121,36.0,Fans,62.25
+Jakarta,West,FullHouse_AC,Baseline,121,36.0,Total End Uses,3666.79
+Jakarta,West,FullHouse_AC,CoolRoof_1,122,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,CoolRoof_1,122,36.0,Cooling,859.06
+Jakarta,West,FullHouse_AC,CoolRoof_1,122,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,CoolRoof_1,122,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,CoolRoof_1,122,36.0,Fans,57.67
+Jakarta,West,FullHouse_AC,CoolRoof_1,122,36.0,Total End Uses,3594.07
+Jakarta,West,FullHouse_AC,CoolRoof_2,123,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,CoolRoof_2,123,36.0,Cooling,770.4
+Jakarta,West,FullHouse_AC,CoolRoof_2,123,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,CoolRoof_2,123,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,CoolRoof_2,123,36.0,Fans,51.71
+Jakarta,West,FullHouse_AC,CoolRoof_2,123,36.0,Total End Uses,3499.45
+Jakarta,West,FullHouse_AC,CoolWall_1,124,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,CoolWall_1,124,36.0,Cooling,792.16
+Jakarta,West,FullHouse_AC,CoolWall_1,124,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,CoolWall_1,124,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,CoolWall_1,124,36.0,Fans,53.26
+Jakarta,West,FullHouse_AC,CoolWall_1,124,36.0,Total End Uses,3522.76
+Jakarta,West,FullHouse_AC,CoolWall_2,125,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,CoolWall_2,125,36.0,Cooling,636.82
+Jakarta,West,FullHouse_AC,CoolWall_2,125,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,CoolWall_2,125,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,CoolWall_2,125,36.0,Fans,42.83
+Jakarta,West,FullHouse_AC,CoolWall_2,125,36.0,Total End Uses,3356.99
+Jakarta,West,FullHouse_AC,InsRoof_1,126,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,InsRoof_1,126,36.0,Cooling,754.06
+Jakarta,West,FullHouse_AC,InsRoof_1,126,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,InsRoof_1,126,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,InsRoof_1,126,36.0,Fans,50.66
+Jakarta,West,FullHouse_AC,InsRoof_1,126,36.0,Total End Uses,3482.06
+Jakarta,West,FullHouse_AC,InsRoof_2,127,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,InsRoof_2,127,36.0,Cooling,713.18
+Jakarta,West,FullHouse_AC,InsRoof_2,127,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,InsRoof_2,127,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,InsRoof_2,127,36.0,Fans,47.88
+Jakarta,West,FullHouse_AC,InsRoof_2,127,36.0,Total End Uses,3438.4
+Jakarta,West,FullHouse_AC,InsWall_1,128,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,InsWall_1,128,36.0,Cooling,805.11
+Jakarta,West,FullHouse_AC,InsWall_1,128,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,InsWall_1,128,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,InsWall_1,128,36.0,Fans,54.08
+Jakarta,West,FullHouse_AC,InsWall_1,128,36.0,Total End Uses,3536.53
+Jakarta,West,FullHouse_AC,InsWall_2,129,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,InsWall_2,129,36.0,Cooling,805.11
+Jakarta,West,FullHouse_AC,InsWall_2,129,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,InsWall_2,129,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,InsWall_2,129,36.0,Fans,54.08
+Jakarta,West,FullHouse_AC,InsWall_2,129,36.0,Total End Uses,3536.53
+Jakarta,West,FullHouse_AC,LowEWin_1,130,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,LowEWin_1,130,36.0,Cooling,782.59
+Jakarta,West,FullHouse_AC,LowEWin_1,130,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,LowEWin_1,130,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,LowEWin_1,130,36.0,Fans,52.63
+Jakarta,West,FullHouse_AC,LowEWin_1,130,36.0,Total End Uses,3512.56
+Jakarta,West,FullHouse_AC,LowEWin_2,131,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,LowEWin_2,131,36.0,Cooling,767.49
+Jakarta,West,FullHouse_AC,LowEWin_2,131,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,LowEWin_2,131,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,LowEWin_2,131,36.0,Fans,51.62
+Jakarta,West,FullHouse_AC,LowEWin_2,131,36.0,Total End Uses,3496.45
+Jakarta,West,FullHouse_AC,SolarWin_1,132,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,SolarWin_1,132,36.0,Cooling,774.92
+Jakarta,West,FullHouse_AC,SolarWin_1,132,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,SolarWin_1,132,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,SolarWin_1,132,36.0,Fans,52.07
+Jakarta,West,FullHouse_AC,SolarWin_1,132,36.0,Total End Uses,3504.34
+Jakarta,West,FullHouse_AC,SolarWin_2,133,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,SolarWin_2,133,36.0,Cooling,699.03
+Jakarta,West,FullHouse_AC,SolarWin_2,133,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,SolarWin_2,133,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,SolarWin_2,133,36.0,Fans,47.02
+Jakarta,West,FullHouse_AC,SolarWin_2,133,36.0,Total End Uses,3423.39
+Jakarta,West,FullHouse_AC,CeilingFan_1,134,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,CeilingFan_1,134,36.0,Cooling,368.03
+Jakarta,West,FullHouse_AC,CeilingFan_1,134,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,CeilingFan_1,134,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,CeilingFan_1,134,36.0,Fans,24.03
+Jakarta,West,FullHouse_AC,CeilingFan_1,134,36.0,Total End Uses,3069.4
+Jakarta,West,FullHouse_AC,CeilingFan_2,135,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,CeilingFan_2,135,36.0,Cooling,216.29
+Jakarta,West,FullHouse_AC,CeilingFan_2,135,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,CeilingFan_2,135,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,CeilingFan_2,135,36.0,Fans,13.88
+Jakarta,West,FullHouse_AC,CeilingFan_2,135,36.0,Total End Uses,2907.51
+Jakarta,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Cooling,927.21
+Jakarta,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Fans,62.25
+Jakarta,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Total End Uses,3666.79
+Jakarta,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Cooling,927.21
+Jakarta,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Fans,62.25
+Jakarta,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Total End Uses,3666.79
+Jakarta,West,FullHouse_AC,Overhang_1,138,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,Overhang_1,138,36.0,Cooling,869.84
+Jakarta,West,FullHouse_AC,Overhang_1,138,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,Overhang_1,138,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,Overhang_1,138,36.0,Fans,58.46
+Jakarta,West,FullHouse_AC,Overhang_1,138,36.0,Total End Uses,3605.64
+Jakarta,West,FullHouse_AC,Shade_1,139,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,Shade_1,139,36.0,Cooling,995.6
+Jakarta,West,FullHouse_AC,Shade_1,139,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,Shade_1,139,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,Shade_1,139,36.0,Fans,66.31
+Jakarta,West,FullHouse_AC,Shade_1,139,36.0,Total End Uses,3739.24
+Jakarta,West,FullHouse_AC,Shade_2,140,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,Shade_2,140,36.0,Cooling,804.89
+Jakarta,West,FullHouse_AC,Shade_2,140,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,Shade_2,140,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,Shade_2,140,36.0,Fans,53.91
+Jakarta,West,FullHouse_AC,Shade_2,140,36.0,Total End Uses,3536.14
+Jakarta,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Cooling,760.72
+Jakarta,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Fans,50.76
+Jakarta,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Total End Uses,3488.83
+Jakarta,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Cooling,760.02
+Jakarta,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Fans,50.72
+Jakarta,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Total End Uses,3488.07
+Jakarta,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Cooling,831.18
+Jakarta,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Fans,55.63
+Jakarta,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Total End Uses,3564.16
+Jakarta,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Heating,0.0
+Jakarta,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Cooling,830.86
+Jakarta,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Interior Lighting,501.28
+Jakarta,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Interior Equipment,2176.06
+Jakarta,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Fans,55.61
+Jakarta,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Total End Uses,3563.81

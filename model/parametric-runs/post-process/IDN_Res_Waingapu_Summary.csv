@@ -1,0 +1,865 @@
+location,orientation,ac_scenario,case_name,case_id,floor_area,end_use,Electricity [kWh]
+Waingapu,South,Bedroom_AC_Only,Baseline,1,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,Baseline,1,28.76,Cooling,363.69
+Waingapu,South,Bedroom_AC_Only,Baseline,1,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,Baseline,1,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,Baseline,1,28.76,Fans,24.6
+Waingapu,South,Bedroom_AC_Only,Baseline,1,28.76,Total End Uses,3065.63
+Waingapu,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Cooling,330.56
+Waingapu,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Fans,22.34
+Waingapu,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Total End Uses,3030.24
+Waingapu,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Cooling,288.09
+Waingapu,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Fans,19.44
+Waingapu,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Total End Uses,2984.87
+Waingapu,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Cooling,312.52
+Waingapu,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Fans,21.13
+Waingapu,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Total End Uses,3010.99
+Waingapu,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Cooling,255.41
+Waingapu,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Fans,17.22
+Waingapu,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Total End Uses,2949.98
+Waingapu,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Cooling,284.3
+Waingapu,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Fans,19.19
+Waingapu,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Total End Uses,2980.83
+Waingapu,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Cooling,262.61
+Waingapu,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Fans,17.71
+Waingapu,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Total End Uses,2957.67
+Waingapu,South,Bedroom_AC_Only,InsWall_1,8,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,InsWall_1,8,28.76,Cooling,308.95
+Waingapu,South,Bedroom_AC_Only,InsWall_1,8,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,InsWall_1,8,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,InsWall_1,8,28.76,Fans,20.87
+Waingapu,South,Bedroom_AC_Only,InsWall_1,8,28.76,Total End Uses,3007.16
+Waingapu,South,Bedroom_AC_Only,InsWall_2,9,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,InsWall_2,9,28.76,Cooling,308.95
+Waingapu,South,Bedroom_AC_Only,InsWall_2,9,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,InsWall_2,9,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,InsWall_2,9,28.76,Fans,20.87
+Waingapu,South,Bedroom_AC_Only,InsWall_2,9,28.76,Total End Uses,3007.16
+Waingapu,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Cooling,308.43
+Waingapu,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Fans,20.85
+Waingapu,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Total End Uses,3006.62
+Waingapu,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Cooling,303.29
+Waingapu,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Fans,20.5
+Waingapu,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Total End Uses,3001.13
+Waingapu,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Cooling,302.15
+Waingapu,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Fans,20.41
+Waingapu,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Total End Uses,2999.91
+Waingapu,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Cooling,275.69
+Waingapu,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Fans,18.61
+Waingapu,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Total End Uses,2971.64
+Waingapu,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Cooling,70.57
+Waingapu,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Fans,4.63
+Waingapu,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Total End Uses,2752.55
+Waingapu,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Cooling,23.92
+Waingapu,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Fans,1.53
+Waingapu,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Total End Uses,2702.79
+Waingapu,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Cooling,363.69
+Waingapu,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Fans,24.6
+Waingapu,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Total End Uses,3065.63
+Waingapu,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Cooling,363.69
+Waingapu,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Fans,24.6
+Waingapu,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Total End Uses,3065.63
+Waingapu,South,Bedroom_AC_Only,Overhang_1,18,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,Overhang_1,18,28.76,Cooling,339.81
+Waingapu,South,Bedroom_AC_Only,Overhang_1,18,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,Overhang_1,18,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,Overhang_1,18,28.76,Fans,22.99
+Waingapu,South,Bedroom_AC_Only,Overhang_1,18,28.76,Total End Uses,3040.15
+Waingapu,South,Bedroom_AC_Only,Shade_1,19,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,Shade_1,19,28.76,Cooling,355.91
+Waingapu,South,Bedroom_AC_Only,Shade_1,19,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,Shade_1,19,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,Shade_1,19,28.76,Fans,23.96
+Waingapu,South,Bedroom_AC_Only,Shade_1,19,28.76,Total End Uses,3057.21
+Waingapu,South,Bedroom_AC_Only,Shade_2,20,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,Shade_2,20,28.76,Cooling,297.14
+Waingapu,South,Bedroom_AC_Only,Shade_2,20,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,Shade_2,20,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,Shade_2,20,28.76,Fans,20.05
+Waingapu,South,Bedroom_AC_Only,Shade_2,20,28.76,Total End Uses,2994.53
+Waingapu,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Cooling,242.47
+Waingapu,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Fans,16.21
+Waingapu,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Total End Uses,2936.02
+Waingapu,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Cooling,242.14
+Waingapu,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Fans,16.19
+Waingapu,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Total End Uses,2935.67
+Waingapu,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Cooling,322.55
+Waingapu,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Fans,21.76
+Waingapu,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Total End Uses,3021.65
+Waingapu,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Heating,0.0
+Waingapu,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Cooling,322.12
+Waingapu,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Interior Lighting,501.28
+Waingapu,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Interior Equipment,2176.06
+Waingapu,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Fans,21.73
+Waingapu,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Total End Uses,3021.19
+Waingapu,South,No_AC,Baseline,25,28.76,Heating,0.0
+Waingapu,South,No_AC,Baseline,25,28.76,Cooling,0.0
+Waingapu,South,No_AC,Baseline,25,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,Baseline,25,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,Baseline,25,28.76,Fans,0.0
+Waingapu,South,No_AC,Baseline,25,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,CoolRoof_1,26,28.76,Heating,0.0
+Waingapu,South,No_AC,CoolRoof_1,26,28.76,Cooling,0.0
+Waingapu,South,No_AC,CoolRoof_1,26,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,CoolRoof_1,26,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,CoolRoof_1,26,28.76,Fans,0.0
+Waingapu,South,No_AC,CoolRoof_1,26,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,CoolRoof_2,27,28.76,Heating,0.0
+Waingapu,South,No_AC,CoolRoof_2,27,28.76,Cooling,0.0
+Waingapu,South,No_AC,CoolRoof_2,27,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,CoolRoof_2,27,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,CoolRoof_2,27,28.76,Fans,0.0
+Waingapu,South,No_AC,CoolRoof_2,27,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,CoolWall_1,28,28.76,Heating,0.0
+Waingapu,South,No_AC,CoolWall_1,28,28.76,Cooling,0.0
+Waingapu,South,No_AC,CoolWall_1,28,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,CoolWall_1,28,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,CoolWall_1,28,28.76,Fans,0.0
+Waingapu,South,No_AC,CoolWall_1,28,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,CoolWall_2,29,28.76,Heating,0.0
+Waingapu,South,No_AC,CoolWall_2,29,28.76,Cooling,0.0
+Waingapu,South,No_AC,CoolWall_2,29,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,CoolWall_2,29,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,CoolWall_2,29,28.76,Fans,0.0
+Waingapu,South,No_AC,CoolWall_2,29,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,InsRoof_1,30,28.76,Heating,0.0
+Waingapu,South,No_AC,InsRoof_1,30,28.76,Cooling,0.0
+Waingapu,South,No_AC,InsRoof_1,30,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,InsRoof_1,30,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,InsRoof_1,30,28.76,Fans,0.0
+Waingapu,South,No_AC,InsRoof_1,30,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,InsRoof_2,31,28.76,Heating,0.0
+Waingapu,South,No_AC,InsRoof_2,31,28.76,Cooling,0.0
+Waingapu,South,No_AC,InsRoof_2,31,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,InsRoof_2,31,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,InsRoof_2,31,28.76,Fans,0.0
+Waingapu,South,No_AC,InsRoof_2,31,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,InsWall_1,32,28.76,Heating,0.0
+Waingapu,South,No_AC,InsWall_1,32,28.76,Cooling,0.0
+Waingapu,South,No_AC,InsWall_1,32,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,InsWall_1,32,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,InsWall_1,32,28.76,Fans,0.0
+Waingapu,South,No_AC,InsWall_1,32,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,InsWall_2,33,28.76,Heating,0.0
+Waingapu,South,No_AC,InsWall_2,33,28.76,Cooling,0.0
+Waingapu,South,No_AC,InsWall_2,33,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,InsWall_2,33,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,InsWall_2,33,28.76,Fans,0.0
+Waingapu,South,No_AC,InsWall_2,33,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,LowEWin_1,34,28.76,Heating,0.0
+Waingapu,South,No_AC,LowEWin_1,34,28.76,Cooling,0.0
+Waingapu,South,No_AC,LowEWin_1,34,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,LowEWin_1,34,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,LowEWin_1,34,28.76,Fans,0.0
+Waingapu,South,No_AC,LowEWin_1,34,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,LowEWin_2,35,28.76,Heating,0.0
+Waingapu,South,No_AC,LowEWin_2,35,28.76,Cooling,0.0
+Waingapu,South,No_AC,LowEWin_2,35,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,LowEWin_2,35,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,LowEWin_2,35,28.76,Fans,0.0
+Waingapu,South,No_AC,LowEWin_2,35,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,SolarWin_1,36,28.76,Heating,0.0
+Waingapu,South,No_AC,SolarWin_1,36,28.76,Cooling,0.0
+Waingapu,South,No_AC,SolarWin_1,36,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,SolarWin_1,36,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,SolarWin_1,36,28.76,Fans,0.0
+Waingapu,South,No_AC,SolarWin_1,36,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,SolarWin_2,37,28.76,Heating,0.0
+Waingapu,South,No_AC,SolarWin_2,37,28.76,Cooling,0.0
+Waingapu,South,No_AC,SolarWin_2,37,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,SolarWin_2,37,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,SolarWin_2,37,28.76,Fans,0.0
+Waingapu,South,No_AC,SolarWin_2,37,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,CeilingFan_1,38,28.76,Heating,0.0
+Waingapu,South,No_AC,CeilingFan_1,38,28.76,Cooling,0.0
+Waingapu,South,No_AC,CeilingFan_1,38,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,CeilingFan_1,38,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,CeilingFan_1,38,28.76,Fans,0.0
+Waingapu,South,No_AC,CeilingFan_1,38,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,CeilingFan_2,39,28.76,Heating,0.0
+Waingapu,South,No_AC,CeilingFan_2,39,28.76,Cooling,0.0
+Waingapu,South,No_AC,CeilingFan_2,39,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,CeilingFan_2,39,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,CeilingFan_2,39,28.76,Fans,0.0
+Waingapu,South,No_AC,CeilingFan_2,39,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Heating,0.0
+Waingapu,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Cooling,0.0
+Waingapu,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Fans,0.0
+Waingapu,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Heating,0.0
+Waingapu,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Cooling,0.0
+Waingapu,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Fans,0.0
+Waingapu,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,Overhang_1,42,28.76,Heating,0.0
+Waingapu,South,No_AC,Overhang_1,42,28.76,Cooling,0.0
+Waingapu,South,No_AC,Overhang_1,42,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,Overhang_1,42,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,Overhang_1,42,28.76,Fans,0.0
+Waingapu,South,No_AC,Overhang_1,42,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,Shade_1,43,28.76,Heating,0.0
+Waingapu,South,No_AC,Shade_1,43,28.76,Cooling,0.0
+Waingapu,South,No_AC,Shade_1,43,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,Shade_1,43,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,Shade_1,43,28.76,Fans,0.0
+Waingapu,South,No_AC,Shade_1,43,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,Shade_2,44,28.76,Heating,0.0
+Waingapu,South,No_AC,Shade_2,44,28.76,Cooling,0.0
+Waingapu,South,No_AC,Shade_2,44,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,Shade_2,44,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,Shade_2,44,28.76,Fans,0.0
+Waingapu,South,No_AC,Shade_2,44,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Heating,0.0
+Waingapu,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Cooling,0.0
+Waingapu,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Fans,0.0
+Waingapu,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Heating,0.0
+Waingapu,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Cooling,0.0
+Waingapu,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Fans,0.0
+Waingapu,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Heating,0.0
+Waingapu,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Cooling,0.0
+Waingapu,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Fans,0.0
+Waingapu,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Total End Uses,2677.34
+Waingapu,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Heating,0.0
+Waingapu,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Cooling,0.0
+Waingapu,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Interior Lighting,501.28
+Waingapu,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Interior Equipment,2176.06
+Waingapu,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Fans,0.0
+Waingapu,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Total End Uses,2677.34
+Waingapu,South,FullHouse_AC,Baseline,49,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,Baseline,49,36.0,Cooling,488.77
+Waingapu,South,FullHouse_AC,Baseline,49,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,Baseline,49,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,Baseline,49,36.0,Fans,33.01
+Waingapu,South,FullHouse_AC,Baseline,49,36.0,Total End Uses,3199.12
+Waingapu,South,FullHouse_AC,CoolRoof_1,50,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,CoolRoof_1,50,36.0,Cooling,442.5
+Waingapu,South,FullHouse_AC,CoolRoof_1,50,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,CoolRoof_1,50,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,CoolRoof_1,50,36.0,Fans,29.85
+Waingapu,South,FullHouse_AC,CoolRoof_1,50,36.0,Total End Uses,3149.69
+Waingapu,South,FullHouse_AC,CoolRoof_2,51,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,CoolRoof_2,51,36.0,Cooling,383.27
+Waingapu,South,FullHouse_AC,CoolRoof_2,51,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,CoolRoof_2,51,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,CoolRoof_2,51,36.0,Fans,25.82
+Waingapu,South,FullHouse_AC,CoolRoof_2,51,36.0,Total End Uses,3086.43
+Waingapu,South,FullHouse_AC,CoolWall_1,52,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,CoolWall_1,52,36.0,Cooling,421.83
+Waingapu,South,FullHouse_AC,CoolWall_1,52,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,CoolWall_1,52,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,CoolWall_1,52,36.0,Fans,28.47
+Waingapu,South,FullHouse_AC,CoolWall_1,52,36.0,Total End Uses,3127.65
+Waingapu,South,FullHouse_AC,CoolWall_2,53,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,CoolWall_2,53,36.0,Cooling,344.72
+Waingapu,South,FullHouse_AC,CoolWall_2,53,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,CoolWall_2,53,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,CoolWall_2,53,36.0,Fans,23.2
+Waingapu,South,FullHouse_AC,CoolWall_2,53,36.0,Total End Uses,3045.26
+Waingapu,South,FullHouse_AC,InsRoof_1,54,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,InsRoof_1,54,36.0,Cooling,376.19
+Waingapu,South,FullHouse_AC,InsRoof_1,54,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,InsRoof_1,54,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,InsRoof_1,54,36.0,Fans,25.35
+Waingapu,South,FullHouse_AC,InsRoof_1,54,36.0,Total End Uses,3078.88
+Waingapu,South,FullHouse_AC,InsRoof_2,55,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,InsRoof_2,55,36.0,Cooling,345.84
+Waingapu,South,FullHouse_AC,InsRoof_2,55,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,InsRoof_2,55,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,InsRoof_2,55,36.0,Fans,23.28
+Waingapu,South,FullHouse_AC,InsRoof_2,55,36.0,Total End Uses,3046.46
+Waingapu,South,FullHouse_AC,InsWall_1,56,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,InsWall_1,56,36.0,Cooling,411.2
+Waingapu,South,FullHouse_AC,InsWall_1,56,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,InsWall_1,56,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,InsWall_1,56,36.0,Fans,27.73
+Waingapu,South,FullHouse_AC,InsWall_1,56,36.0,Total End Uses,3116.27
+Waingapu,South,FullHouse_AC,InsWall_2,57,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,InsWall_2,57,36.0,Cooling,411.2
+Waingapu,South,FullHouse_AC,InsWall_2,57,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,InsWall_2,57,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,InsWall_2,57,36.0,Fans,27.73
+Waingapu,South,FullHouse_AC,InsWall_2,57,36.0,Total End Uses,3116.27
+Waingapu,South,FullHouse_AC,LowEWin_1,58,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,LowEWin_1,58,36.0,Cooling,415.3
+Waingapu,South,FullHouse_AC,LowEWin_1,58,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,LowEWin_1,58,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,LowEWin_1,58,36.0,Fans,28.02
+Waingapu,South,FullHouse_AC,LowEWin_1,58,36.0,Total End Uses,3120.66
+Waingapu,South,FullHouse_AC,LowEWin_2,59,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,LowEWin_2,59,36.0,Cooling,408.14
+Waingapu,South,FullHouse_AC,LowEWin_2,59,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,LowEWin_2,59,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,LowEWin_2,59,36.0,Fans,27.54
+Waingapu,South,FullHouse_AC,LowEWin_2,59,36.0,Total End Uses,3113.02
+Waingapu,South,FullHouse_AC,SolarWin_1,60,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,SolarWin_1,60,36.0,Cooling,406.86
+Waingapu,South,FullHouse_AC,SolarWin_1,60,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,SolarWin_1,60,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,SolarWin_1,60,36.0,Fans,27.44
+Waingapu,South,FullHouse_AC,SolarWin_1,60,36.0,Total End Uses,3111.64
+Waingapu,South,FullHouse_AC,SolarWin_2,61,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,SolarWin_2,61,36.0,Cooling,371.25
+Waingapu,South,FullHouse_AC,SolarWin_2,61,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,SolarWin_2,61,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,SolarWin_2,61,36.0,Fans,25.02
+Waingapu,South,FullHouse_AC,SolarWin_2,61,36.0,Total End Uses,3073.61
+Waingapu,South,FullHouse_AC,CeilingFan_1,62,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,CeilingFan_1,62,36.0,Cooling,90.18
+Waingapu,South,FullHouse_AC,CeilingFan_1,62,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,CeilingFan_1,62,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,CeilingFan_1,62,36.0,Fans,5.92
+Waingapu,South,FullHouse_AC,CeilingFan_1,62,36.0,Total End Uses,2773.45
+Waingapu,South,FullHouse_AC,CeilingFan_2,63,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,CeilingFan_2,63,36.0,Cooling,27.93
+Waingapu,South,FullHouse_AC,CeilingFan_2,63,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,CeilingFan_2,63,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,CeilingFan_2,63,36.0,Fans,1.78
+Waingapu,South,FullHouse_AC,CeilingFan_2,63,36.0,Total End Uses,2707.06
+Waingapu,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Cooling,488.77
+Waingapu,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Fans,33.01
+Waingapu,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Total End Uses,3199.12
+Waingapu,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Cooling,488.77
+Waingapu,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Fans,33.01
+Waingapu,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Total End Uses,3199.12
+Waingapu,South,FullHouse_AC,Overhang_1,66,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,Overhang_1,66,36.0,Cooling,458.34
+Waingapu,South,FullHouse_AC,Overhang_1,66,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,Overhang_1,66,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,Overhang_1,66,36.0,Fans,30.96
+Waingapu,South,FullHouse_AC,Overhang_1,66,36.0,Total End Uses,3166.64
+Waingapu,South,FullHouse_AC,Shade_1,67,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,Shade_1,67,36.0,Cooling,474.66
+Waingapu,South,FullHouse_AC,Shade_1,67,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,Shade_1,67,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,Shade_1,67,36.0,Fans,31.93
+Waingapu,South,FullHouse_AC,Shade_1,67,36.0,Total End Uses,3183.94
+Waingapu,South,FullHouse_AC,Shade_2,68,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,Shade_2,68,36.0,Cooling,401.66
+Waingapu,South,FullHouse_AC,Shade_2,68,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,Shade_2,68,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,Shade_2,68,36.0,Fans,27.06
+Waingapu,South,FullHouse_AC,Shade_2,68,36.0,Total End Uses,3106.06
+Waingapu,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Cooling,339.32
+Waingapu,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Fans,22.68
+Waingapu,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Total End Uses,3039.35
+Waingapu,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Cooling,338.9
+Waingapu,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Fans,22.66
+Waingapu,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Total End Uses,3038.9
+Waingapu,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Cooling,445.42
+Waingapu,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Fans,30.02
+Waingapu,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Total End Uses,3152.79
+Waingapu,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Heating,0.0
+Waingapu,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Cooling,444.79
+Waingapu,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Interior Lighting,501.28
+Waingapu,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Interior Equipment,2176.06
+Waingapu,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Fans,29.98
+Waingapu,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Total End Uses,3152.11
+Waingapu,West,Bedroom_AC_Only,Baseline,73,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,Baseline,73,28.76,Cooling,566.38
+Waingapu,West,Bedroom_AC_Only,Baseline,73,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,Baseline,73,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,Baseline,73,28.76,Fans,38.24
+Waingapu,West,Bedroom_AC_Only,Baseline,73,28.76,Total End Uses,3281.96
+Waingapu,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Cooling,521.67
+Waingapu,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Fans,35.21
+Waingapu,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Total End Uses,3234.22
+Waingapu,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Cooling,465.67
+Waingapu,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Fans,31.41
+Waingapu,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Total End Uses,3174.43
+Waingapu,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Cooling,471.17
+Waingapu,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Fans,31.87
+Waingapu,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Total End Uses,3180.38
+Waingapu,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Cooling,365.27
+Waingapu,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Fans,24.71
+Waingapu,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Total End Uses,3067.32
+Waingapu,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Cooling,465.52
+Waingapu,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Fans,31.44
+Waingapu,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Total End Uses,3174.3
+Waingapu,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Cooling,441.02
+Waingapu,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Fans,29.75
+Waingapu,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Total End Uses,3148.12
+Waingapu,West,Bedroom_AC_Only,InsWall_1,80,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,InsWall_1,80,28.76,Cooling,495.62
+Waingapu,West,Bedroom_AC_Only,InsWall_1,80,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,InsWall_1,80,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,InsWall_1,80,28.76,Fans,33.48
+Waingapu,West,Bedroom_AC_Only,InsWall_1,80,28.76,Total End Uses,3206.44
+Waingapu,West,Bedroom_AC_Only,InsWall_2,81,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,InsWall_2,81,28.76,Cooling,495.62
+Waingapu,West,Bedroom_AC_Only,InsWall_2,81,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,InsWall_2,81,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,InsWall_2,81,28.76,Fans,33.48
+Waingapu,West,Bedroom_AC_Only,InsWall_2,81,28.76,Total End Uses,3206.44
+Waingapu,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Cooling,470.55
+Waingapu,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Fans,31.83
+Waingapu,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Total End Uses,3179.72
+Waingapu,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Cooling,461.15
+Waingapu,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Fans,31.21
+Waingapu,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Total End Uses,3169.69
+Waingapu,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Cooling,463.74
+Waingapu,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Fans,31.34
+Waingapu,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Total End Uses,3172.43
+Waingapu,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Cooling,414.31
+Waingapu,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Fans,28.02
+Waingapu,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Total End Uses,3119.67
+Waingapu,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Cooling,220.83
+Waingapu,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Fans,14.43
+Waingapu,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Total End Uses,2912.59
+Waingapu,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Cooling,136.42
+Waingapu,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Fans,8.76
+Waingapu,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Total End Uses,2822.52
+Waingapu,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Cooling,566.38
+Waingapu,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Fans,38.24
+Waingapu,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Total End Uses,3281.96
+Waingapu,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Cooling,566.38
+Waingapu,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Fans,38.24
+Waingapu,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Total End Uses,3281.96
+Waingapu,West,Bedroom_AC_Only,Overhang_1,90,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,Overhang_1,90,28.76,Cooling,528.76
+Waingapu,West,Bedroom_AC_Only,Overhang_1,90,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,Overhang_1,90,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,Overhang_1,90,28.76,Fans,35.75
+Waingapu,West,Bedroom_AC_Only,Overhang_1,90,28.76,Total End Uses,3241.84
+Waingapu,West,Bedroom_AC_Only,Shade_1,91,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,Shade_1,91,28.76,Cooling,603.67
+Waingapu,West,Bedroom_AC_Only,Shade_1,91,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,Shade_1,91,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,Shade_1,91,28.76,Fans,40.41
+Waingapu,West,Bedroom_AC_Only,Shade_1,91,28.76,Total End Uses,3321.42
+Waingapu,West,Bedroom_AC_Only,Shade_2,92,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,Shade_2,92,28.76,Cooling,476.19
+Waingapu,West,Bedroom_AC_Only,Shade_2,92,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,Shade_2,92,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,Shade_2,92,28.76,Fans,32.07
+Waingapu,West,Bedroom_AC_Only,Shade_2,92,28.76,Total End Uses,3185.6
+Waingapu,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Cooling,391.62
+Waingapu,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Fans,26.07
+Waingapu,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Total End Uses,3095.03
+Waingapu,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Cooling,390.8
+Waingapu,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Fans,26.02
+Waingapu,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Total End Uses,3094.15
+Waingapu,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Cooling,499.68
+Waingapu,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Fans,33.6
+Waingapu,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Total End Uses,3210.62
+Waingapu,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Heating,0.0
+Waingapu,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Cooling,498.88
+Waingapu,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Interior Lighting,501.28
+Waingapu,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Interior Equipment,2176.06
+Waingapu,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Fans,33.55
+Waingapu,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Total End Uses,3209.77
+Waingapu,West,No_AC,Baseline,97,28.76,Heating,0.0
+Waingapu,West,No_AC,Baseline,97,28.76,Cooling,0.0
+Waingapu,West,No_AC,Baseline,97,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,Baseline,97,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,Baseline,97,28.76,Fans,0.0
+Waingapu,West,No_AC,Baseline,97,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,CoolRoof_1,98,28.76,Heating,0.0
+Waingapu,West,No_AC,CoolRoof_1,98,28.76,Cooling,0.0
+Waingapu,West,No_AC,CoolRoof_1,98,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,CoolRoof_1,98,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,CoolRoof_1,98,28.76,Fans,0.0
+Waingapu,West,No_AC,CoolRoof_1,98,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,CoolRoof_2,99,28.76,Heating,0.0
+Waingapu,West,No_AC,CoolRoof_2,99,28.76,Cooling,0.0
+Waingapu,West,No_AC,CoolRoof_2,99,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,CoolRoof_2,99,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,CoolRoof_2,99,28.76,Fans,0.0
+Waingapu,West,No_AC,CoolRoof_2,99,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,CoolWall_1,100,28.76,Heating,0.0
+Waingapu,West,No_AC,CoolWall_1,100,28.76,Cooling,0.0
+Waingapu,West,No_AC,CoolWall_1,100,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,CoolWall_1,100,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,CoolWall_1,100,28.76,Fans,0.0
+Waingapu,West,No_AC,CoolWall_1,100,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,CoolWall_2,101,28.76,Heating,0.0
+Waingapu,West,No_AC,CoolWall_2,101,28.76,Cooling,0.0
+Waingapu,West,No_AC,CoolWall_2,101,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,CoolWall_2,101,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,CoolWall_2,101,28.76,Fans,0.0
+Waingapu,West,No_AC,CoolWall_2,101,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,InsRoof_1,102,28.76,Heating,0.0
+Waingapu,West,No_AC,InsRoof_1,102,28.76,Cooling,0.0
+Waingapu,West,No_AC,InsRoof_1,102,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,InsRoof_1,102,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,InsRoof_1,102,28.76,Fans,0.0
+Waingapu,West,No_AC,InsRoof_1,102,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,InsRoof_2,103,28.76,Heating,0.0
+Waingapu,West,No_AC,InsRoof_2,103,28.76,Cooling,0.0
+Waingapu,West,No_AC,InsRoof_2,103,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,InsRoof_2,103,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,InsRoof_2,103,28.76,Fans,0.0
+Waingapu,West,No_AC,InsRoof_2,103,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,InsWall_1,104,28.76,Heating,0.0
+Waingapu,West,No_AC,InsWall_1,104,28.76,Cooling,0.0
+Waingapu,West,No_AC,InsWall_1,104,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,InsWall_1,104,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,InsWall_1,104,28.76,Fans,0.0
+Waingapu,West,No_AC,InsWall_1,104,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,InsWall_2,105,28.76,Heating,0.0
+Waingapu,West,No_AC,InsWall_2,105,28.76,Cooling,0.0
+Waingapu,West,No_AC,InsWall_2,105,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,InsWall_2,105,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,InsWall_2,105,28.76,Fans,0.0
+Waingapu,West,No_AC,InsWall_2,105,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,LowEWin_1,106,28.76,Heating,0.0
+Waingapu,West,No_AC,LowEWin_1,106,28.76,Cooling,0.0
+Waingapu,West,No_AC,LowEWin_1,106,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,LowEWin_1,106,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,LowEWin_1,106,28.76,Fans,0.0
+Waingapu,West,No_AC,LowEWin_1,106,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,LowEWin_2,107,28.76,Heating,0.0
+Waingapu,West,No_AC,LowEWin_2,107,28.76,Cooling,0.0
+Waingapu,West,No_AC,LowEWin_2,107,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,LowEWin_2,107,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,LowEWin_2,107,28.76,Fans,0.0
+Waingapu,West,No_AC,LowEWin_2,107,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,SolarWin_1,108,28.76,Heating,0.0
+Waingapu,West,No_AC,SolarWin_1,108,28.76,Cooling,0.0
+Waingapu,West,No_AC,SolarWin_1,108,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,SolarWin_1,108,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,SolarWin_1,108,28.76,Fans,0.0
+Waingapu,West,No_AC,SolarWin_1,108,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,SolarWin_2,109,28.76,Heating,0.0
+Waingapu,West,No_AC,SolarWin_2,109,28.76,Cooling,0.0
+Waingapu,West,No_AC,SolarWin_2,109,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,SolarWin_2,109,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,SolarWin_2,109,28.76,Fans,0.0
+Waingapu,West,No_AC,SolarWin_2,109,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,CeilingFan_1,110,28.76,Heating,0.0
+Waingapu,West,No_AC,CeilingFan_1,110,28.76,Cooling,0.0
+Waingapu,West,No_AC,CeilingFan_1,110,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,CeilingFan_1,110,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,CeilingFan_1,110,28.76,Fans,0.0
+Waingapu,West,No_AC,CeilingFan_1,110,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,CeilingFan_2,111,28.76,Heating,0.0
+Waingapu,West,No_AC,CeilingFan_2,111,28.76,Cooling,0.0
+Waingapu,West,No_AC,CeilingFan_2,111,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,CeilingFan_2,111,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,CeilingFan_2,111,28.76,Fans,0.0
+Waingapu,West,No_AC,CeilingFan_2,111,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Heating,0.0
+Waingapu,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Cooling,0.0
+Waingapu,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Fans,0.0
+Waingapu,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Heating,0.0
+Waingapu,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Cooling,0.0
+Waingapu,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Fans,0.0
+Waingapu,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,Overhang_1,114,28.76,Heating,0.0
+Waingapu,West,No_AC,Overhang_1,114,28.76,Cooling,0.0
+Waingapu,West,No_AC,Overhang_1,114,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,Overhang_1,114,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,Overhang_1,114,28.76,Fans,0.0
+Waingapu,West,No_AC,Overhang_1,114,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,Shade_1,115,28.76,Heating,0.0
+Waingapu,West,No_AC,Shade_1,115,28.76,Cooling,0.0
+Waingapu,West,No_AC,Shade_1,115,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,Shade_1,115,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,Shade_1,115,28.76,Fans,0.0
+Waingapu,West,No_AC,Shade_1,115,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,Shade_2,116,28.76,Heating,0.0
+Waingapu,West,No_AC,Shade_2,116,28.76,Cooling,0.0
+Waingapu,West,No_AC,Shade_2,116,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,Shade_2,116,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,Shade_2,116,28.76,Fans,0.0
+Waingapu,West,No_AC,Shade_2,116,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Heating,0.0
+Waingapu,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Cooling,0.0
+Waingapu,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Fans,0.0
+Waingapu,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Heating,0.0
+Waingapu,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Cooling,0.0
+Waingapu,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Fans,0.0
+Waingapu,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Heating,0.0
+Waingapu,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Cooling,0.0
+Waingapu,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Fans,0.0
+Waingapu,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Total End Uses,2677.34
+Waingapu,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Heating,0.0
+Waingapu,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Cooling,0.0
+Waingapu,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Interior Lighting,501.28
+Waingapu,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Interior Equipment,2176.06
+Waingapu,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Fans,0.0
+Waingapu,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Total End Uses,2677.34
+Waingapu,West,FullHouse_AC,Baseline,121,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,Baseline,121,36.0,Cooling,817.29
+Waingapu,West,FullHouse_AC,Baseline,121,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,Baseline,121,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,Baseline,121,36.0,Fans,55.08
+Waingapu,West,FullHouse_AC,Baseline,121,36.0,Total End Uses,3549.72
+Waingapu,West,FullHouse_AC,CoolRoof_1,122,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,CoolRoof_1,122,36.0,Cooling,751.82
+Waingapu,West,FullHouse_AC,CoolRoof_1,122,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,CoolRoof_1,122,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,CoolRoof_1,122,36.0,Fans,50.66
+Waingapu,West,FullHouse_AC,CoolRoof_1,122,36.0,Total End Uses,3479.82
+Waingapu,West,FullHouse_AC,CoolRoof_2,123,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,CoolRoof_2,123,36.0,Cooling,670.09
+Waingapu,West,FullHouse_AC,CoolRoof_2,123,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,CoolRoof_2,123,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,CoolRoof_2,123,36.0,Fans,45.13
+Waingapu,West,FullHouse_AC,CoolRoof_2,123,36.0,Total End Uses,3392.56
+Waingapu,West,FullHouse_AC,CoolWall_1,124,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,CoolWall_1,124,36.0,Cooling,685.77
+Waingapu,West,FullHouse_AC,CoolWall_1,124,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,CoolWall_1,124,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,CoolWall_1,124,36.0,Fans,46.27
+Waingapu,West,FullHouse_AC,CoolWall_1,124,36.0,Total End Uses,3409.38
+Waingapu,West,FullHouse_AC,CoolWall_2,125,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,CoolWall_2,125,36.0,Cooling,532.94
+Waingapu,West,FullHouse_AC,CoolWall_2,125,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,CoolWall_2,125,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,CoolWall_2,125,36.0,Fans,35.96
+Waingapu,West,FullHouse_AC,CoolWall_2,125,36.0,Total End Uses,3246.25
+Waingapu,West,FullHouse_AC,InsRoof_1,126,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,InsRoof_1,126,36.0,Cooling,666.34
+Waingapu,West,FullHouse_AC,InsRoof_1,126,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,InsRoof_1,126,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,InsRoof_1,126,36.0,Fans,44.93
+Waingapu,West,FullHouse_AC,InsRoof_1,126,36.0,Total End Uses,3388.62
+Waingapu,West,FullHouse_AC,InsRoof_2,127,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,InsRoof_2,127,36.0,Cooling,630.41
+Waingapu,West,FullHouse_AC,InsRoof_2,127,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,InsRoof_2,127,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,InsRoof_2,127,36.0,Fans,42.47
+Waingapu,West,FullHouse_AC,InsRoof_2,127,36.0,Total End Uses,3350.22
+Waingapu,West,FullHouse_AC,InsWall_1,128,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,InsWall_1,128,36.0,Cooling,711.43
+Waingapu,West,FullHouse_AC,InsWall_1,128,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,InsWall_1,128,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,InsWall_1,128,36.0,Fans,47.98
+Waingapu,West,FullHouse_AC,InsWall_1,128,36.0,Total End Uses,3436.75
+Waingapu,West,FullHouse_AC,InsWall_2,129,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,InsWall_2,129,36.0,Cooling,711.43
+Waingapu,West,FullHouse_AC,InsWall_2,129,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,InsWall_2,129,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,InsWall_2,129,36.0,Fans,47.98
+Waingapu,West,FullHouse_AC,InsWall_2,129,36.0,Total End Uses,3436.75
+Waingapu,West,FullHouse_AC,LowEWin_1,130,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,LowEWin_1,130,36.0,Cooling,682.01
+Waingapu,West,FullHouse_AC,LowEWin_1,130,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,LowEWin_1,130,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,LowEWin_1,130,36.0,Fans,46.04
+Waingapu,West,FullHouse_AC,LowEWin_1,130,36.0,Total End Uses,3405.4
+Waingapu,West,FullHouse_AC,LowEWin_2,131,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,LowEWin_2,131,36.0,Cooling,668.59
+Waingapu,West,FullHouse_AC,LowEWin_2,131,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,LowEWin_2,131,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,LowEWin_2,131,36.0,Fans,45.15
+Waingapu,West,FullHouse_AC,LowEWin_2,131,36.0,Total End Uses,3391.08
+Waingapu,West,FullHouse_AC,SolarWin_1,132,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,SolarWin_1,132,36.0,Cooling,673.77
+Waingapu,West,FullHouse_AC,SolarWin_1,132,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,SolarWin_1,132,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,SolarWin_1,132,36.0,Fans,45.44
+Waingapu,West,FullHouse_AC,SolarWin_1,132,36.0,Total End Uses,3396.55
+Waingapu,West,FullHouse_AC,SolarWin_2,133,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,SolarWin_2,133,36.0,Cooling,602.18
+Waingapu,West,FullHouse_AC,SolarWin_2,133,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,SolarWin_2,133,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,SolarWin_2,133,36.0,Fans,40.65
+Waingapu,West,FullHouse_AC,SolarWin_2,133,36.0,Total End Uses,3320.17
+Waingapu,West,FullHouse_AC,CeilingFan_1,134,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,CeilingFan_1,134,36.0,Cooling,335.56
+Waingapu,West,FullHouse_AC,CeilingFan_1,134,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,CeilingFan_1,134,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,CeilingFan_1,134,36.0,Fans,21.88
+Waingapu,West,FullHouse_AC,CeilingFan_1,134,36.0,Total End Uses,3034.79
+Waingapu,West,FullHouse_AC,CeilingFan_2,135,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,CeilingFan_2,135,36.0,Cooling,215.03
+Waingapu,West,FullHouse_AC,CeilingFan_2,135,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,CeilingFan_2,135,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,CeilingFan_2,135,36.0,Fans,13.78
+Waingapu,West,FullHouse_AC,CeilingFan_2,135,36.0,Total End Uses,2906.16
+Waingapu,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Cooling,817.29
+Waingapu,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Fans,55.08
+Waingapu,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Total End Uses,3549.72
+Waingapu,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Cooling,817.29
+Waingapu,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Fans,55.08
+Waingapu,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Total End Uses,3549.72
+Waingapu,West,FullHouse_AC,Overhang_1,138,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,Overhang_1,138,36.0,Cooling,765.6
+Waingapu,West,FullHouse_AC,Overhang_1,138,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,Overhang_1,138,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,Overhang_1,138,36.0,Fans,51.66
+Waingapu,West,FullHouse_AC,Overhang_1,138,36.0,Total End Uses,3494.6
+Waingapu,West,FullHouse_AC,Shade_1,139,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,Shade_1,139,36.0,Cooling,874.15
+Waingapu,West,FullHouse_AC,Shade_1,139,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,Shade_1,139,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,Shade_1,139,36.0,Fans,58.4
+Waingapu,West,FullHouse_AC,Shade_1,139,36.0,Total End Uses,3609.9
+Waingapu,West,FullHouse_AC,Shade_2,140,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,Shade_2,140,36.0,Cooling,700.23
+Waingapu,West,FullHouse_AC,Shade_2,140,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,Shade_2,140,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,Shade_2,140,36.0,Fans,47.04
+Waingapu,West,FullHouse_AC,Shade_2,140,36.0,Total End Uses,3424.61
+Waingapu,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Cooling,579.19
+Waingapu,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Fans,38.5
+Waingapu,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Total End Uses,3295.03
+Waingapu,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Cooling,577.75
+Waingapu,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Fans,38.4
+Waingapu,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Total End Uses,3293.5
+Waingapu,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Cooling,738.27
+Waingapu,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Fans,49.59
+Waingapu,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Total End Uses,3465.2
+Waingapu,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Heating,0.0
+Waingapu,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Cooling,737.01
+Waingapu,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Interior Lighting,501.28
+Waingapu,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Interior Equipment,2176.06
+Waingapu,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Fans,49.5
+Waingapu,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Total End Uses,3463.85

@@ -1,0 +1,865 @@
+location,orientation,ac_scenario,case_name,case_id,floor_area,end_use,Electricity [kWh]
+Padang,South,Bedroom_AC_Only,Baseline,1,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,Baseline,1,28.76,Cooling,413.05
+Padang,South,Bedroom_AC_Only,Baseline,1,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,Baseline,1,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,Baseline,1,28.76,Fans,27.91
+Padang,South,Bedroom_AC_Only,Baseline,1,28.76,Total End Uses,3118.3
+Padang,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Cooling,375.29
+Padang,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Fans,25.34
+Padang,South,Bedroom_AC_Only,CoolRoof_1,2,28.76,Total End Uses,3077.97
+Padang,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Cooling,325.95
+Padang,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Fans,21.98
+Padang,South,Bedroom_AC_Only,CoolRoof_2,3,28.76,Total End Uses,3025.28
+Padang,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Cooling,351.45
+Padang,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Fans,23.76
+Padang,South,Bedroom_AC_Only,CoolWall_1,4,28.76,Total End Uses,3052.55
+Padang,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Cooling,283.15
+Padang,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Fans,19.1
+Padang,South,Bedroom_AC_Only,CoolWall_2,5,28.76,Total End Uses,2979.59
+Padang,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Cooling,314.95
+Padang,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Fans,21.25
+Padang,South,Bedroom_AC_Only,InsRoof_1,6,28.76,Total End Uses,3013.54
+Padang,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Cooling,289.6
+Padang,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Fans,19.51
+Padang,South,Bedroom_AC_Only,InsRoof_2,7,28.76,Total End Uses,2986.46
+Padang,South,Bedroom_AC_Only,InsWall_1,8,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,InsWall_1,8,28.76,Cooling,345.01
+Padang,South,Bedroom_AC_Only,InsWall_1,8,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,InsWall_1,8,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,InsWall_1,8,28.76,Fans,23.29
+Padang,South,Bedroom_AC_Only,InsWall_1,8,28.76,Total End Uses,3045.65
+Padang,South,Bedroom_AC_Only,InsWall_2,9,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,InsWall_2,9,28.76,Cooling,345.01
+Padang,South,Bedroom_AC_Only,InsWall_2,9,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,InsWall_2,9,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,InsWall_2,9,28.76,Fans,23.29
+Padang,South,Bedroom_AC_Only,InsWall_2,9,28.76,Total End Uses,3045.65
+Padang,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Cooling,353.83
+Padang,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Fans,23.92
+Padang,South,Bedroom_AC_Only,LowEWin_1,10,28.76,Total End Uses,3055.08
+Padang,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Cooling,347.95
+Padang,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Fans,23.52
+Padang,South,Bedroom_AC_Only,LowEWin_2,11,28.76,Total End Uses,3048.81
+Padang,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Cooling,348.37
+Padang,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Fans,23.53
+Padang,South,Bedroom_AC_Only,SolarWin_1,12,28.76,Total End Uses,3049.25
+Padang,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Cooling,318.54
+Padang,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Fans,21.51
+Padang,South,Bedroom_AC_Only,SolarWin_2,13,28.76,Total End Uses,3017.4
+Padang,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Cooling,100.19
+Padang,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Fans,6.58
+Padang,South,Bedroom_AC_Only,CeilingFan_1,14,28.76,Total End Uses,2784.12
+Padang,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Cooling,42.39
+Padang,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Fans,2.73
+Padang,South,Bedroom_AC_Only,CeilingFan_2,15,28.76,Total End Uses,2722.46
+Padang,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Cooling,413.05
+Padang,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Fans,27.91
+Padang,South,Bedroom_AC_Only,CeilingFan_NoSetback_1,16,28.76,Total End Uses,3118.3
+Padang,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Cooling,413.05
+Padang,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Fans,27.91
+Padang,South,Bedroom_AC_Only,CeilingFan_NoSetback_2,17,28.76,Total End Uses,3118.3
+Padang,South,Bedroom_AC_Only,Overhang_1,18,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,Overhang_1,18,28.76,Cooling,384.54
+Padang,South,Bedroom_AC_Only,Overhang_1,18,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,Overhang_1,18,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,Overhang_1,18,28.76,Fans,26.0
+Padang,South,Bedroom_AC_Only,Overhang_1,18,28.76,Total End Uses,3087.88
+Padang,South,Bedroom_AC_Only,Shade_1,19,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,Shade_1,19,28.76,Cooling,405.24
+Padang,South,Bedroom_AC_Only,Shade_1,19,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,Shade_1,19,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,Shade_1,19,28.76,Fans,27.28
+Padang,South,Bedroom_AC_Only,Shade_1,19,28.76,Total End Uses,3109.86
+Padang,South,Bedroom_AC_Only,Shade_2,20,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,Shade_2,20,28.76,Cooling,345.76
+Padang,South,Bedroom_AC_Only,Shade_2,20,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,Shade_2,20,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,Shade_2,20,28.76,Fans,23.33
+Padang,South,Bedroom_AC_Only,Shade_2,20,28.76,Total End Uses,3046.43
+Padang,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Cooling,252.26
+Padang,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Fans,16.84
+Padang,South,Bedroom_AC_Only,HybridNV_WindowOpen_1,21,28.76,Total End Uses,2946.45
+Padang,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Cooling,251.86
+Padang,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Fans,16.82
+Padang,South,Bedroom_AC_Only,HybridNV_WindowOpen_2,22,28.76,Total End Uses,2946.02
+Padang,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Cooling,350.3
+Padang,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Fans,23.59
+Padang,South,Bedroom_AC_Only,HybridNV_OperationSchd_1,23,28.76,Total End Uses,3051.23
+Padang,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Heating,0.0
+Padang,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Cooling,349.94
+Padang,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Interior Lighting,501.28
+Padang,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Interior Equipment,2176.06
+Padang,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Fans,23.57
+Padang,South,Bedroom_AC_Only,HybridNV_OperationSchd_2,24,28.76,Total End Uses,3050.86
+Padang,South,No_AC,Baseline,25,28.76,Heating,0.0
+Padang,South,No_AC,Baseline,25,28.76,Cooling,0.0
+Padang,South,No_AC,Baseline,25,28.76,Interior Lighting,501.28
+Padang,South,No_AC,Baseline,25,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,Baseline,25,28.76,Fans,0.0
+Padang,South,No_AC,Baseline,25,28.76,Total End Uses,2677.34
+Padang,South,No_AC,CoolRoof_1,26,28.76,Heating,0.0
+Padang,South,No_AC,CoolRoof_1,26,28.76,Cooling,0.0
+Padang,South,No_AC,CoolRoof_1,26,28.76,Interior Lighting,501.28
+Padang,South,No_AC,CoolRoof_1,26,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,CoolRoof_1,26,28.76,Fans,0.0
+Padang,South,No_AC,CoolRoof_1,26,28.76,Total End Uses,2677.34
+Padang,South,No_AC,CoolRoof_2,27,28.76,Heating,0.0
+Padang,South,No_AC,CoolRoof_2,27,28.76,Cooling,0.0
+Padang,South,No_AC,CoolRoof_2,27,28.76,Interior Lighting,501.28
+Padang,South,No_AC,CoolRoof_2,27,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,CoolRoof_2,27,28.76,Fans,0.0
+Padang,South,No_AC,CoolRoof_2,27,28.76,Total End Uses,2677.34
+Padang,South,No_AC,CoolWall_1,28,28.76,Heating,0.0
+Padang,South,No_AC,CoolWall_1,28,28.76,Cooling,0.0
+Padang,South,No_AC,CoolWall_1,28,28.76,Interior Lighting,501.28
+Padang,South,No_AC,CoolWall_1,28,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,CoolWall_1,28,28.76,Fans,0.0
+Padang,South,No_AC,CoolWall_1,28,28.76,Total End Uses,2677.34
+Padang,South,No_AC,CoolWall_2,29,28.76,Heating,0.0
+Padang,South,No_AC,CoolWall_2,29,28.76,Cooling,0.0
+Padang,South,No_AC,CoolWall_2,29,28.76,Interior Lighting,501.28
+Padang,South,No_AC,CoolWall_2,29,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,CoolWall_2,29,28.76,Fans,0.0
+Padang,South,No_AC,CoolWall_2,29,28.76,Total End Uses,2677.34
+Padang,South,No_AC,InsRoof_1,30,28.76,Heating,0.0
+Padang,South,No_AC,InsRoof_1,30,28.76,Cooling,0.0
+Padang,South,No_AC,InsRoof_1,30,28.76,Interior Lighting,501.28
+Padang,South,No_AC,InsRoof_1,30,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,InsRoof_1,30,28.76,Fans,0.0
+Padang,South,No_AC,InsRoof_1,30,28.76,Total End Uses,2677.34
+Padang,South,No_AC,InsRoof_2,31,28.76,Heating,0.0
+Padang,South,No_AC,InsRoof_2,31,28.76,Cooling,0.0
+Padang,South,No_AC,InsRoof_2,31,28.76,Interior Lighting,501.28
+Padang,South,No_AC,InsRoof_2,31,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,InsRoof_2,31,28.76,Fans,0.0
+Padang,South,No_AC,InsRoof_2,31,28.76,Total End Uses,2677.34
+Padang,South,No_AC,InsWall_1,32,28.76,Heating,0.0
+Padang,South,No_AC,InsWall_1,32,28.76,Cooling,0.0
+Padang,South,No_AC,InsWall_1,32,28.76,Interior Lighting,501.28
+Padang,South,No_AC,InsWall_1,32,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,InsWall_1,32,28.76,Fans,0.0
+Padang,South,No_AC,InsWall_1,32,28.76,Total End Uses,2677.34
+Padang,South,No_AC,InsWall_2,33,28.76,Heating,0.0
+Padang,South,No_AC,InsWall_2,33,28.76,Cooling,0.0
+Padang,South,No_AC,InsWall_2,33,28.76,Interior Lighting,501.28
+Padang,South,No_AC,InsWall_2,33,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,InsWall_2,33,28.76,Fans,0.0
+Padang,South,No_AC,InsWall_2,33,28.76,Total End Uses,2677.34
+Padang,South,No_AC,LowEWin_1,34,28.76,Heating,0.0
+Padang,South,No_AC,LowEWin_1,34,28.76,Cooling,0.0
+Padang,South,No_AC,LowEWin_1,34,28.76,Interior Lighting,501.28
+Padang,South,No_AC,LowEWin_1,34,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,LowEWin_1,34,28.76,Fans,0.0
+Padang,South,No_AC,LowEWin_1,34,28.76,Total End Uses,2677.34
+Padang,South,No_AC,LowEWin_2,35,28.76,Heating,0.0
+Padang,South,No_AC,LowEWin_2,35,28.76,Cooling,0.0
+Padang,South,No_AC,LowEWin_2,35,28.76,Interior Lighting,501.28
+Padang,South,No_AC,LowEWin_2,35,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,LowEWin_2,35,28.76,Fans,0.0
+Padang,South,No_AC,LowEWin_2,35,28.76,Total End Uses,2677.34
+Padang,South,No_AC,SolarWin_1,36,28.76,Heating,0.0
+Padang,South,No_AC,SolarWin_1,36,28.76,Cooling,0.0
+Padang,South,No_AC,SolarWin_1,36,28.76,Interior Lighting,501.28
+Padang,South,No_AC,SolarWin_1,36,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,SolarWin_1,36,28.76,Fans,0.0
+Padang,South,No_AC,SolarWin_1,36,28.76,Total End Uses,2677.34
+Padang,South,No_AC,SolarWin_2,37,28.76,Heating,0.0
+Padang,South,No_AC,SolarWin_2,37,28.76,Cooling,0.0
+Padang,South,No_AC,SolarWin_2,37,28.76,Interior Lighting,501.28
+Padang,South,No_AC,SolarWin_2,37,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,SolarWin_2,37,28.76,Fans,0.0
+Padang,South,No_AC,SolarWin_2,37,28.76,Total End Uses,2677.34
+Padang,South,No_AC,CeilingFan_1,38,28.76,Heating,0.0
+Padang,South,No_AC,CeilingFan_1,38,28.76,Cooling,0.0
+Padang,South,No_AC,CeilingFan_1,38,28.76,Interior Lighting,501.28
+Padang,South,No_AC,CeilingFan_1,38,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,CeilingFan_1,38,28.76,Fans,0.0
+Padang,South,No_AC,CeilingFan_1,38,28.76,Total End Uses,2677.34
+Padang,South,No_AC,CeilingFan_2,39,28.76,Heating,0.0
+Padang,South,No_AC,CeilingFan_2,39,28.76,Cooling,0.0
+Padang,South,No_AC,CeilingFan_2,39,28.76,Interior Lighting,501.28
+Padang,South,No_AC,CeilingFan_2,39,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,CeilingFan_2,39,28.76,Fans,0.0
+Padang,South,No_AC,CeilingFan_2,39,28.76,Total End Uses,2677.34
+Padang,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Heating,0.0
+Padang,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Cooling,0.0
+Padang,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Interior Lighting,501.28
+Padang,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Fans,0.0
+Padang,South,No_AC,CeilingFan_NoSetback_1,40,28.76,Total End Uses,2677.34
+Padang,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Heating,0.0
+Padang,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Cooling,0.0
+Padang,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Interior Lighting,501.28
+Padang,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Fans,0.0
+Padang,South,No_AC,CeilingFan_NoSetback_2,41,28.76,Total End Uses,2677.34
+Padang,South,No_AC,Overhang_1,42,28.76,Heating,0.0
+Padang,South,No_AC,Overhang_1,42,28.76,Cooling,0.0
+Padang,South,No_AC,Overhang_1,42,28.76,Interior Lighting,501.28
+Padang,South,No_AC,Overhang_1,42,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,Overhang_1,42,28.76,Fans,0.0
+Padang,South,No_AC,Overhang_1,42,28.76,Total End Uses,2677.34
+Padang,South,No_AC,Shade_1,43,28.76,Heating,0.0
+Padang,South,No_AC,Shade_1,43,28.76,Cooling,0.0
+Padang,South,No_AC,Shade_1,43,28.76,Interior Lighting,501.28
+Padang,South,No_AC,Shade_1,43,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,Shade_1,43,28.76,Fans,0.0
+Padang,South,No_AC,Shade_1,43,28.76,Total End Uses,2677.34
+Padang,South,No_AC,Shade_2,44,28.76,Heating,0.0
+Padang,South,No_AC,Shade_2,44,28.76,Cooling,0.0
+Padang,South,No_AC,Shade_2,44,28.76,Interior Lighting,501.28
+Padang,South,No_AC,Shade_2,44,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,Shade_2,44,28.76,Fans,0.0
+Padang,South,No_AC,Shade_2,44,28.76,Total End Uses,2677.34
+Padang,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Heating,0.0
+Padang,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Cooling,0.0
+Padang,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Interior Lighting,501.28
+Padang,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Fans,0.0
+Padang,South,No_AC,HybridNV_WindowOpen_1,45,28.76,Total End Uses,2677.34
+Padang,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Heating,0.0
+Padang,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Cooling,0.0
+Padang,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Interior Lighting,501.28
+Padang,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Fans,0.0
+Padang,South,No_AC,HybridNV_WindowOpen_2,46,28.76,Total End Uses,2677.34
+Padang,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Heating,0.0
+Padang,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Cooling,0.0
+Padang,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Interior Lighting,501.28
+Padang,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Fans,0.0
+Padang,South,No_AC,HybridNV_OperationSchd_1,47,28.76,Total End Uses,2677.34
+Padang,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Heating,0.0
+Padang,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Cooling,0.0
+Padang,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Interior Lighting,501.28
+Padang,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Interior Equipment,2176.06
+Padang,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Fans,0.0
+Padang,South,No_AC,HybridNV_OperationSchd_2,48,28.76,Total End Uses,2677.34
+Padang,South,FullHouse_AC,Baseline,49,36.0,Heating,0.0
+Padang,South,FullHouse_AC,Baseline,49,36.0,Cooling,548.41
+Padang,South,FullHouse_AC,Baseline,49,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,Baseline,49,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,Baseline,49,36.0,Fans,37.04
+Padang,South,FullHouse_AC,Baseline,49,36.0,Total End Uses,3262.79
+Padang,South,FullHouse_AC,CoolRoof_1,50,36.0,Heating,0.0
+Padang,South,FullHouse_AC,CoolRoof_1,50,36.0,Cooling,497.11
+Padang,South,FullHouse_AC,CoolRoof_1,50,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,CoolRoof_1,50,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,CoolRoof_1,50,36.0,Fans,33.55
+Padang,South,FullHouse_AC,CoolRoof_1,50,36.0,Total End Uses,3207.99
+Padang,South,FullHouse_AC,CoolRoof_2,51,36.0,Heating,0.0
+Padang,South,FullHouse_AC,CoolRoof_2,51,36.0,Cooling,430.59
+Padang,South,FullHouse_AC,CoolRoof_2,51,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,CoolRoof_2,51,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,CoolRoof_2,51,36.0,Fans,29.02
+Padang,South,FullHouse_AC,CoolRoof_2,51,36.0,Total End Uses,3136.95
+Padang,South,FullHouse_AC,CoolWall_1,52,36.0,Heating,0.0
+Padang,South,FullHouse_AC,CoolWall_1,52,36.0,Cooling,469.44
+Padang,South,FullHouse_AC,CoolWall_1,52,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,CoolWall_1,52,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,CoolWall_1,52,36.0,Fans,31.71
+Padang,South,FullHouse_AC,CoolWall_1,52,36.0,Total End Uses,3178.49
+Padang,South,FullHouse_AC,CoolWall_2,53,36.0,Heating,0.0
+Padang,South,FullHouse_AC,CoolWall_2,53,36.0,Cooling,379.63
+Padang,South,FullHouse_AC,CoolWall_2,53,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,CoolWall_2,53,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,CoolWall_2,53,36.0,Fans,25.58
+Padang,South,FullHouse_AC,CoolWall_2,53,36.0,Total End Uses,3082.55
+Padang,South,FullHouse_AC,InsRoof_1,54,36.0,Heating,0.0
+Padang,South,FullHouse_AC,InsRoof_1,54,36.0,Cooling,414.75
+Padang,South,FullHouse_AC,InsRoof_1,54,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,InsRoof_1,54,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,InsRoof_1,54,36.0,Fans,27.95
+Padang,South,FullHouse_AC,InsRoof_1,54,36.0,Total End Uses,3120.04
+Padang,South,FullHouse_AC,InsRoof_2,55,36.0,Heating,0.0
+Padang,South,FullHouse_AC,InsRoof_2,55,36.0,Cooling,380.62
+Padang,South,FullHouse_AC,InsRoof_2,55,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,InsRoof_2,55,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,InsRoof_2,55,36.0,Fans,25.63
+Padang,South,FullHouse_AC,InsRoof_2,55,36.0,Total End Uses,3083.59
+Padang,South,FullHouse_AC,InsWall_1,56,36.0,Heating,0.0
+Padang,South,FullHouse_AC,InsWall_1,56,36.0,Cooling,455.55
+Padang,South,FullHouse_AC,InsWall_1,56,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,InsWall_1,56,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,InsWall_1,56,36.0,Fans,30.73
+Padang,South,FullHouse_AC,InsWall_1,56,36.0,Total End Uses,3163.62
+Padang,South,FullHouse_AC,InsWall_2,57,36.0,Heating,0.0
+Padang,South,FullHouse_AC,InsWall_2,57,36.0,Cooling,455.55
+Padang,South,FullHouse_AC,InsWall_2,57,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,InsWall_2,57,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,InsWall_2,57,36.0,Fans,30.73
+Padang,South,FullHouse_AC,InsWall_2,57,36.0,Total End Uses,3163.62
+Padang,South,FullHouse_AC,LowEWin_1,58,36.0,Heating,0.0
+Padang,South,FullHouse_AC,LowEWin_1,58,36.0,Cooling,471.46
+Padang,South,FullHouse_AC,LowEWin_1,58,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,LowEWin_1,58,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,LowEWin_1,58,36.0,Fans,31.84
+Padang,South,FullHouse_AC,LowEWin_1,58,36.0,Total End Uses,3180.64
+Padang,South,FullHouse_AC,LowEWin_2,59,36.0,Heating,0.0
+Padang,South,FullHouse_AC,LowEWin_2,59,36.0,Cooling,463.71
+Padang,South,FullHouse_AC,LowEWin_2,59,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,LowEWin_2,59,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,LowEWin_2,59,36.0,Fans,31.31
+Padang,South,FullHouse_AC,LowEWin_2,59,36.0,Total End Uses,3172.36
+Padang,South,FullHouse_AC,SolarWin_1,60,36.0,Heating,0.0
+Padang,South,FullHouse_AC,SolarWin_1,60,36.0,Cooling,464.29
+Padang,South,FullHouse_AC,SolarWin_1,60,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,SolarWin_1,60,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,SolarWin_1,60,36.0,Fans,31.34
+Padang,South,FullHouse_AC,SolarWin_1,60,36.0,Total End Uses,3172.97
+Padang,South,FullHouse_AC,SolarWin_2,61,36.0,Heating,0.0
+Padang,South,FullHouse_AC,SolarWin_2,61,36.0,Cooling,425.42
+Padang,South,FullHouse_AC,SolarWin_2,61,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,SolarWin_2,61,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,SolarWin_2,61,36.0,Fans,28.7
+Padang,South,FullHouse_AC,SolarWin_2,61,36.0,Total End Uses,3131.47
+Padang,South,FullHouse_AC,CeilingFan_1,62,36.0,Heating,0.0
+Padang,South,FullHouse_AC,CeilingFan_1,62,36.0,Cooling,130.66
+Padang,South,FullHouse_AC,CeilingFan_1,62,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,CeilingFan_1,62,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,CeilingFan_1,62,36.0,Fans,8.59
+Padang,South,FullHouse_AC,CeilingFan_1,62,36.0,Total End Uses,2816.6
+Padang,South,FullHouse_AC,CeilingFan_2,63,36.0,Heating,0.0
+Padang,South,FullHouse_AC,CeilingFan_2,63,36.0,Cooling,51.45
+Padang,South,FullHouse_AC,CeilingFan_2,63,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,CeilingFan_2,63,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,CeilingFan_2,63,36.0,Fans,3.31
+Padang,South,FullHouse_AC,CeilingFan_2,63,36.0,Total End Uses,2732.1
+Padang,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Heating,0.0
+Padang,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Cooling,548.41
+Padang,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Fans,37.04
+Padang,South,FullHouse_AC,CeilingFan_NoSetback_1,64,36.0,Total End Uses,3262.79
+Padang,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Heating,0.0
+Padang,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Cooling,548.41
+Padang,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Fans,37.04
+Padang,South,FullHouse_AC,CeilingFan_NoSetback_2,65,36.0,Total End Uses,3262.79
+Padang,South,FullHouse_AC,Overhang_1,66,36.0,Heating,0.0
+Padang,South,FullHouse_AC,Overhang_1,66,36.0,Cooling,512.62
+Padang,South,FullHouse_AC,Overhang_1,66,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,Overhang_1,66,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,Overhang_1,66,36.0,Fans,34.64
+Padang,South,FullHouse_AC,Overhang_1,66,36.0,Total End Uses,3224.6
+Padang,South,FullHouse_AC,Shade_1,67,36.0,Heating,0.0
+Padang,South,FullHouse_AC,Shade_1,67,36.0,Cooling,537.85
+Padang,South,FullHouse_AC,Shade_1,67,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,Shade_1,67,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,Shade_1,67,36.0,Fans,36.2
+Padang,South,FullHouse_AC,Shade_1,67,36.0,Total End Uses,3251.39
+Padang,South,FullHouse_AC,Shade_2,68,36.0,Heating,0.0
+Padang,South,FullHouse_AC,Shade_2,68,36.0,Cooling,462.98
+Padang,South,FullHouse_AC,Shade_2,68,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,Shade_2,68,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,Shade_2,68,36.0,Fans,31.22
+Padang,South,FullHouse_AC,Shade_2,68,36.0,Total End Uses,3171.54
+Padang,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Heating,0.0
+Padang,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Cooling,342.77
+Padang,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Fans,22.89
+Padang,South,FullHouse_AC,HybridNV_WindowOpen_1,69,36.0,Total End Uses,3043.0
+Padang,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Heating,0.0
+Padang,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Cooling,342.27
+Padang,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Fans,22.85
+Padang,South,FullHouse_AC,HybridNV_WindowOpen_2,70,36.0,Total End Uses,3042.47
+Padang,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Heating,0.0
+Padang,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Cooling,479.07
+Padang,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Fans,32.27
+Padang,South,FullHouse_AC,HybridNV_OperationSchd_1,71,36.0,Total End Uses,3188.68
+Padang,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Heating,0.0
+Padang,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Cooling,478.63
+Padang,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Interior Lighting,501.28
+Padang,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Interior Equipment,2176.06
+Padang,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Fans,32.24
+Padang,South,FullHouse_AC,HybridNV_OperationSchd_2,72,36.0,Total End Uses,3188.21
+Padang,West,Bedroom_AC_Only,Baseline,73,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,Baseline,73,28.76,Cooling,588.18
+Padang,West,Bedroom_AC_Only,Baseline,73,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,Baseline,73,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,Baseline,73,28.76,Fans,39.78
+Padang,West,Bedroom_AC_Only,Baseline,73,28.76,Total End Uses,3305.3
+Padang,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Cooling,542.37
+Padang,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Fans,36.67
+Padang,West,Bedroom_AC_Only,CoolRoof_1,74,28.76,Total End Uses,3256.39
+Padang,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Cooling,484.09
+Padang,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Fans,32.7
+Padang,West,Bedroom_AC_Only,CoolRoof_2,75,28.76,Total End Uses,3194.13
+Padang,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Cooling,491.92
+Padang,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Fans,33.31
+Padang,West,Bedroom_AC_Only,CoolWall_1,76,28.76,Total End Uses,3202.57
+Padang,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Cooling,384.07
+Padang,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Fans,25.99
+Padang,West,Bedroom_AC_Only,CoolWall_2,77,28.76,Total End Uses,3087.41
+Padang,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Cooling,476.37
+Padang,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Fans,32.2
+Padang,West,Bedroom_AC_Only,InsRoof_1,78,28.76,Total End Uses,3185.91
+Padang,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Cooling,449.14
+Padang,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Fans,30.33
+Padang,West,Bedroom_AC_Only,InsRoof_2,79,28.76,Total End Uses,3156.81
+Padang,West,Bedroom_AC_Only,InsWall_1,80,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,InsWall_1,80,28.76,Cooling,509.85
+Padang,West,Bedroom_AC_Only,InsWall_1,80,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,InsWall_1,80,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,InsWall_1,80,28.76,Fans,34.48
+Padang,West,Bedroom_AC_Only,InsWall_1,80,28.76,Total End Uses,3221.67
+Padang,West,Bedroom_AC_Only,InsWall_2,81,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,InsWall_2,81,28.76,Cooling,509.85
+Padang,West,Bedroom_AC_Only,InsWall_2,81,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,InsWall_2,81,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,InsWall_2,81,28.76,Fans,34.48
+Padang,West,Bedroom_AC_Only,InsWall_2,81,28.76,Total End Uses,3221.67
+Padang,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Cooling,497.52
+Padang,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Fans,33.69
+Padang,West,Bedroom_AC_Only,LowEWin_1,82,28.76,Total End Uses,3208.56
+Padang,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Cooling,488.65
+Padang,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Fans,33.1
+Padang,West,Bedroom_AC_Only,LowEWin_2,83,28.76,Total End Uses,3199.08
+Padang,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Cooling,491.67
+Padang,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Fans,33.27
+Padang,West,Bedroom_AC_Only,SolarWin_1,84,28.76,Total End Uses,3202.28
+Padang,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Cooling,444.34
+Padang,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Fans,30.08
+Padang,West,Bedroom_AC_Only,SolarWin_2,85,28.76,Total End Uses,3151.76
+Padang,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Cooling,225.06
+Padang,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Fans,14.79
+Padang,West,Bedroom_AC_Only,CeilingFan_1,86,28.76,Total End Uses,2917.19
+Padang,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Cooling,129.92
+Padang,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Fans,8.4
+Padang,West,Bedroom_AC_Only,CeilingFan_2,87,28.76,Total End Uses,2815.67
+Padang,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Cooling,588.18
+Padang,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Fans,39.78
+Padang,West,Bedroom_AC_Only,CeilingFan_NoSetback_1,88,28.76,Total End Uses,3305.3
+Padang,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Cooling,588.18
+Padang,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Fans,39.78
+Padang,West,Bedroom_AC_Only,CeilingFan_NoSetback_2,89,28.76,Total End Uses,3305.3
+Padang,West,Bedroom_AC_Only,Overhang_1,90,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,Overhang_1,90,28.76,Cooling,550.2
+Padang,West,Bedroom_AC_Only,Overhang_1,90,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,Overhang_1,90,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,Overhang_1,90,28.76,Fans,37.25
+Padang,West,Bedroom_AC_Only,Overhang_1,90,28.76,Total End Uses,3264.79
+Padang,West,Bedroom_AC_Only,Shade_1,91,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,Shade_1,91,28.76,Cooling,615.56
+Padang,West,Bedroom_AC_Only,Shade_1,91,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,Shade_1,91,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,Shade_1,91,28.76,Fans,41.36
+Padang,West,Bedroom_AC_Only,Shade_1,91,28.76,Total End Uses,3334.27
+Padang,West,Bedroom_AC_Only,Shade_2,92,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,Shade_2,92,28.76,Cooling,501.07
+Padang,West,Bedroom_AC_Only,Shade_2,92,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,Shade_2,92,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,Shade_2,92,28.76,Fans,33.82
+Padang,West,Bedroom_AC_Only,Shade_2,92,28.76,Total End Uses,3212.23
+Padang,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Cooling,364.92
+Padang,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Fans,24.34
+Padang,West,Bedroom_AC_Only,HybridNV_WindowOpen_1,93,28.76,Total End Uses,3066.59
+Padang,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Cooling,363.84
+Padang,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Fans,24.27
+Padang,West,Bedroom_AC_Only,HybridNV_WindowOpen_2,94,28.76,Total End Uses,3065.45
+Padang,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Cooling,495.68
+Padang,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Fans,33.39
+Padang,West,Bedroom_AC_Only,HybridNV_OperationSchd_1,95,28.76,Total End Uses,3206.4
+Padang,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Heating,0.0
+Padang,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Cooling,494.96
+Padang,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Interior Lighting,501.28
+Padang,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Interior Equipment,2176.06
+Padang,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Fans,33.34
+Padang,West,Bedroom_AC_Only,HybridNV_OperationSchd_2,96,28.76,Total End Uses,3205.64
+Padang,West,No_AC,Baseline,97,28.76,Heating,0.0
+Padang,West,No_AC,Baseline,97,28.76,Cooling,0.0
+Padang,West,No_AC,Baseline,97,28.76,Interior Lighting,501.28
+Padang,West,No_AC,Baseline,97,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,Baseline,97,28.76,Fans,0.0
+Padang,West,No_AC,Baseline,97,28.76,Total End Uses,2677.34
+Padang,West,No_AC,CoolRoof_1,98,28.76,Heating,0.0
+Padang,West,No_AC,CoolRoof_1,98,28.76,Cooling,0.0
+Padang,West,No_AC,CoolRoof_1,98,28.76,Interior Lighting,501.28
+Padang,West,No_AC,CoolRoof_1,98,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,CoolRoof_1,98,28.76,Fans,0.0
+Padang,West,No_AC,CoolRoof_1,98,28.76,Total End Uses,2677.34
+Padang,West,No_AC,CoolRoof_2,99,28.76,Heating,0.0
+Padang,West,No_AC,CoolRoof_2,99,28.76,Cooling,0.0
+Padang,West,No_AC,CoolRoof_2,99,28.76,Interior Lighting,501.28
+Padang,West,No_AC,CoolRoof_2,99,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,CoolRoof_2,99,28.76,Fans,0.0
+Padang,West,No_AC,CoolRoof_2,99,28.76,Total End Uses,2677.34
+Padang,West,No_AC,CoolWall_1,100,28.76,Heating,0.0
+Padang,West,No_AC,CoolWall_1,100,28.76,Cooling,0.0
+Padang,West,No_AC,CoolWall_1,100,28.76,Interior Lighting,501.28
+Padang,West,No_AC,CoolWall_1,100,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,CoolWall_1,100,28.76,Fans,0.0
+Padang,West,No_AC,CoolWall_1,100,28.76,Total End Uses,2677.34
+Padang,West,No_AC,CoolWall_2,101,28.76,Heating,0.0
+Padang,West,No_AC,CoolWall_2,101,28.76,Cooling,0.0
+Padang,West,No_AC,CoolWall_2,101,28.76,Interior Lighting,501.28
+Padang,West,No_AC,CoolWall_2,101,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,CoolWall_2,101,28.76,Fans,0.0
+Padang,West,No_AC,CoolWall_2,101,28.76,Total End Uses,2677.34
+Padang,West,No_AC,InsRoof_1,102,28.76,Heating,0.0
+Padang,West,No_AC,InsRoof_1,102,28.76,Cooling,0.0
+Padang,West,No_AC,InsRoof_1,102,28.76,Interior Lighting,501.28
+Padang,West,No_AC,InsRoof_1,102,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,InsRoof_1,102,28.76,Fans,0.0
+Padang,West,No_AC,InsRoof_1,102,28.76,Total End Uses,2677.34
+Padang,West,No_AC,InsRoof_2,103,28.76,Heating,0.0
+Padang,West,No_AC,InsRoof_2,103,28.76,Cooling,0.0
+Padang,West,No_AC,InsRoof_2,103,28.76,Interior Lighting,501.28
+Padang,West,No_AC,InsRoof_2,103,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,InsRoof_2,103,28.76,Fans,0.0
+Padang,West,No_AC,InsRoof_2,103,28.76,Total End Uses,2677.34
+Padang,West,No_AC,InsWall_1,104,28.76,Heating,0.0
+Padang,West,No_AC,InsWall_1,104,28.76,Cooling,0.0
+Padang,West,No_AC,InsWall_1,104,28.76,Interior Lighting,501.28
+Padang,West,No_AC,InsWall_1,104,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,InsWall_1,104,28.76,Fans,0.0
+Padang,West,No_AC,InsWall_1,104,28.76,Total End Uses,2677.34
+Padang,West,No_AC,InsWall_2,105,28.76,Heating,0.0
+Padang,West,No_AC,InsWall_2,105,28.76,Cooling,0.0
+Padang,West,No_AC,InsWall_2,105,28.76,Interior Lighting,501.28
+Padang,West,No_AC,InsWall_2,105,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,InsWall_2,105,28.76,Fans,0.0
+Padang,West,No_AC,InsWall_2,105,28.76,Total End Uses,2677.34
+Padang,West,No_AC,LowEWin_1,106,28.76,Heating,0.0
+Padang,West,No_AC,LowEWin_1,106,28.76,Cooling,0.0
+Padang,West,No_AC,LowEWin_1,106,28.76,Interior Lighting,501.28
+Padang,West,No_AC,LowEWin_1,106,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,LowEWin_1,106,28.76,Fans,0.0
+Padang,West,No_AC,LowEWin_1,106,28.76,Total End Uses,2677.34
+Padang,West,No_AC,LowEWin_2,107,28.76,Heating,0.0
+Padang,West,No_AC,LowEWin_2,107,28.76,Cooling,0.0
+Padang,West,No_AC,LowEWin_2,107,28.76,Interior Lighting,501.28
+Padang,West,No_AC,LowEWin_2,107,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,LowEWin_2,107,28.76,Fans,0.0
+Padang,West,No_AC,LowEWin_2,107,28.76,Total End Uses,2677.34
+Padang,West,No_AC,SolarWin_1,108,28.76,Heating,0.0
+Padang,West,No_AC,SolarWin_1,108,28.76,Cooling,0.0
+Padang,West,No_AC,SolarWin_1,108,28.76,Interior Lighting,501.28
+Padang,West,No_AC,SolarWin_1,108,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,SolarWin_1,108,28.76,Fans,0.0
+Padang,West,No_AC,SolarWin_1,108,28.76,Total End Uses,2677.34
+Padang,West,No_AC,SolarWin_2,109,28.76,Heating,0.0
+Padang,West,No_AC,SolarWin_2,109,28.76,Cooling,0.0
+Padang,West,No_AC,SolarWin_2,109,28.76,Interior Lighting,501.28
+Padang,West,No_AC,SolarWin_2,109,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,SolarWin_2,109,28.76,Fans,0.0
+Padang,West,No_AC,SolarWin_2,109,28.76,Total End Uses,2677.34
+Padang,West,No_AC,CeilingFan_1,110,28.76,Heating,0.0
+Padang,West,No_AC,CeilingFan_1,110,28.76,Cooling,0.0
+Padang,West,No_AC,CeilingFan_1,110,28.76,Interior Lighting,501.28
+Padang,West,No_AC,CeilingFan_1,110,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,CeilingFan_1,110,28.76,Fans,0.0
+Padang,West,No_AC,CeilingFan_1,110,28.76,Total End Uses,2677.34
+Padang,West,No_AC,CeilingFan_2,111,28.76,Heating,0.0
+Padang,West,No_AC,CeilingFan_2,111,28.76,Cooling,0.0
+Padang,West,No_AC,CeilingFan_2,111,28.76,Interior Lighting,501.28
+Padang,West,No_AC,CeilingFan_2,111,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,CeilingFan_2,111,28.76,Fans,0.0
+Padang,West,No_AC,CeilingFan_2,111,28.76,Total End Uses,2677.34
+Padang,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Heating,0.0
+Padang,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Cooling,0.0
+Padang,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Interior Lighting,501.28
+Padang,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Fans,0.0
+Padang,West,No_AC,CeilingFan_NoSetback_1,112,28.76,Total End Uses,2677.34
+Padang,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Heating,0.0
+Padang,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Cooling,0.0
+Padang,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Interior Lighting,501.28
+Padang,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Fans,0.0
+Padang,West,No_AC,CeilingFan_NoSetback_2,113,28.76,Total End Uses,2677.34
+Padang,West,No_AC,Overhang_1,114,28.76,Heating,0.0
+Padang,West,No_AC,Overhang_1,114,28.76,Cooling,0.0
+Padang,West,No_AC,Overhang_1,114,28.76,Interior Lighting,501.28
+Padang,West,No_AC,Overhang_1,114,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,Overhang_1,114,28.76,Fans,0.0
+Padang,West,No_AC,Overhang_1,114,28.76,Total End Uses,2677.34
+Padang,West,No_AC,Shade_1,115,28.76,Heating,0.0
+Padang,West,No_AC,Shade_1,115,28.76,Cooling,0.0
+Padang,West,No_AC,Shade_1,115,28.76,Interior Lighting,501.28
+Padang,West,No_AC,Shade_1,115,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,Shade_1,115,28.76,Fans,0.0
+Padang,West,No_AC,Shade_1,115,28.76,Total End Uses,2677.34
+Padang,West,No_AC,Shade_2,116,28.76,Heating,0.0
+Padang,West,No_AC,Shade_2,116,28.76,Cooling,0.0
+Padang,West,No_AC,Shade_2,116,28.76,Interior Lighting,501.28
+Padang,West,No_AC,Shade_2,116,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,Shade_2,116,28.76,Fans,0.0
+Padang,West,No_AC,Shade_2,116,28.76,Total End Uses,2677.34
+Padang,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Heating,0.0
+Padang,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Cooling,0.0
+Padang,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Interior Lighting,501.28
+Padang,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Fans,0.0
+Padang,West,No_AC,HybridNV_WindowOpen_1,117,28.76,Total End Uses,2677.34
+Padang,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Heating,0.0
+Padang,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Cooling,0.0
+Padang,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Interior Lighting,501.28
+Padang,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Fans,0.0
+Padang,West,No_AC,HybridNV_WindowOpen_2,118,28.76,Total End Uses,2677.34
+Padang,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Heating,0.0
+Padang,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Cooling,0.0
+Padang,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Interior Lighting,501.28
+Padang,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Fans,0.0
+Padang,West,No_AC,HybridNV_OperationSchd_1,119,28.76,Total End Uses,2677.34
+Padang,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Heating,0.0
+Padang,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Cooling,0.0
+Padang,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Interior Lighting,501.28
+Padang,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Interior Equipment,2176.06
+Padang,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Fans,0.0
+Padang,West,No_AC,HybridNV_OperationSchd_2,120,28.76,Total End Uses,2677.34
+Padang,West,FullHouse_AC,Baseline,121,36.0,Heating,0.0
+Padang,West,FullHouse_AC,Baseline,121,36.0,Cooling,839.26
+Padang,West,FullHouse_AC,Baseline,121,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,Baseline,121,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,Baseline,121,36.0,Fans,56.68
+Padang,West,FullHouse_AC,Baseline,121,36.0,Total End Uses,3573.29
+Padang,West,FullHouse_AC,CoolRoof_1,122,36.0,Heating,0.0
+Padang,West,FullHouse_AC,CoolRoof_1,122,36.0,Cooling,773.03
+Padang,West,FullHouse_AC,CoolRoof_1,122,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,CoolRoof_1,122,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,CoolRoof_1,122,36.0,Fans,52.19
+Padang,West,FullHouse_AC,CoolRoof_1,122,36.0,Total End Uses,3502.56
+Padang,West,FullHouse_AC,CoolRoof_2,123,36.0,Heating,0.0
+Padang,West,FullHouse_AC,CoolRoof_2,123,36.0,Cooling,687.58
+Padang,West,FullHouse_AC,CoolRoof_2,123,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,CoolRoof_2,123,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,CoolRoof_2,123,36.0,Fans,46.39
+Padang,West,FullHouse_AC,CoolRoof_2,123,36.0,Total End Uses,3411.31
+Padang,West,FullHouse_AC,CoolWall_1,124,36.0,Heating,0.0
+Padang,West,FullHouse_AC,CoolWall_1,124,36.0,Cooling,707.16
+Padang,West,FullHouse_AC,CoolWall_1,124,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,CoolWall_1,124,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,CoolWall_1,124,36.0,Fans,47.8
+Padang,West,FullHouse_AC,CoolWall_1,124,36.0,Total End Uses,3432.3
+Padang,West,FullHouse_AC,CoolWall_2,125,36.0,Heating,0.0
+Padang,West,FullHouse_AC,CoolWall_2,125,36.0,Cooling,552.96
+Padang,West,FullHouse_AC,CoolWall_2,125,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,CoolWall_2,125,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,CoolWall_2,125,36.0,Fans,37.35
+Padang,West,FullHouse_AC,CoolWall_2,125,36.0,Total End Uses,3267.65
+Padang,West,FullHouse_AC,InsRoof_1,126,36.0,Heating,0.0
+Padang,West,FullHouse_AC,InsRoof_1,126,36.0,Cooling,673.28
+Padang,West,FullHouse_AC,InsRoof_1,126,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,InsRoof_1,126,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,InsRoof_1,126,36.0,Fans,45.45
+Padang,West,FullHouse_AC,InsRoof_1,126,36.0,Total End Uses,3396.07
+Padang,West,FullHouse_AC,InsRoof_2,127,36.0,Heating,0.0
+Padang,West,FullHouse_AC,InsRoof_2,127,36.0,Cooling,633.71
+Padang,West,FullHouse_AC,InsRoof_2,127,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,InsRoof_2,127,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,InsRoof_2,127,36.0,Fans,42.74
+Padang,West,FullHouse_AC,InsRoof_2,127,36.0,Total End Uses,3353.8
+Padang,West,FullHouse_AC,InsWall_1,128,36.0,Heating,0.0
+Padang,West,FullHouse_AC,InsWall_1,128,36.0,Cooling,723.29
+Padang,West,FullHouse_AC,InsWall_1,128,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,InsWall_1,128,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,InsWall_1,128,36.0,Fans,48.84
+Padang,West,FullHouse_AC,InsWall_1,128,36.0,Total End Uses,3449.48
+Padang,West,FullHouse_AC,InsWall_2,129,36.0,Heating,0.0
+Padang,West,FullHouse_AC,InsWall_2,129,36.0,Cooling,723.29
+Padang,West,FullHouse_AC,InsWall_2,129,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,InsWall_2,129,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,InsWall_2,129,36.0,Fans,48.84
+Padang,West,FullHouse_AC,InsWall_2,129,36.0,Total End Uses,3449.48
+Padang,West,FullHouse_AC,LowEWin_1,130,36.0,Heating,0.0
+Padang,West,FullHouse_AC,LowEWin_1,130,36.0,Cooling,712.42
+Padang,West,FullHouse_AC,LowEWin_1,130,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,LowEWin_1,130,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,LowEWin_1,130,36.0,Fans,48.16
+Padang,West,FullHouse_AC,LowEWin_1,130,36.0,Total End Uses,3437.92
+Padang,West,FullHouse_AC,LowEWin_2,131,36.0,Heating,0.0
+Padang,West,FullHouse_AC,LowEWin_2,131,36.0,Cooling,699.65
+Padang,West,FullHouse_AC,LowEWin_2,131,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,LowEWin_2,131,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,LowEWin_2,131,36.0,Fans,47.3
+Padang,West,FullHouse_AC,LowEWin_2,131,36.0,Total End Uses,3424.29
+Padang,West,FullHouse_AC,SolarWin_1,132,36.0,Heating,0.0
+Padang,West,FullHouse_AC,SolarWin_1,132,36.0,Cooling,705.01
+Padang,West,FullHouse_AC,SolarWin_1,132,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,SolarWin_1,132,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,SolarWin_1,132,36.0,Fans,47.62
+Padang,West,FullHouse_AC,SolarWin_1,132,36.0,Total End Uses,3429.98
+Padang,West,FullHouse_AC,SolarWin_2,133,36.0,Heating,0.0
+Padang,West,FullHouse_AC,SolarWin_2,133,36.0,Cooling,637.24
+Padang,West,FullHouse_AC,SolarWin_2,133,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,SolarWin_2,133,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,SolarWin_2,133,36.0,Fans,43.07
+Padang,West,FullHouse_AC,SolarWin_2,133,36.0,Total End Uses,3357.65
+Padang,West,FullHouse_AC,CeilingFan_1,134,36.0,Heating,0.0
+Padang,West,FullHouse_AC,CeilingFan_1,134,36.0,Cooling,332.87
+Padang,West,FullHouse_AC,CeilingFan_1,134,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,CeilingFan_1,134,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,CeilingFan_1,134,36.0,Fans,21.85
+Padang,West,FullHouse_AC,CeilingFan_1,134,36.0,Total End Uses,3032.06
+Padang,West,FullHouse_AC,CeilingFan_2,135,36.0,Heating,0.0
+Padang,West,FullHouse_AC,CeilingFan_2,135,36.0,Cooling,196.71
+Padang,West,FullHouse_AC,CeilingFan_2,135,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,CeilingFan_2,135,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,CeilingFan_2,135,36.0,Fans,12.71
+Padang,West,FullHouse_AC,CeilingFan_2,135,36.0,Total End Uses,2886.76
+Padang,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Heating,0.0
+Padang,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Cooling,839.26
+Padang,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Fans,56.68
+Padang,West,FullHouse_AC,CeilingFan_NoSetback_1,136,36.0,Total End Uses,3573.29
+Padang,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Heating,0.0
+Padang,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Cooling,839.26
+Padang,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Fans,56.68
+Padang,West,FullHouse_AC,CeilingFan_NoSetback_2,137,36.0,Total End Uses,3573.29
+Padang,West,FullHouse_AC,Overhang_1,138,36.0,Heating,0.0
+Padang,West,FullHouse_AC,Overhang_1,138,36.0,Cooling,787.63
+Padang,West,FullHouse_AC,Overhang_1,138,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,Overhang_1,138,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,Overhang_1,138,36.0,Fans,53.23
+Padang,West,FullHouse_AC,Overhang_1,138,36.0,Total End Uses,3518.21
+Padang,West,FullHouse_AC,Shade_1,139,36.0,Heating,0.0
+Padang,West,FullHouse_AC,Shade_1,139,36.0,Cooling,881.08
+Padang,West,FullHouse_AC,Shade_1,139,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,Shade_1,139,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,Shade_1,139,36.0,Fans,59.11
+Padang,West,FullHouse_AC,Shade_1,139,36.0,Total End Uses,3617.53
+Padang,West,FullHouse_AC,Shade_2,140,36.0,Heating,0.0
+Padang,West,FullHouse_AC,Shade_2,140,36.0,Cooling,725.57
+Padang,West,FullHouse_AC,Shade_2,140,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,Shade_2,140,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,Shade_2,140,36.0,Fans,48.88
+Padang,West,FullHouse_AC,Shade_2,140,36.0,Total End Uses,3451.79
+Padang,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Heating,0.0
+Padang,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Cooling,539.65
+Padang,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Fans,35.95
+Padang,West,FullHouse_AC,HybridNV_WindowOpen_1,141,36.0,Total End Uses,3252.94
+Padang,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Heating,0.0
+Padang,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Cooling,538.12
+Padang,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Fans,35.85
+Padang,West,FullHouse_AC,HybridNV_WindowOpen_2,142,36.0,Total End Uses,3251.31
+Padang,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Heating,0.0
+Padang,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Cooling,729.8
+Padang,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Fans,49.11
+Padang,West,FullHouse_AC,HybridNV_OperationSchd_1,143,36.0,Total End Uses,3456.25
+Padang,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Heating,0.0
+Padang,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Cooling,728.85
+Padang,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Interior Lighting,501.28
+Padang,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Interior Equipment,2176.06
+Padang,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Fans,49.05
+Padang,West,FullHouse_AC,HybridNV_OperationSchd_2,144,36.0,Total End Uses,3455.24
