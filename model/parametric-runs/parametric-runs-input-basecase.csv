@@ -1,0 +1,11 @@
+#JobID,ModelFile,bldgtype,vint,location,cz,orientation,ac_scenario,ac,CoolRoof,CoolWall,InsRoof,InsWall,LowEWin,SolarWin,CeilingFan,CeilingFan_NoSetback,FixedExteriorShading,OperableWindowShading,NV_WindowOpen,NV_OperationSchd,EnvelopePackage,WindowPackage,sizing,ComfortModel,weather
+BaseCase,main.imf,SF,oldest,Jakarta,nan,South,3,Cooled,0,0,0,0,0,0,0,0,0,0,0,0,0,Clear,autosize,AdaptiveASH55,TMY
+BaseCase,main.imf,SF,oldest,Balikpapan,nan,South,3,Cooled,0,0,0,0,0,0,0,0,0,0,0,0,0,Clear,autosize,AdaptiveASH55,TMY
+BaseCase,main.imf,SF,oldest,Padang,nan,South,3,Cooled,0,0,0,0,0,0,0,0,0,0,0,0,0,Clear,autosize,AdaptiveASH55,TMY
+BaseCase,main.imf,SF,oldest,Waingapu,nan,South,3,Cooled,0,0,0,0,0,0,0,0,0,0,0,0,0,Clear,autosize,AdaptiveASH55,TMY
+BaseCase,main.imf,SF,oldest,Puncak,nan,South,3,Cooled,0,0,0,0,0,0,0,0,0,0,0,0,0,Clear,autosize,AdaptiveASH55,TMY
+BaseCase,main.imf,SF,oldest,Jakarta,nan,West,3,Cooled,0,0,0,0,0,0,0,0,0,0,0,0,0,Clear,autosize,AdaptiveASH55,TMY
+BaseCase,main.imf,SF,oldest,Balikpapan,nan,West,3,Cooled,0,0,0,0,0,0,0,0,0,0,0,0,0,Clear,autosize,AdaptiveASH55,TMY
+BaseCase,main.imf,SF,oldest,Padang,nan,West,3,Cooled,0,0,0,0,0,0,0,0,0,0,0,0,0,Clear,autosize,AdaptiveASH55,TMY
+BaseCase,main.imf,SF,oldest,Waingapu,nan,West,3,Cooled,0,0,0,0,0,0,0,0,0,0,0,0,0,Clear,autosize,AdaptiveASH55,TMY
+BaseCase,main.imf,SF,oldest,Puncak,nan,West,3,Cooled,0,0,0,0,0,0,0,0,0,0,0,0,0,Clear,autosize,AdaptiveASH55,TMY

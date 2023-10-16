@@ -7,6 +7,14 @@
 ##elseif #[ orientation[] EQS "West" ]
 	##set1 north_axis[] 270
 ##endif
+
+! ------------ 00 Set thermal comfort model -----------
+##if #[ ComfortModel[] EQS "Fanger" ]
+	##set1 comfort_model[] Fanger
+##elseif #[ ComfortModel[] EQS "AdaptiveASH55" ]
+	##set1 comfort_model[] AdaptiveASH55
+##endif
+
 ! ------------ 00 AC Capacity by locations-----------
 ##if #[ sizing[] EQS "autosize" ] !Baseline
 	##set1 bedroom1_total_cooling_cap[] autosize

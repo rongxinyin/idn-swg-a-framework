@@ -665,7 +665,7 @@ Schedule:Compact,
     Until: 5:30,             !- Field 6
     clg_sept[],                      !- Field 7
     Until: 21:00,            !- Field 8
-    30,                      !- Field 9
+    clg_sept[],                      !- Field 9
     Until: 24:00,            !- Field 10
     clg_sept[];                      !- Field 11
 
@@ -3521,7 +3521,7 @@ People,
     ,                        !- Clothing Insulation Calculation Method Schedule Name
     Clothing Schedule Bath,  !- Clothing Insulation Schedule Name
     Air Velocity Others,     !- Air Velocity Schedule Name
-    FANGER;                  !- Thermal Comfort Model 1 Type
+    comfort_model[];                  !- Thermal Comfort Model 1 Type
 
 People,
     People Bedroom 1,        !- Name
@@ -3543,7 +3543,7 @@ People,
     ,                        !- Clothing Insulation Calculation Method Schedule Name
     Clothing Schedule Bedroom,  !- Clothing Insulation Schedule Name
     Air Velocity Bedroom 1,    !- Air Velocity Schedule Name
-    FANGER;                  !- Thermal Comfort Model 1 Type
+    comfort_model[];                  !- Thermal Comfort Model 1 Type
 
 People,
     People Bedroom 2,        !- Name
@@ -3565,7 +3565,7 @@ People,
     ,                        !- Clothing Insulation Calculation Method Schedule Name
     Clothing Schedule Bedroom,  !- Clothing Insulation Schedule Name
     Air Velocity Bedroom 2,    !- Air Velocity Schedule Name
-    FANGER;                  !- Thermal Comfort Model 1 Type
+    comfort_model[];                  !- Thermal Comfort Model 1 Type
 
 People,
     People Kitchen,          !- Name
@@ -3587,7 +3587,7 @@ People,
     ,                        !- Clothing Insulation Calculation Method Schedule Name
     Clothing Schedule Kitchen,  !- Clothing Insulation Schedule Name
     Air Velocity Kitchen,     !- Air Velocity Schedule Name
-    FANGER;                  !- Thermal Comfort Model 1 Type
+    comfort_model[];                  !- Thermal Comfort Model 1 Type
 
 People,
     People LivingRoom,       !- Name
@@ -3609,7 +3609,7 @@ People,
     ,                        !- Clothing Insulation Calculation Method Schedule Name
     Clothing Schedule LivingRoom,  !- Clothing Insulation Schedule Name
     Air Velocity LivingRoom, !- Air Velocity Schedule Name
-    FANGER;                  !- Thermal Comfort Model 1 Type
+    comfort_model[];                  !- Thermal Comfort Model 1 Type
 
 
 !-   ===========  ALL OBJECTS IN CLASS: LIGHTS ===========
