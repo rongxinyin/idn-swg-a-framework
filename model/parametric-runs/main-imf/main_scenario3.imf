@@ -4840,7 +4840,7 @@ AirLoopHVAC:UnitarySystem,
     Load,                    !- Control Type
     Living Room,             !- Controlling Zone or Thermostat Location
     None,                    !- Dehumidification Control Type
-    Off,                     !- Availability Schedule Name
+    Always On Discrete hvac_library,                     !- Availability Schedule Name
     Node 37,                 !- Air Inlet Node Name
     Node 31,                 !- Air Outlet Node Name
     Fan:OnOff,               !- Supply Fan Object Type
