@@ -348,11 +348,11 @@
 ! ------------ 10 Natural ventilation with and without ac: window open area --------
 ##if #[ NV_WindowOpen[] EQ 0 ]
 		!Do nothing
-	##elseif #[ NV_WindowOpen[] EQ 1 ]	! 50%
-		##set1 window_open[] 0.5
+	##elseif #[ NV_WindowOpen[] EQ 1 ]	! 25%
+		##set1 window_open[] 0.25
 		##include nv_open_area.imf
-	##elseif #[ NV_WindowOpen[] EQ 2 ]	! 100%
-		##set1 window_open[] 1.0 
+	##elseif #[ NV_WindowOpen[] EQ 2 ]	! 50%
+		##set1 window_open[] 0.50 
 		##include nv_open_area.imf
 ##endif
 
