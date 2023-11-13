@@ -6,7 +6,7 @@ Schedule:Compact,
   Through: 12/31,                         !- Field 1
   For: AllDays,                           !- Field 2
   Until: 24:00,                           !- Field 3
-  0.5;                                    !- Field 4
+  0.0;                                    !- Field 4
 
 ZoneVentilation:WindandStackOpenArea,
   Bath_Win_WindandStackOpenArea,          !- Name

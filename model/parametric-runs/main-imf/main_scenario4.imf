@@ -662,9 +662,9 @@ Schedule:Compact,
     Until: 24:00,            !- Field 3
     25,                      !- Field 4
     For: AllOtherDays,       !- Field 5
-    Until: 5:30,             !- Field 6
+    Until: 6:00,             !- Field 6
     clg_sept[],                      !- Field 7
-    Until: 21:00,            !- Field 8
+    Until: 18:00,            !- Field 8
     30,                      !- Field 9
     Until: 24:00,            !- Field 10
     clg_sept[];                      !- Field 11
@@ -679,6 +679,15 @@ Schedule:Compact,
 
 Schedule:Compact,
     Living Room Thermostat Schedule,  !- Name
+    Bedroom 2 Thermostat Schedule Type Limits,  !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    4;                       !- Field 4
+
+
+Schedule:Compact,
+    Kitchen Thermostat Schedule,  !- Name
     Bedroom 2 Thermostat Schedule Type Limits,  !- Schedule Type Limits Name
     Through: 12/31,          !- Field 1
     For: AllDays,            !- Field 2
@@ -1100,11 +1109,6 @@ Schedule:Constant,
     Always On Discrete hvac_library,  !- Name
     OnOff hvac_library,      !- Schedule Type Limits Name
     always_on_hvac[];                       !- Hourly Value
-
-Schedule:Constant,
-    Always Off Discrete hvac_library,  !- Name
-    OnOff hvac_library,      !- Schedule Type Limits Name
-    0;                       !- Hourly Value
 
 Schedule:Constant,
     Always On Discrete,      !- Name
@@ -3607,7 +3611,6 @@ People,
     Air Velocity LivingRoom, !- Air Velocity Schedule Name
     comfort_model[];                  !- Thermal Comfort Model 1 Type
 
-
 !-   ===========  ALL OBJECTS IN CLASS: LIGHTS ===========
 
 Lights,
@@ -3877,6 +3880,14 @@ DesignSpecification:OutdoorAir,
     0;                       !- Outdoor Air Flow Air Changes per Hour {1/hr}
 
 DesignSpecification:OutdoorAir,
+    kitchen Zero air DSOA,   !- Name
+    Sum,                     !- Outdoor Air Method
+    0,                       !- Outdoor Air Flow per Person {m3/s-person}
+    0,                       !- Outdoor Air Flow per Zone Floor Area {m3/s-m2}
+    0,                       !- Outdoor Air Flow per Zone {m3/s}
+    0;                       !- Outdoor Air Flow Air Changes per Hour {1/hr}
+
+DesignSpecification:OutdoorAir,
     Living Room Zero air DSOA,  !- Name
     Sum,                     !- Outdoor Air Method
     0,                       !- Outdoor Air Flow per Person {m3/s-person}
@@ -4040,6 +4051,42 @@ Sizing:Zone,
     0.005;                   !- Zone Humidification Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir}
 
 
+Sizing:Zone,
+    kitchen,                 !- Zone or ZoneList Name
+    SupplyAirTemperature,    !- Zone Cooling Design Supply Air Temperature Input Method
+    14,                      !- Zone Cooling Design Supply Air Temperature {C}
+    11.11,                   !- Zone Cooling Design Supply Air Temperature Difference {deltaC}
+    SupplyAirTemperature,    !- Zone Heating Design Supply Air Temperature Input Method
+    40,                      !- Zone Heating Design Supply Air Temperature {C}
+    11.11,                   !- Zone Heating Design Supply Air Temperature Difference {deltaC}
+    0.0085,                  !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
+    0.008,                   !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
+    kitchen Zero air DSOA,   !- Design Specification Outdoor Air Object Name
+    ,                        !- Zone Heating Sizing Factor
+    ,                        !- Zone Cooling Sizing Factor
+    DesignDay,               !- Cooling Design Air Flow Method
+    0,                       !- Cooling Design Air Flow Rate {m3/s}
+    0.000762,                !- Cooling Minimum Air Flow per Zone Floor Area {m3/s-m2}
+    0,                       !- Cooling Minimum Air Flow {m3/s}
+    0,                       !- Cooling Minimum Air Flow Fraction
+    DesignDay,               !- Heating Design Air Flow Method
+    0,                       !- Heating Design Air Flow Rate {m3/s}
+    0.002032,                !- Heating Maximum Air Flow per Zone Floor Area {m3/s-m2}
+    0.1415762,               !- Heating Maximum Air Flow {m3/s}
+    0.3,                     !- Heating Maximum Air Flow Fraction
+    ,                        !- Design Specification Zone Air Distribution Object Name
+    No,                      !- Account for Dedicated Outdoor Air System
+    ,                        !- Dedicated Outdoor Air System Control Strategy
+    ,                        !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
+    ,                        !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
+    Sensible Load Only No Latent Load,  !- Zone Load Sizing Method
+    HumidityRatioDifference, !- Zone Latent Cooling Design Supply Air Humidity Ratio Input Method
+    ,                        !- Zone Dehumidification Design Supply Air Humidity Ratio {kgWater/kgDryAir}
+    0.005,                   !- Zone Cooling Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir}
+    HumidityRatioDifference, !- Zone Latent Heating Design Supply Air Humidity Ratio Input Method
+    ,                        !- Zone Humidification Design Supply Air Humidity Ratio {kgWater/kgDryAir}
+    0.005;                   !- Zone Humidification Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir}
+
 !-   ===========  ALL OBJECTS IN CLASS: SIZING:SYSTEM ===========
 
 Sizing:System,
@@ -4163,6 +4210,47 @@ Sizing:System,
     OnOff,                   !- Central Cooling Capacity Control Method
     Autosize;                !- Occupant Diversity
 
+Sizing:System,
+    Air Loop HVAC 4,         !- AirLoop Name
+    Sensible,                !- Type of Load to Size On
+    Autosize,                !- Design Outdoor Air Flow Rate {m3/s}
+    0.3,                     !- Central Heating Maximum System Air Flow Ratio
+    7,                       !- Preheat Design Temperature {C}
+    0.008,                   !- Preheat Design Humidity Ratio {kgWater/kgDryAir}
+    12.8,                    !- Precool Design Temperature {C}
+    0.008,                   !- Precool Design Humidity Ratio {kgWater/kgDryAir}
+    12.8,                    !- Central Cooling Design Supply Air Temperature {C}
+    16.7,                    !- Central Heating Design Supply Air Temperature {C}
+    NonCoincident,           !- Type of Zone Sum to Use
+    Yes,                     !- 100% Outdoor Air in Cooling
+    Yes,                     !- 100% Outdoor Air in Heating
+    0.0085,                  !- Central Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
+    0.008,                   !- Central Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
+    DesignDay,               !- Cooling Supply Air Flow Rate Method
+    0,                       !- Cooling Supply Air Flow Rate {m3/s}
+    0.0099676501,            !- Cooling Supply Air Flow Rate Per Floor Area {m3/s-m2}
+    1,                       !- Cooling Fraction of Autosized Cooling Supply Air Flow Rate
+    3.9475456e-05,           !- Cooling Supply Air Flow Rate Per Unit Cooling Capacity {m3/s-W}
+    DesignDay,               !- Heating Supply Air Flow Rate Method
+    0,                       !- Heating Supply Air Flow Rate {m3/s}
+    0.0099676501,            !- Heating Supply Air Flow Rate Per Floor Area {m3/s-m2}
+    1,                       !- Heating Fraction of Autosized Heating Supply Air Flow Rate
+    1,                       !- Heating Fraction of Autosized Cooling Supply Air Flow Rate
+    3.1588213e-05,           !- Heating Supply Air Flow Rate Per Unit Heating Capacity {m3/s-W}
+    ZoneSum,                 !- System Outdoor Air Method
+    1,                       !- Zone Maximum Outdoor Air Fraction {dimensionless}
+    CoolingDesignCapacity,   !- Cooling Design Capacity Method
+    Autosize,                !- Cooling Design Capacity {W}
+    234.7,                   !- Cooling Design Capacity Per Floor Area {W/m2}
+    1,                       !- Fraction of Autosized Cooling Design Capacity
+    HeatingDesignCapacity,   !- Heating Design Capacity Method
+    Autosize,                !- Heating Design Capacity {W}
+    157,                     !- Heating Design Capacity Per Floor Area {W/m2}
+    1,                       !- Fraction of Autosized Heating Design Capacity
+    OnOff,                   !- Central Cooling Capacity Control Method
+    Autosize;                !- Occupant Diversity
+
+
 !-   ===========  ALL OBJECTS IN CLASS: ZONECONTROL:THERMOSTAT ===========
 
 ZoneControl:Thermostat,
@@ -4208,6 +4296,21 @@ ZoneControl:Thermostat,
     ,                        !- Control 4 Name
     0;                       !- Temperature Difference Between Cutout And Setpoint {deltaC}
 
+
+ZoneControl:Thermostat,
+    kitchen Thermostat,      !- Name
+    kitchen,                 !- Zone or ZoneList Name
+    kitchen Thermostat Schedule,  !- Control Type Schedule Name
+    ThermostatSetpoint:DualSetpoint,  !- Control 1 Object Type
+    Thermostat Setpoint Dual Setpoint 4,  !- Control 1 Name
+    ,                        !- Control 2 Object Type
+    ,                        !- Control 2 Name
+    ,                        !- Control 3 Object Type
+    ,                        !- Control 3 Name
+    ,                        !- Control 4 Object Type
+    ,                        !- Control 4 Name
+    0;                       !- Temperature Difference Between Cutout And Setpoint {deltaC}
+
 !-   ===========  ALL OBJECTS IN CLASS: THERMOSTATSETPOINT:DUALSETPOINT ===========
 
 ThermostatSetpoint:DualSetpoint,
@@ -4222,6 +4325,11 @@ ThermostatSetpoint:DualSetpoint,
 
 ThermostatSetpoint:DualSetpoint,
     Thermostat Setpoint Dual Setpoint 3,  !- Name
+    heating_sch,             !- Heating Setpoint Temperature Schedule Name
+    cooling_sch;             !- Cooling Setpoint Temperature Schedule Name
+
+ThermostatSetpoint:DualSetpoint,
+    Thermostat Setpoint Dual Setpoint 4,  !- Name
     heating_sch,             !- Heating Setpoint Temperature Schedule Name
     cooling_sch;             !- Cooling Setpoint Temperature Schedule Name
 
@@ -4249,6 +4357,13 @@ AirTerminal:SingleDuct:ConstantVolume:NoReheat,
     Node 34,                 !- Air Outlet Node Name
     AutoSize;                !- Maximum Air Flow Rate {m3/s}
 
+AirTerminal:SingleDuct:ConstantVolume:NoReheat,
+    Diffuser Kitchen,        !- Name
+    Always On Discrete hvac_library,  !- Availability Schedule Name
+    Node 48,                 !- Air Inlet Node Name
+    Node 44,                 !- Air Outlet Node Name
+    AutoSize;                !- Maximum Air Flow Rate {m3/s}
+
 !-   ===========  ALL OBJECTS IN CLASS: ZONEHVAC:AIRDISTRIBUTIONUNIT ===========
 
 ZoneHVAC:AirDistributionUnit,
@@ -4269,6 +4384,12 @@ ZoneHVAC:AirDistributionUnit,
     Node 34,                 !- Air Distribution Unit Outlet Node Name
     AirTerminal:SingleDuct:ConstantVolume:NoReheat,  !- Air Terminal Object Type
     Diffuser LivingRoom;     !- Air Terminal Name
+
+ZoneHVAC:AirDistributionUnit,
+    ADU Diffuser Kitchen,    !- Name
+    Node 44,                 !- Air Distribution Unit Outlet Node Name
+    AirTerminal:SingleDuct:ConstantVolume:NoReheat,  !- Air Terminal Object Type
+    Diffuser Kitchen;        !- Air Terminal Name
 
 !-   ===========  ALL OBJECTS IN CLASS: ZONEHVAC:EQUIPMENTLIST ===========
 
@@ -4313,6 +4434,16 @@ ZoneHVAC:EquipmentList,
     ,                        !- Zone Equipment 1 Sequential Cooling Fraction Schedule Name
     ;                        !- Zone Equipment 1 Sequential Heating Fraction Schedule Name
 
+ZoneHVAC:EquipmentList,
+    kitchen Equipment List,  !- Name
+    SequentialLoad,          !- Load Distribution Scheme
+    ZoneHVAC:AirDistributionUnit,  !- Zone Equipment 1 Object Type
+    ADU Diffuser Kitchen,    !- Zone Equipment 1 Name
+    1,                       !- Zone Equipment 1 Cooling Sequence
+    1,                       !- Zone Equipment 1 Heating or No-Load Sequence
+    ,                        !- Zone Equipment 1 Sequential Cooling Fraction Schedule Name
+    ;                        !- Zone Equipment 1 Sequential Heating Fraction Schedule Name
+
 !-   ===========  ALL OBJECTS IN CLASS: ZONEHVAC:EQUIPMENTCONNECTIONS ===========
 
 ZoneHVAC:EquipmentConnections,
@@ -4348,11 +4479,19 @@ ZoneHVAC:EquipmentConnections,
     Living Room Return Node List;  !- Zone Return Air Node or NodeList Name
 
 
+ZoneHVAC:EquipmentConnections,
+    kitchen,                 !- Zone Name
+    kitchen Equipment List,  !- Zone Conditioning Equipment List Name
+    kitchen Inlet Node List, !- Zone Air Inlet Node or NodeList Name
+    ,                        !- Zone Air Exhaust Node or NodeList Name
+    Node 27,                 !- Zone Air Node Name
+    kitchen Return Node List;!- Zone Return Air Node or NodeList Name
+
 !-   ===========  ALL OBJECTS IN CLASS: FAN:ONOFF ===========
 
 Fan:OnOff,
     Fan On Off 8,            !- Name
-    Always Off Discrete hvac_library,  !- Availability Schedule Name
+    Always On Discrete hvac_library,  !- Availability Schedule Name
     0.6,                     !- Fan Total Efficiency
     300,                     !- Pressure Rise {Pa}
     Autosize,                !- Maximum Flow Rate {m3/s}
@@ -4366,7 +4505,7 @@ Fan:OnOff,
 
 Fan:OnOff,
     Fan On Off 9,            !- Name
-    Always Off Discrete hvac_library,  !- Availability Schedule Name
+    Always On Discrete hvac_library,  !- Availability Schedule Name
     0.6,                     !- Fan Total Efficiency
     300,                     !- Pressure Rise {Pa}
     Autosize,                !- Maximum Flow Rate {m3/s}
@@ -4381,7 +4520,7 @@ Fan:OnOff,
 
 Fan:OnOff,
     Fan On Off 10,           !- Name
-    Always Off Discrete hvac_library,  !- Availability Schedule Name
+    Always On Discrete hvac_library,  !- Availability Schedule Name
     0.6,                     !- Fan Total Efficiency
     300,                     !- Pressure Rise {Pa}
     Autosize,                !- Maximum Flow Rate {m3/s}
@@ -4393,6 +4532,20 @@ Fan:OnOff,
     Fan On Off Efficiency Curve 5,  !- Fan Efficiency Ratio Function of Speed Ratio Curve Name
     General;                 !- End-Use Subcategory
 
+
+Fan:OnOff,
+    Fan On Off 11,           !- Name
+    Always On Discrete hvac_library,  !- Availability Schedule Name
+    0.6,                     !- Fan Total Efficiency
+    300,                     !- Pressure Rise {Pa}
+    Autosize,                !- Maximum Flow Rate {m3/s}
+    0.8,                     !- Motor Efficiency
+    1,                       !- Motor In Airstream Fraction
+    Node 47,                 !- Air Inlet Node Name
+    Unitary - Single Speed DX cooling - Cycling - Elec reheat Kitchen Fan - Cooling Coil Node,  !- Air Outlet Node Name
+    Fan On Off Power Curve 3,!- Fan Power Ratio Function of Speed Ratio Curve Name
+    Fan On Off Efficiency Curve 5,  !- Fan Efficiency Ratio Function of Speed Ratio Curve Name
+    General;                 !- End-Use Subcategory
 
 !-   ===========  ALL OBJECTS IN CLASS: FAN:ZONEEXHAUST ===========
 
@@ -4413,7 +4566,7 @@ Fan:ZoneExhaust,
 
 Coil:Cooling:DX:SingleSpeed,
     1 Spd DX Clg Coil 7,     !- Name
-    Always Off Discrete hvac_library,  !- Availability Schedule Name
+    Always On Discrete hvac_library,  !- Availability Schedule Name
     bedroom1_total_cooling_cap[],  !- Gross Rated Total Cooling Capacity {W}
     bedroom1_sensible_heat_ratio[],  !- Gross Rated Sensible Heat Ratio
     2.5,                       !- Gross Rated Cooling COP {W/W}
@@ -4446,7 +4599,7 @@ Coil:Cooling:DX:SingleSpeed,
 
 Coil:Cooling:DX:SingleSpeed,
     1 Spd DX Clg Coil 8,     !- Name
-    Always Off Discrete hvac_library,  !- Availability Schedule Name
+    Always On Discrete hvac_library,  !- Availability Schedule Name
     bedroom2_total_cooling_cap[],  !- Gross Rated Total Cooling Capacity {W}
     bedroom2_sensible_heat_ratio[],  !- Gross Rated Sensible Heat Ratio
     2.5,                       !- Gross Rated Cooling COP {W/W}
@@ -4480,11 +4633,11 @@ Coil:Cooling:DX:SingleSpeed,
 
 Coil:Cooling:DX:SingleSpeed,
     1 Spd DX Clg Coil 9,     !- Name
-    Always Off Discrete hvac_library,  !- Availability Schedule Name
-    Autosize,                !- Gross Rated Total Cooling Capacity {W}
-    Autosize,                !- Gross Rated Sensible Heat Ratio
+    Always On Discrete hvac_library,  !- Availability Schedule Name
+    livingroom_total_cooling_cap[],  !- Gross Rated Total Cooling Capacity {W}
+    livingroom_sensible_heat_ratio[],  !- Gross Rated Sensible Heat Ratio
     2.5,                       !- Gross Rated Cooling COP {W/W}
-    Autosize,                !- Rated Air Flow Rate {m3/s}
+    livingroom_airflow_rate[], !- Rated Air Flow Rate {m3/s}
     773.3,                   !- 2017 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}
     934.4,                   !- 2023 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}
     Unitary - Single Speed DX cooling - Cycling - Elec reheat LivingRoom Fan - Cooling Coil Node,  !- Air Inlet Node Name
@@ -4512,11 +4665,45 @@ Coil:Cooling:DX:SingleSpeed,
     10;                      !- Basin Heater Setpoint Temperature {C}
 
 
+Coil:Cooling:DX:SingleSpeed,
+    1 Spd DX Clg Coil 10,    !- Name
+    Always On Discrete hvac_library,  !- Availability Schedule Name
+    kitchen_total_cooling_cap[],  !- Gross Rated Total Cooling Capacity {W}
+    kitchen_sensible_heat_ratio[],  !- Gross Rated Sensible Heat Ratio
+    2.5,                       !- Gross Rated Cooling COP {W/W}
+    kitchen_airflow_rate[], !- Rated Air Flow Rate {m3/s}
+    773.3,                   !- 2017 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}
+    934.4,                   !- 2023 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}
+    Unitary - Single Speed DX cooling - Cycling - Elec reheat Kitchen Fan - Cooling Coil Node,  !- Air Inlet Node Name
+    Unitary - Single Speed DX cooling - Cycling - Elec reheat Kitchen Cooling Coil - Supplemental Coil Node,  !- Air Outlet Node Name
+    Curve Biquadratic 19,    !- Total Cooling Capacity Function of Temperature Curve Name
+    Curve Quadratic 9,       !- Total Cooling Capacity Function of Flow Fraction Curve Name
+    Curve Biquadratic 11,    !- Energy Input Ratio Function of Temperature Curve Name
+    Curve Quadratic 8,       !- Energy Input Ratio Function of Flow Fraction Curve Name
+    Curve Quadratic 18,      !- Part Load Fraction Correlation Curve Name
+    -25,                     !- Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}
+    0,                       !- Nominal Time for Condensate Removal to Begin {s}
+    0,                       !- Ratio of Initial Moisture Evaporation Rate and Steady State Latent Capacity {dimensionless}
+    0,                       !- Maximum Cycling Rate {cycles/hr}
+    0,                       !- Latent Capacity Time Constant {s}
+    ,                        !- Condenser Air Inlet Node Name
+    AirCooled,               !- Condenser Type
+    0,                       !- Evaporative Condenser Effectiveness {dimensionless}
+    Autosize,                !- Evaporative Condenser Air Flow Rate {m3/s}
+    Autosize,                !- Evaporative Condenser Pump Rated Power Consumption {W}
+    0,                       !- Crankcase Heater Capacity {W}
+    0,                       !- Maximum Outdoor Dry-Bulb Temperature for Crankcase Heater Operation {C}
+    ,                        !- Supply Water Storage Tank Name
+    ,                        !- Condensate Collection Water Storage Tank Name
+    0,                       !- Basin Heater Capacity {W/K}
+    10;                      !- Basin Heater Setpoint Temperature {C}
+
+
 !-   ===========  ALL OBJECTS IN CLASS: COIL:HEATING:ELECTRIC ===========
 
 Coil:Heating:Electric,
     Elec Htg Coil 15,        !- Name
-    Always Off Discrete hvac_library,  !- Availability Schedule Name
+    Always On Discrete hvac_library,  !- Availability Schedule Name
     1,                       !- Efficiency
     Autosize,                !- Nominal Capacity {W}
     Unitary - Single Speed DX cooling - Cycling - Elec reheat Cooling Coil - Supplemental Coil Node,  !- Air Inlet Node Name
@@ -4524,7 +4711,7 @@ Coil:Heating:Electric,
 
 Coil:Heating:Electric,
     Elec Htg Coil 16,        !- Name
-    Always Off Discrete hvac_library,  !- Availability Schedule Name
+    Always On Discrete hvac_library,  !- Availability Schedule Name
     1,                       !- Efficiency
     Autosize,                !- Nominal Capacity {W}
     Unitary - Single Speed DX cooling - Cycling - Elec reheat Bedroom2 Cooling Coil - Supplemental Coil Node,  !- Air Inlet Node Name
@@ -4532,12 +4719,20 @@ Coil:Heating:Electric,
 
 Coil:Heating:Electric,
     Elec Htg Coil 17,        !- Name
-    Always Off Discrete hvac_library,  !- Availability Schedule Name
+    Always On Discrete hvac_library,  !- Availability Schedule Name
     1,                       !- Efficiency
     Autosize,                !- Nominal Capacity {W}
     Unitary - Single Speed DX cooling - Cycling - Elec reheat LivingRoom Cooling Coil - Supplemental Coil Node,  !- Air Inlet Node Name
     Node 31;                 !- Air Outlet Node Name
 
+
+Coil:Heating:Electric,
+    Elec Htg Coil 18,        !- Name
+    Always On Discrete hvac_library,  !- Availability Schedule Name
+    1,                       !- Efficiency
+    Autosize,                !- Nominal Capacity {W}
+    Unitary - Single Speed DX cooling - Cycling - Elec reheat Kitchen Cooling Coil - Supplemental Coil Node,  !- Air Inlet Node Name
+    Node 41;                 !- Air Outlet Node Name
 
 !-   ===========  ALL OBJECTS IN CLASS: AIRLOOPHVAC:UNITARYSYSTEM ===========
 
@@ -4546,7 +4741,7 @@ AirLoopHVAC:UnitarySystem,
     Load,                    !- Control Type
     Bedroom 1,               !- Controlling Zone or Thermostat Location
     None,                    !- Dehumidification Control Type
-    Always Off Discrete hvac_library,                        !- Availability Schedule Name
+    Always On Discrete hvac_library,                        !- Availability Schedule Name
     Node 13,                 !- Air Inlet Node Name
     Node 6,                  !- Air Outlet Node Name
     Fan:OnOff,               !- Supply Fan Object Type
@@ -4595,7 +4790,7 @@ AirLoopHVAC:UnitarySystem,
     Load,                    !- Control Type
     Bedroom 2,               !- Controlling Zone or Thermostat Location
     None,                    !- Dehumidification Control Type
-    Always Off Discrete hvac_library,       !- Availability Schedule Name
+    Always On Discrete hvac_library,       !- Availability Schedule Name
     Node 23,                 !- Air Inlet Node Name
     Node 17,                 !- Air Outlet Node Name
     Fan:OnOff,               !- Supply Fan Object Type
@@ -4644,7 +4839,7 @@ AirLoopHVAC:UnitarySystem,
     Load,                    !- Control Type
     Living Room,             !- Controlling Zone or Thermostat Location
     None,                    !- Dehumidification Control Type
-    Always Off Discrete hvac_library,                     !- Availability Schedule Name
+    Always On Discrete hvac_library,                     !- Availability Schedule Name
     Node 37,                 !- Air Inlet Node Name
     Node 31,                 !- Air Outlet Node Name
     Fan:OnOff,               !- Supply Fan Object Type
@@ -4688,6 +4883,55 @@ AirLoopHVAC:UnitarySystem,
     0,                       !- Ancillary On-Cycle Electric Power {W}
     0;                       !- Ancillary Off-Cycle Electric Power {W}
 
+
+AirLoopHVAC:UnitarySystem,
+    Unitary - Single Speed DX cooling - Cycling - Elec reheat Kitchen,  !- Name
+    Load,                    !- Control Type
+    kitchen,                 !- Controlling Zone or Thermostat Location
+    None,                    !- Dehumidification Control Type
+    Always On Discrete hvac_library,  !- Availability Schedule Name
+    Node 47,                 !- Air Inlet Node Name
+    Node 41,                 !- Air Outlet Node Name
+    Fan:OnOff,               !- Supply Fan Object Type
+    Fan On Off 11,           !- Supply Fan Name
+    BlowThrough,             !- Fan Placement
+    ,                        !- Supply Air Fan Operating Mode Schedule Name
+    ,                        !- Heating Coil Object Type
+    ,                        !- Heating Coil Name
+    1,                       !- DX Heating Coil Sizing Ratio
+    Coil:Cooling:DX:SingleSpeed,  !- Cooling Coil Object Type
+    1 Spd DX Clg Coil 10,    !- Cooling Coil Name
+    No,                      !- Use DOAS DX Cooling Coil
+    2,                       !- Minimum Supply Air Temperature {C}
+    SensibleOnlyLoadControl, !- Latent Load Control
+    Coil:Heating:Electric,   !- Supplemental Heating Coil Object Type
+    Elec Htg Coil 18,        !- Supplemental Heating Coil Name
+    ,                        !- Cooling Supply Air Flow Rate Method
+    Autosize,                !- Cooling Supply Air Flow Rate {m3/s}
+    ,                        !- Cooling Supply Air Flow Rate Per Floor Area {m3/s-m2}
+    ,                        !- Cooling Fraction of Autosized Cooling Supply Air Flow Rate
+    ,                        !- Cooling Supply Air Flow Rate Per Unit of Capacity {m3/s-W}
+    ,                        !- Heating Supply Air Flow Rate Method
+    Autosize,                !- Heating Supply Air Flow Rate {m3/s}
+    ,                        !- Heating Supply Air Flow Rate Per Floor Area {m3/s-m2}
+    ,                        !- Heating Fraction of Autosized Heating Supply Air Flow Rate
+    ,                        !- Heating Supply Air Flow Rate Per Unit of Capacity {m3/s-W}
+    ,                        !- No Load Supply Air Flow Rate Method
+    Autosize,                !- No Load Supply Air Flow Rate {m3/s}
+    ,                        !- No Load Supply Air Flow Rate Per Floor Area {m3/s-m2}
+    ,                        !- No Load Fraction of Autosized Cooling Supply Air Flow Rate
+    ,                        !- No Load Fraction of Autosized Heating Supply Air Flow Rate
+    ,                        !- No Load Supply Air Flow Rate Per Unit of Capacity During Cooling Operation {m3/s-W}
+    ,                        !- No Load Supply Air Flow Rate Per Unit of Capacity During Heating Operation {m3/s-W}
+    80,                      !- Maximum Supply Air Temperature {C}
+    21,                      !- Maximum Outdoor Dry-Bulb Temperature for Supplemental Heater Operation {C}
+    ,                        !- Outdoor Dry-Bulb Temperature Sensor Node Name
+    2.5,                     !- Maximum Cycling Rate {cycles/hr}
+    60,                      !- Heat Pump Time Constant {s}
+    0.01,                    !- Fraction of On-Cycle Power Use
+    60,                      !- Heat Pump Fan Delay Time {s}
+    0,                       !- Ancillary On-Cycle Electric Power {W}
+    0;                       !- Ancillary Off-Cycle Electric Power {W}
 
 !-   ===========  ALL OBJECTS IN CLASS: CONTROLLER:OUTDOORAIR ===========
 
@@ -4776,11 +5020,39 @@ Controller:OutdoorAir,
     BypassWhenOAFlowGreaterThanMinimum;  !- Heat Recovery Bypass Control Type
 
 
+Controller:OutdoorAir,
+    Outdoor Air Controller Kitchen,  !- Name
+    Node 46,                 !- Relief Air Outlet Node Name
+    Node 40,                 !- Return Air Node Name
+    Node 47,                 !- Mixed Air Node Name
+    Node 45,                 !- Actuator Node Name
+    Autosize,                !- Minimum Outdoor Air Flow Rate {m3/s}
+    Autosize,                !- Maximum Outdoor Air Flow Rate {m3/s}
+    NoEconomizer,            !- Economizer Control Type
+    ModulateFlow,            !- Economizer Control Action Type
+    28,                      !- Economizer Maximum Limit Dry-Bulb Temperature {C}
+    64000,                   !- Economizer Maximum Limit Enthalpy {J/kg}
+    ,                        !- Economizer Maximum Limit Dewpoint Temperature {C}
+    ,                        !- Electronic Enthalpy Limit Curve Name
+    -100,                    !- Economizer Minimum Limit Dry-Bulb Temperature {C}
+    NoLockout,               !- Lockout Type
+    FixedMinimum,            !- Minimum Limit Type
+    ,                        !- Minimum Outdoor Air Schedule Name
+    ,                        !- Minimum Fraction of Outdoor Air Schedule Name
+    ,                        !- Maximum Fraction of Outdoor Air Schedule Name
+    Controller Mechanical Ventilation 4,  !- Mechanical Ventilation Controller Name
+    ,                        !- Time of Day Economizer Control Schedule Name
+    No,                      !- High Humidity Control
+    ,                        !- Humidistat Control Zone Name
+    ,                        !- High Humidity Outdoor Air Flow Ratio
+    Yes,                     !- Control High Indoor Humidity Based on Outdoor Humidity Ratio
+    BypassWhenOAFlowGreaterThanMinimum;  !- Heat Recovery Bypass Control Type
+
 !-   ===========  ALL OBJECTS IN CLASS: CONTROLLER:MECHANICALVENTILATION ===========
 
 Controller:MechanicalVentilation,
     Controller Mechanical Ventilation 1,  !- Name
-    Always Off Discrete hvac_library,  !- Availability Schedule Name
+    Always On Discrete hvac_library,  !- Availability Schedule Name
     No,                      !- Demand Controlled Ventilation
     ZoneSum,                 !- System Outdoor Air Method
     ,                        !- Zone Maximum Outdoor Air Fraction {dimensionless}
@@ -4790,7 +5062,7 @@ Controller:MechanicalVentilation,
 
 Controller:MechanicalVentilation,
     Controller Mechanical Ventilation 2,  !- Name
-    Always Off Discrete hvac_library,  !- Availability Schedule Name
+    Always On Discrete hvac_library,  !- Availability Schedule Name
     No,                      !- Demand Controlled Ventilation
     ZoneSum,                 !- System Outdoor Air Method
     ,                        !- Zone Maximum Outdoor Air Fraction {dimensionless}
@@ -4800,7 +5072,7 @@ Controller:MechanicalVentilation,
 
 Controller:MechanicalVentilation,
     Controller Mechanical Ventilation 3,  !- Name
-    Always Off Discrete hvac_library,  !- Availability Schedule Name
+    Always On Discrete hvac_library,  !- Availability Schedule Name
     No,                      !- Demand Controlled Ventilation
     ZoneSum,                 !- System Outdoor Air Method
     ,                        !- Zone Maximum Outdoor Air Fraction {dimensionless}
@@ -4808,6 +5080,16 @@ Controller:MechanicalVentilation,
     ,                        !- Design Specification Outdoor Air Object Name 1
     ;                        !- Design Specification Zone Air Distribution Object Name 1
 
+
+Controller:MechanicalVentilation,
+    Controller Mechanical Ventilation 4,  !- Name
+    Always On Discrete hvac_library,  !- Availability Schedule Name
+    No,                      !- Demand Controlled Ventilation
+    ZoneSum,                 !- System Outdoor Air Method
+    ,                        !- Zone Maximum Outdoor Air Fraction {dimensionless}
+    kitchen,                 !- Zone or ZoneList 1 Name
+    ,                        !- Design Specification Outdoor Air Object Name 1
+    ;                        !- Design Specification Zone Air Distribution Object Name 1
 
 !-   ===========  ALL OBJECTS IN CLASS: AIRLOOPHVAC:CONTROLLERLIST ===========
 
@@ -4826,6 +5108,11 @@ AirLoopHVAC:ControllerList,
     Controller:OutdoorAir,   !- Controller 1 Object Type
     Outdoor Air Controller LivingRoom;  !- Controller 1 Name
 
+
+AirLoopHVAC:ControllerList,
+    OA System Kitchen Controller List,  !- Name
+    Controller:OutdoorAir,   !- Controller 1 Object Type
+    Outdoor Air Controller Kitchen;  !- Controller 1 Name
 
 !-   ===========  ALL OBJECTS IN CLASS: AIRLOOPHVAC ===========
 
@@ -4869,6 +5156,19 @@ AirLoopHVAC,
     1;                       !- Design Return Air Flow Fraction of Supply Air Flow
 
 
+AirLoopHVAC,
+    Air Loop HVAC 4,         !- Name
+    ,                        !- Controller List Name
+    Air Loop HVAC 4Availability Manager List,  !- Availability Manager List Name
+    AutoSize,                !- Design Supply Air Flow Rate {m3/s}
+    Air Loop HVAC 4 Supply Branches,  !- Branch List Name
+    ,                        !- Connector List Name
+    Node 40,                 !- Supply Side Inlet Node Name
+    Node 43,                 !- Demand Side Outlet Node Name
+    Air Loop HVAC 4 Demand Inlet Nodes,  !- Demand Side Inlet Node Names
+    Air Loop HVAC 4 Supply Outlet Nodes,  !- Supply Side Outlet Node Names
+    1;                       !- Design Return Air Flow Fraction of Supply Air Flow
+
 !-   ===========  ALL OBJECTS IN CLASS: AIRLOOPHVAC:OUTDOORAIRSYSTEM:EQUIPMENTLIST ===========
 
 AirLoopHVAC:OutdoorAirSystem:EquipmentList,
@@ -4886,6 +5186,10 @@ AirLoopHVAC:OutdoorAirSystem:EquipmentList,
     OutdoorAir:Mixer,        !- Component 1 Object Type
     OA System LivingRoom Outdoor Air Mixer;  !- Component 1 Name
 
+AirLoopHVAC:OutdoorAirSystem:EquipmentList,
+    OA System Kitchen Equipment List,  !- Name
+    OutdoorAir:Mixer,        !- Component 1 Object Type
+    OA System Kitchen Outdoor Air Mixer;  !- Component 1 Name
 
 !-   ===========  ALL OBJECTS IN CLASS: AIRLOOPHVAC:OUTDOORAIRSYSTEM ===========
 
@@ -4903,6 +5207,11 @@ AirLoopHVAC:OutdoorAirSystem,
     OA System LivingRoom,    !- Name
     OA System LivingRoom Controller List,  !- Controller List Name
     OA System LivingRoom Equipment List;  !- Outdoor Air Equipment List Name
+
+AirLoopHVAC:OutdoorAirSystem,
+    OA System Kitchen,       !- Name
+    OA System Kitchen Controller List,  !- Controller List Name
+    OA System Kitchen Equipment List;  !- Outdoor Air Equipment List Name
 
 
 !-   ===========  ALL OBJECTS IN CLASS: OUTDOORAIR:MIXER ===========
@@ -4928,6 +5237,12 @@ OutdoorAir:Mixer,
     Node 36,                 !- Relief Air Stream Node Name
     Node 30;                 !- Return Air Stream Node Name
 
+OutdoorAir:Mixer,
+    OA System Kitchen Outdoor Air Mixer,  !- Name
+    Node 47,                 !- Mixed Air Node Name
+    Node 45,                 !- Outdoor Air Stream Node Name
+    Node 46,                 !- Relief Air Stream Node Name
+    Node 40;                 !- Return Air Stream Node Name
 
 !-   ===========  ALL OBJECTS IN CLASS: AIRLOOPHVAC:ZONESPLITTER ===========
 
@@ -4945,6 +5260,11 @@ AirLoopHVAC:ZoneSplitter,
     Air Loop HVAC Zone Splitter 3,  !- Name
     Node 32,                 !- Inlet Node Name
     Node 38;                 !- Outlet 1 Node Name
+
+AirLoopHVAC:ZoneSplitter,
+    Air Loop HVAC Zone Splitter 4,  !- Name
+    Node 42,                 !- Inlet Node Name
+    Node 48;                 !- Outlet 1 Node Name
 
 
 !-   ===========  ALL OBJECTS IN CLASS: AIRLOOPHVAC:SUPPLYPATH ===========
@@ -4967,6 +5287,12 @@ AirLoopHVAC:SupplyPath,
     AirLoopHVAC:ZoneSplitter,!- Component 1 Object Type
     Air Loop HVAC Zone Splitter 3;  !- Component 1 Name
 
+AirLoopHVAC:SupplyPath,
+    Air Loop HVAC 4 Node 42 Supply Path,  !- Name
+    Node 42,                 !- Supply Air Path Inlet Node Name
+    AirLoopHVAC:ZoneSplitter,!- Component 1 Object Type
+    Air Loop HVAC Zone Splitter 4;  !- Component 1 Name
+
 
 !-   ===========  ALL OBJECTS IN CLASS: AIRLOOPHVAC:ZONEMIXER ===========
 
@@ -4984,6 +5310,11 @@ AirLoopHVAC:ZoneMixer,
     Air Loop HVAC Zone Mixer 3,  !- Name
     Node 33,                 !- Outlet Node Name
     Node 39;                 !- Inlet 1 Node Name
+
+AirLoopHVAC:ZoneMixer,
+    Air Loop HVAC Zone Mixer 4,  !- Name
+    Node 43,                 !- Outlet Node Name
+    Node 49;                 !- Inlet 1 Node Name
 
 
 !-   ===========  ALL OBJECTS IN CLASS: AIRLOOPHVAC:RETURNPATH ===========
@@ -5005,6 +5336,12 @@ AirLoopHVAC:ReturnPath,
     Node 33,                 !- Return Air Path Outlet Node Name
     AirLoopHVAC:ZoneMixer,   !- Component 1 Object Type
     Air Loop HVAC Zone Mixer 3;  !- Component 1 Name
+
+AirLoopHVAC:ReturnPath,
+    Air Loop HVAC 4 Return Path,  !- Name
+    Node 43,                 !- Return Air Path Outlet Node Name
+    AirLoopHVAC:ZoneMixer,   !- Component 1 Object Type
+    Air Loop HVAC Zone Mixer 4;  !- Component 1 Name
 
 
 !-   ===========  ALL OBJECTS IN CLASS: BRANCH ===========
@@ -5045,6 +5382,18 @@ Branch,
     Node 37,                 !- Component 2 Inlet Node Name
     Node 31;                 !- Component 2 Outlet Node Name
 
+Branch,
+    Air Loop HVAC 4 Main Branch,  !- Name
+    ,                        !- Pressure Drop Curve Name
+    AirLoopHVAC:OutdoorAirSystem,  !- Component 1 Object Type
+    OA System Kitchen,       !- Component 1 Name
+    Node 40,                 !- Component 1 Inlet Node Name
+    Node 47,                 !- Component 1 Outlet Node Name
+    AirLoopHVAC:UnitarySystem,  !- Component 2 Object Type
+    Unitary - Single Speed DX cooling - Cycling - Elec reheat Kitchen,  !- Component 2 Name
+    Node 47,                 !- Component 2 Inlet Node Name
+    Node 41;                 !- Component 2 Outlet Node Name
+
 
 !-   ===========  ALL OBJECTS IN CLASS: BRANCHLIST ===========
 
@@ -5060,6 +5409,9 @@ BranchList,
     Air Loop HVAC 3 Supply Branches,  !- Name
     Air Loop HVAC 3 Main Branch;  !- Branch 1 Name
 
+BranchList,
+    Air Loop HVAC 4 Supply Branches,  !- Name
+    Air Loop HVAC 4 Main Branch;  !- Branch 1 Name
 
 !-   ===========  ALL OBJECTS IN CLASS: NODELIST ===========
 
@@ -5082,6 +5434,14 @@ NodeList,
 NodeList,
     Bedroom 2 Return Node List,  !- Name
     Node 25;                 !- Node 1 Name
+
+NodeList,
+    kitchen Inlet Node List, !- Name
+    Node 44;                 !- Node 1 Name
+
+NodeList,
+    kitchen Return Node List,!- Name
+    Node 49;                 !- Node 1 Name
 
 NodeList,
     Living Room Inlet Node List,  !- Name
@@ -5115,6 +5475,14 @@ NodeList,
     Air Loop HVAC 3 Demand Inlet Nodes,  !- Name
     Node 32;                 !- Node 1 Name
 
+NodeList,
+    Air Loop HVAC 4 Supply Outlet Nodes,  !- Name
+    Node 41;                 !- Node 1 Name
+
+NodeList,
+    Air Loop HVAC 4 Demand Inlet Nodes,  !- Name
+    Node 42;                 !- Node 1 Name
+
 
 !-   ===========  ALL OBJECTS IN CLASS: OUTDOORAIR:NODE ===========
 
@@ -5132,6 +5500,9 @@ OutdoorAir:NodeList,
 
 OutdoorAir:NodeList,
     Node 35;                 !- Node or NodeList Name 1
+
+OutdoorAir:NodeList,
+    Node 45;                 !- Node or NodeList Name 1
 
 
 !-   ===========  ALL OBJECTS IN CLASS: AVAILABILITYMANAGER:SCHEDULED ===========
@@ -5160,6 +5531,13 @@ AvailabilityManager:Scheduled,
     OA System LivingRoom Availability Manager,  !- Name
     Always On Discrete;      !- Schedule Name
 
+AvailabilityManager:Scheduled,
+    Air Loop HVAC 4 Availability Manager,  !- Name
+    Always On Discrete;    !- Schedule Name
+
+AvailabilityManager:Scheduled,
+    OA System Kitchen Availability Manager,  !- Name
+    Always On Discrete;      !- Schedule Name
 
 !-   ===========  ALL OBJECTS IN CLASS: AVAILABILITYMANAGERASSIGNMENTLIST ===========
 
@@ -5192,6 +5570,16 @@ AvailabilityManagerAssignmentList,
     OA System LivingRoom Availability Manager List,  !- Name
     AvailabilityManager:Scheduled,  !- Availability Manager 1 Object Type
     OA System LivingRoom Availability Manager;  !- Availability Manager 1 Name
+
+AvailabilityManagerAssignmentList,
+    Air Loop HVAC 4Availability Manager List,  !- Name
+    AvailabilityManager:Scheduled,  !- Availability Manager 1 Object Type
+    Air Loop HVAC 4 Availability Manager;  !- Availability Manager 1 Name
+
+AvailabilityManagerAssignmentList,
+    OA System Kitchen Availability Manager List,  !- Name
+    AvailabilityManager:Scheduled,  !- Availability Manager 1 Object Type
+    OA System Kitchen Availability Manager;  !- Availability Manager 1 Name
 
 
 !-   ===========  ALL OBJECTS IN CLASS: SETPOINTMANAGER:SINGLEZONE:COOLING ===========
@@ -5227,6 +5615,16 @@ SetpointManager:SingleZone:Cooling,
     Node 34,                 !- Zone Inlet Node Name
     Node 31;                 !- Setpoint Node or NodeList Name
 
+SetpointManager:SingleZone:Cooling,
+    Setpoint Manager Single Zone Cooling Kitchen,  !- Name
+    Temperature,             !- Control Variable
+    -99,                     !- Minimum Supply Air Temperature {C}
+    99,                      !- Maximum Supply Air Temperature {C}
+    kitchen,                 !- Control Zone Name
+    Node 27,                 !- Zone Node Name
+    Node 44,                 !- Zone Inlet Node Name
+    Node 41;                 !- Setpoint Node or NodeList Name
+
 !-   ===========  ALL OBJECTS IN CLASS: SETPOINTMANAGER:MIXEDAIR ===========
 
 SetpointManager:MixedAir,
@@ -5253,6 +5651,13 @@ SetpointManager:MixedAir,
     Unitary - Single Speed DX cooling - Cycling - Elec reheat LivingRoom Fan - Cooling Coil Node,  !- Fan Outlet Node Name
     Node 37;                 !- Setpoint Node or NodeList Name
 
+SetpointManager:MixedAir,
+    Node 47 OS Default SPM,  !- Name
+    Temperature,             !- Control Variable
+    Node 41,                 !- Reference Setpoint Node Name
+    Node 47,                 !- Fan Inlet Node Name
+    Unitary - Single Speed DX cooling - Cycling - Elec reheat Kitchen Fan - Cooling Coil Node,  !- Fan Outlet Node Name
+    Node 47;                 !- Setpoint Node or NodeList Name
 
 !-   ===========  ALL OBJECTS IN CLASS: CURVE:QUADRATIC ===========
 
